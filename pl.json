@@ -1,0 +1,449 @@
+{
+    "menu": {
+        "main": {
+            "title": "Project Rebearth Serwer",
+            "subtitle": "To jest demo gry Project Rebearth! Tylko tryb piaskownicy jest dostępny publicznie. Zgłoś proszę, jeśli napotkasz problemy w trakcie gry.",
+            "serverOffline": "Nie można połączyć się z serwerem. Sprawdź swoje połączenie z internetem.",
+            "enterMultiplayer": "Dołącz do Świata",
+            "newSandbox": "Nowa piaskownica",
+            "loadSandbox": "Wczytaj piaskownicę",
+            "settings": "Ustawienia",
+            "credits": "Twórcy",
+            "returnToDesktop": "Wyjście do pulpitu"
+        },
+        "game": {
+            "menu": "Menu",
+            "quicksettings": "Ustawienia",
+            "deleteEverything": "Usuń wszystko",
+            "saveBuild": "Zapisz projekt",
+            "saveSandbox": "Zapisz piaskownicę"
+        }
+    },
+    "settings": {
+        "title": "Ustawienia",
+        "musicVolume": "Głośność muzyki",
+        "soundVolume": "Głośność dźwięku",
+        "uiScale": "Skala interfejsu",
+        "showClouds": "Widoczność chmur",
+        "showTrees": "Widoczność drzew",
+        "textureResolution": "Rozdzielczość tekstur",
+        "clearTileCache": "Wyczyść Tile Cache",
+        "language": "Język",
+        "resolutions": {
+            "ultra": "Ultra",
+            "high": "Wysokie",
+            "medium": "Średnie",
+            "low": "Niskie",
+            "potato": "Ziemniak"
+        }
+    },
+    "game": {
+        "effects": {
+            "foodProduction": "Produkcja jedzenia",
+            "foodConsumption": "Spożycie jedzenia",
+            "goodsProduction": "Produkcja towarów",
+            "allProduction": "Cała produkcja",
+            "happiness": "Szczęście",
+            "taxation": "Opodatkowanie",
+            "raidRisk": "Ryzyko najazdu",
+            "researchSpeed": "Szybkość badań",
+            "expeditionCost": "Koszt ekspedycji",
+            "constructionCost": "Koszt budowy",
+            "exportCost": "Koszt eksportu",
+            "importCost": "Koszt importu",
+            "accidentRate": "Częstotliwość wypadków"
+        },
+        "views": {
+            "watch": "Oglądaj",
+            "build": "Buduj",
+            "politic": "Polityka",
+            "market": "Rynek",
+            "explore": "Eksploruj",
+            "player": "Gracz"
+        },
+        "buildings": {
+            "categories": {
+                "housing": "Mieszkalne",
+                "production": "Produkcyjne",
+                "infrastructure": "Infrastruktura",
+                "military": "Militarne",
+                "decoration": "Dekoracje",
+                "research": "Badania",
+                "food": "Jedzenie i rolnictwo",
+                "resources": "Wydobycie surowców",
+                "storage": "Magazynowanie",
+                "defense": "Obrona",
+                "town": "Miasto i społeczność"
+            },
+            "assets": {
+                "center": "Centrum",
+                "square": "Skwer",
+                "market": "Rynek",
+                "hut": "Chata",
+                "house": "Dom",
+                "field": "Pole uprawne",
+                "fishery": "Chata rybaka",
+                "woodcutter": "Chata drwala",
+                "saw": "Tartak",
+                "nursery": "Szkółka leśna",
+                "tent": "Namiot",
+                "logpile": "Stos drewna",
+                "boat": "Łódź",
+                "pier": "Molo",
+                "path": "Ścieżka",
+                "road": "Droga",
+                "bridge": "Most",
+                "quarry": "Kamieniołom",
+                "claypit": "Glinianka",
+                "stone_crane": "Dźwig kamieni",
+                "clay_crane": "Dźwig gliny",
+                "windmill": "Wiatrak",
+                "bakery": "Piekarnia",
+                "tailor": "Krawiec",
+                "tower": "Wieża",
+                "water_tower": "Wieża ciśnień",
+                "tavern": "Karczma",
+                "warehouse": "Magazyn",
+                "brewery": "Browar",
+                "port": "Port",
+                "dock": "Dok",
+                "small_ship": "Mały statek",
+                "medium_ship": "Średni statek",
+                "large_ship": "Duży statek",
+                "university": "Uniwersytet",
+                "plaza": "Plac",
+                "table": "Stół",
+                "small_statue": "Mały pomnik",
+                "large_statue": "Duży pomnik",
+                "fountain": "Fontanna",
+                "market_stall": "Stragan",
+                "park": "Park",
+                "tree": "Drzewo",
+                "town_hall": "Ratusz",
+                "creamery": "Mleczarnia",
+                "foraging_hut": "Chata zbieraczy",
+                "ruinsBig": "Duże ruiny",
+                "ruinsSmall": "Małe ruiny"
+            },
+            "descriptions": {
+                "center": "Centrum jest sercem Twojego miasta. To jedyny budynek, który można postawić w dowolnym miejscu na mapie na początku gry. Można go ulepszać, aby zwiększać różne statystyki i możliwości miasta.",
+                "square": "Skwer jest centralnym punktem Twojego miasta. To jedyny budynek, który można postawić w dowolnym miejscu na mapie na początku gry. Można go ulepszać, aby zwiększyć różne statystyki i możliwości miasta.",
+                "market": "Rynek używany jest do kupowania i sprzedawania surowców. Budynki mieszkalne potrzebują mieć go w pobliżu. Generuje również monety.",
+                "hut": "Chata jest jednym z podstawowych budynków mieszkalnych. Może pomieścić tylko kilka osób i zużywa jedzenie oraz drewno do funkcjonowania.",
+                "house": "Dom jest większym odpowiednikiem chaty. Może pomieścić więcej osób kosztem zwiększonego zużycia jedzenia oraz drewna.",
+                "field": "Pola służą do uprawy roślin. Wymagają dużą ilość miejsca i pracowników ale produkują dużo jedzenia.",
+                "fishery": "Chata rybaka jest budynkiem, który produkuje jedzenie poprzez połowy ryb. Wymaga mniej miejsca ale musi być połączone z dużym akwenem wodnym.",
+                "woodcutter": "Chata drwala produkuje drewno, gdy znajduje się w pobliżu drzew.",
+                "saw": "Tartak zwiększa możliwości produkcyjne chaty drwala w zakresie drewna.",
+                "nursery": "Szkółka leśna zwiększa zdolność chaty drwala do produkcji drewna poprzez dostarczanie nowych sadzonek.",
+                "tent": "Namiot zwiększa liczbę pracowników, których chata drwala może zatrudnić, co zwiększa produkcję drewna.",
+                "logpile": "Stos drewna zwiększa maksymalną ilość drewna, jaką chata drwala może przechowywać.",
+                "boat": "Łódź służy do połowów w głębszych wodach. Można ją postawić na wodzie, aby zwiększyć wydajność chaty rybaka.",
+                "pier": "Molo wydłuża chatę rybaka w kierunku głębszych wód.",
+                "path": "Ścieżki nadają strukturę wiosce. Nie są wymagane do działania budynków, ale dobrze wyglądają.",
+                "road": "Drogi nadają strukturę wiosce. Nie są wymagane do działania budynków, ale wyglądają lepiej niż ścieżki.",
+                "bridge": "Mosty służą do przekraczania rzek. Nie są wymagane do działania budynków, ale dobrze wyglądają.",
+                "quarry": "Kamieniołomy służą do wydobycia kamienia. Wymagają dużo miejsca i pracowników. Uszkadzają krajobraz, co wymaga wielu zasobów do naprawy.",
+                "claypit": "Glinianki służą do wydobycia gliny. Wymagają dużo miejsca i pracowników. Uszkadzają krajobraz, co wymaga wielu zasobów do naprawy.",
+                "stone_crane": "Dźwig kamieni służy do podnoszenia ciężkich bloków kamienia z kamieniołomu i zwiększa jego wydajność.",
+                "clay_crane": "Dźwig gliny służy do podnoszenia ciężkich bloków gliny i zwiększa wydajność glinianki.",
+                "windmill": "Wiatrak służy do mielenia zboża na mąkę, która może być użyta w piekarni.",
+                "bakery": "Piekarnia służy do wypieku chleba z mąki.",
+                "tailor": "Krawiec służy do produkcji ubrań ze skóry, wełny i innych włókien.",
+                "tower": "Wieża zwiększa zasięg Twojego terytorium, ale jest kosztowna w utrzymaniu.",
+                "water_tower": "Wieża ciśnień zwiększa zasięg terytorium i dostarcza wodę, ale jest kosztowna w utrzymaniu.",
+                "tavern": "Karczma to miejsce spotkań mieszkańców i spożywania napojów. Zużywa napoje i generuje monety.",
+                "warehouse": "Magazyn służy do przechowywania surowców. Zwiększa pojemność miasta.",
+                "brewery": "Browar produkuje napoje z ziaren i owoców.",
+                "port": "Port służy do handlu z innymi miastami i wioskami. Zwiększa zasięg tras handlowych.",
+                "dock": "Dok rozszerza port i zwiększa miejsce dla budynków portowych i statków.",
+                "small_ship": "Mały statek umożliwia tańszy handel z portami do 5000 km odległości.",
+                "medium_ship": "Średni statek umożliwia tańszy handel z portami do 10000 km odległości.",
+                "large_ship": "Duży statek umożliwia tańszy handel z portami na całym świecie.",
+                "university": "Uniwersytet służy do generowania punktów wiedzy i odkrywania nowych technologii.",
+                "plaza": "Dodaje estetyczne place do Twojego miasta.",
+                "table": "Dodaje stół do Twojego miasta.",
+                "small_statue": "Dodaje mały pomnik do Twojego miasta.",
+                "large_statue": "Dodaje duży pomnik do Twojego miasta.",
+                "fountain": "Dodaje fontannę do Twojego miasta.",
+                "market_stall": "Dodaje stragan do Twojego miasta.",
+                "park": "Dodaje park do Twojego miasta.",
+                "tree": "Dodaje drzewo do Twojego miasta.",
+                "town_hall": "Ratusz jest centrum Twojego miasta. Umożliwia interakcję z sojuszami, podgląd rankingów i wprowadzanie nowych praw.",
+                "creamery": "Mleczarnia służy do produkcji produktów spożywczych z mleka.",
+                "foraging_hut": "Chata zbieraczy służy do pozyskiwania surowców z otoczenia. Im więcej budynków wokół, tym mniej efektywna.",
+                "ruinsBig": "",
+                "ruinsSmall": ""
+            }
+        },
+        "resources": {
+            "wood": "Drewno",
+            "stone": "Kamień",
+            "earth": "Ziemia",
+            "food": "Jedzenie",
+            "grain": "Zboże",
+            "wool": "Wełna",
+            "flour": "Mąka",
+            "drinks": "Napoje",
+            "clothes": "Ubrania",
+            "coin": "Monety",
+            "pop": "Populacja"
+        },
+        "crops": {
+            "empty": "Puste",
+            "potato": "Ziemniaki",
+            "sheep": "Owce",
+            "grain": "Zboże",
+            "maize": "Kukurydza",
+            "cow": "Krowy",
+            "goat": "Kozy"
+        },
+        "expedition": {
+            "start": "Rozpocznij ekspedycje"
+        }
+    },
+    "modals": {
+        "ranking": {
+            "title": "Ranking",
+            "player": "Gracz",
+            "goToPlayer": "Pokaż gracza"
+        },
+        "market": {
+            "title": "Rynek",
+            "resource": "Surowiec",
+            "price": "Cena",
+            "quantity": "Ilość",
+            "buy": "KUP",
+            "sell": "SPRZEDAJ",
+            "sells": "sprzedaje",
+            "buys": "kupuje",
+            "for": "za",
+            "pricePerUnit": "Cena za jednostkę",
+            "base": "Cena bazowa",
+            "transport": "Transport",
+            "total": "Łącznie",
+            "back": "Wróć",
+            "unitPrice": "po cenie jednostkowej",
+            "totalLabel": "Łącznie"
+        },
+        "orders": {
+            "title": "Moje zamówienia"
+        },
+        "archive": {
+            "title": "Archiwum"
+        },
+        "diplomacy": {
+            "title": "Dyplomacja",
+            "you": "Ty",
+            "alliances": "Sojusze",
+            "neutral": "Neutralny",
+            "enemy": "Wróg"
+        },
+        "choices": {
+            "title": "Wybory",
+            "selectChoice": "Wybierz opcję"
+        },
+        "deleteConfirmation": {
+            "title": "Potwierdź usunięcie",
+            "message": "Czy jesteś pewny, że chcesz usunąć swoje miasto? Tej akcji nie można cofnąć.",
+            "confirm": "Usuń",
+            "cancel": "Anuluj"
+        }
+    },
+    "popup": {
+        "townName": "Nazwa miasta",
+        "unnamedTown": "Miasto bez nazwy",
+        "demolish": "Zburz",
+        "apply": "Zastosuj",
+        "production": {
+            "title": "Produkcja",
+            "rate": "Wskaźnik"
+        },
+        "storage": {
+            "title": "Magazyn"
+        },
+        "population": "Populacja",
+        "upgrade": "Ulepsz do {{building}}",
+        "archive": "Archiwizuj"
+    },
+    "hud": {
+        "defaultTownName": "Twoje miasto",
+        "capacity": "Pojemność",
+        "placeCenterPrompt": "Umieść swoje centrum"
+    },
+    "controls": {
+        "confirm": "✓",
+        "cancel": "✗",
+        "next": "Następny",
+        "previous": "Poprzedni",
+        "close": "Zamknij",
+        "build": {
+            "addMorePoints": "Dodaj więcej punktów, aby ukończyć kształt!"
+        },
+        "explore": {
+            "title": "EKSPLORACJA",
+            "duration": "Czas trwania",
+            "population": "Populacja",
+            "food": "Jedzenie",
+            "knowledge": "Wiedza",
+            "addMorePoints": "Dodaj więcej punktów, aby rozpocząć eksplorację!"
+        }
+    },
+    "loading": {
+        "game": "Ładowanie gry...",
+        "assets": "Ładowanie elementów...",
+        "connecting": "Łączenie do serwera..."
+    },
+    "errors": {
+        "loadingBuild": "Błąd ładowania budowli",
+        "serverConnection": "Błąd połączenia z serwerem",
+        "invalidFile": "Nieprawidłowy format pliku",
+        "webWorkersNotSupported": "Nie można uruchomić gry: przeglądarka nie obsługuje Web Workers"
+    },
+    "units": {
+        "percentage": "{{value}}%",
+        "seconds": "{{value}}s",
+        "minutes": "{{value}}m",
+        "hours": "{{value}}h",
+        "days": "dni",
+        "hoursLong": "godzin",
+        "minutesLong": "minut",
+        "secondsLong": "sekund"
+    },
+    "choices": {
+        "title": "Wybory",
+        "exclusiveOptions": "Opcje ekskluzywne",
+        "option": "Opcja",
+        "unlock": "Odblokuj",
+        "lockedFor": "Zablokowane dla",
+        "titles": {
+            "tradeAlliance": "Sojusz handlowy",
+            "greatFederation": "Wielka Federacja",
+            "scienceLeague": "Liga Naukowa",
+            "workerSafety": "Bezpieczeństwo pracowników",
+            "veganSociety": "Społeczeństwo wegańskie",
+            "taxation": "Opodatkowanie",
+            "exportFocus": "Handel – Koncentracja na eksporcie",
+            "importFocus": "Handel – Koncentracja na imporcie",
+            "neutralFocus": "Handel – Neutralność",
+            "lowRations": "Niskie racje",
+            "normalRations": "Normalne racje",
+            "lavishRations": "Obfite racje"
+        },
+        "descriptions": {
+            "tradeAlliance": "Sojusz handlowy obniża koszty handlu i zwiększa efektywność podatkową, ale jednocześnie zwiększa ryzyko najazdów.",
+            "greatFederation": "Utworzenie Wielkiej Federacji zapewnia lepszą ochronę przed najazdami i zwiększa produkcję surowców, ale obniża efektywność podatkową.",
+            "scienceLeague": "Dołączenie do Ligi Naukowej przyspiesza badania i obniża koszty ekspedycji, zwiększa bazowe szczęście, ale podnosi koszty budowy i nieco zmniejsza wydajność produkcji.",
+            "workerSafety": "Zwiększenie bezpieczeństwa pracowników zmniejsza liczbę wypadków w pracy, ale lekko obniża wydajność wszystkich budynków produkcyjnych.",
+            "veganSociety": "Przejście na społeczeństwo wegańskie pozwala produkować więcej jedzenia na jednostkę powierzchni, ale uniemożliwia wytwarzanie produktów zwierzęcych.",
+            "taxation": "Opodatkowanie przynosi złoto od każdego mieszkańca, ale obniża poziom szczęścia.",
+            "exportFocus": "Fokus na eksport obniża koszty dla osób kupujących Twoje towary, ale zwiększa koszty kupowania towarów od innych graczy.",
+            "importFocus": "Fokus na import obniża koszty kupowania towarów od innych graczy, ale zwiększa koszty dla osób kupujących Twoje towary.",
+            "neutralFocus": "Fokus neutralny utrzymuje koszty importu i eksportu na standardowym poziomie.",
+            "lowRations": "Niskie racje zmniejszają ilość jedzenia potrzebną na osobę, ale obniżają szczęście.",
+            "normalRations": "Normalne racje nie mają wpływu na zużycie jedzenia.",
+            "lavishRations": "Obfite racje zwiększają ilość jedzenia potrzebną na osobę, ale jednocześnie podnoszą szczęście."
+        }
+    },
+    "alliances": {
+        "createAlliance": "Stwórz sojusz",
+        "createAllianceButton": "Stwórz sojusz",
+        "placeholderName": "nazwa",
+        "placeholderDescription": "opis",
+        "allianceTradeInfo": "Każdy sojusz daje możliwość oferowania specjalnych transakcji dostępnych tylko dla członków tego samego sojuszu.",
+        "tradeAllianceDesc": "Sojusz handlowy obniża koszty handlu i zwiększa efektywność podatkową, ale jednocześnie zwiększa ryzyko najazdów.",
+        "greatFederationDesc": "Utworzenie Wielkiej Federacji zapewnia lepszą ochronę przed najazdami i zwiększa produkcję surowców, ale obniża efektywność podatkową.",
+        "scienceLeagueDesc": "Dołączenie do Ligi Naukowej przyspiesza badania i obniża koszty ekspedycji, zwiększa bazowe szczęście, ale podnosi koszty budowy i nieco zmniejsza wydajność produkcji.",
+        "marketSizeLabel": "Wielkość rynku:",
+        "applyForAlliance": "Aplikuj do sojuszu",
+        "cancelApplication": "Anuluj aplikację",
+        "leaveAlliance": "Opuść sojusz"
+    },
+    "orders": {
+        "myOrders": "Moje zamówienia",
+        "placeOrder": "Złóż zamówienie",
+        "sell": "Sprzedaj",
+        "buy": "Kup",
+        "selling": "sprzedawanie",
+        "buying": "kupowanie",
+        "for": "za",
+        "amount": "Ilość",
+        "unitPrice": "Cena za jednostkę",
+        "totalPrice": "Cena całkowita",
+        "onlyAllianceMembers": "Sprzedawaj tylko członkom sojuszu",
+        "sellButton": "{{type}} {{amount}} {{resource}} za {{price}} za jednostkę"
+    },
+    "tooltip": {
+        "cost": "Koszt",
+        "costPerMeter": "(za m)",
+        "costPerSquareMeter": "(za m²)",
+        "cannotChange": "Nie można zmienić"
+    },
+    "tips": {
+        "loading": [
+            "Przed postawieniem budynku możesz go obracać przy użyciu klawiszy Q i E.",
+            "Kliknij dwukrotnie w edytorze kształtów, aby umieścić węzły.",
+            "Użyj klawisza Shift, aby kontynuować stawianie budynków."
+        ]
+    },
+    "politics": {
+        "loading": "Ładowanie...",
+        "inviteToAlliance": "Zaproś do swojego sojuszu",
+        "rankPrefix": "N°",
+        "name": "Nazwa",
+        "members": "Członkowie",
+        "marketSize": "Wielkość rynku",
+        "createAlliance": "Stwórz sojusz",
+        "leaveAlliance": "Opuść sojusz",
+        "cancelApplication": "Anuluj aplikację",
+        "applyForAlliance": "Aplikuj do sojuszu",
+        "disbandAlliance": "Rozwiąż sojusz",
+        "kick": "Wyrzuć",
+        "go": "Przejdź",
+        "reject": "Odrzuć",
+        "accept": "Akceptuj",
+        "globalRank": "Ranking globalny",
+        "rank": "Pozycja",
+        "value": "Wartość",
+        "noApplications": "Brak zgłoszeń",
+        "noModifiers": "Sojusz nie posiada żadnych modyfikatorów",
+        "choiceChangeCooldown": "tę decyzję można zmienić ponownie po upływie {{days}} dni",
+        "days": "dni",
+        "alliances": "Sojusze",
+        "marketSizeLabel": "Wielkość rynku: {{size}}",
+        "tradeAlliance": "Sojusz handlowy",
+        "greatFederation": "Wielka Federacja",
+        "scienceLeague": "Liga Naukowa",
+        "applications": "Zgłoszenia",
+        "owner": "Właściciel",
+        "placeholderName": "Nazwa sojuszu",
+        "placeholderDescription": "Opis sojuszu",
+        "allianceTradeInfo": "Wybierz typ sojuszu:",
+        "tradeAllianceDesc": "Sojusz handlowy obniża koszty handlu i zwiększa efektywność podatkową, ale zwiększa ryzyko najazdów.",
+        "greatFederationDesc": "Utworzenie Wielkiej Federacji zapewnia lepszą ochronę przed najazdami i zwiększa produkcję surowców, ale obniża efektywność podatkową.",
+        "scienceLeagueDesc": "Dołączenie do Ligi Naukowej przyspiesza badania i obniża koszty ekspedycji, zwiększa bazowe szczęście, ale podnosi koszty budowy i lekko zmniejsza wydajność produkcji.",
+        "ranking": {
+            "population": "Populacja",
+            "resources": "Surowce",
+            "buildings": "Budynki",
+            "area": "Powierzchnia",
+            "overall": "Ogółem"
+        },
+        "common": {
+            "name": "Nazwa",
+            "members": "Członkowie",
+            "marketSize": "Wielkość rynku",
+            "value": "Wartość",
+            "owner": "Właściciel",
+            "globalRank": "Ranking globalny",
+            "rank": "Pozycja",
+            "kick": "Wyrzuć",
+            "accept": "Akceptuj",
+            "reject": "Odrzuć",
+            "applications": "Zgłoszenia",
+            "tradeAlliance": "Sojusz handlowy",
+            "greatFederation": "Wielka Federacja",
+            "scienceLeague": "Liga Naukowa"
+        }
+    }
+}
