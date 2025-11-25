@@ -32,4 +32,3 @@ Confused about GitHub? [here](https://docs.github.com/en/get-started/start-your-
 
 Thank you for helping make Project Rebearth accessible to players worldwide!
 
-*All contributors who published changes that make it into the final games will be credited*
