@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Samenwerken met andere spelers is erg leuk. Je kunt ervoor kiezen om uitsluitend met elkaar te handelen, en afhankelijk van met wie je samenwerkt, krijg je ook nog andere voordelen.",
         "applyForAlliance": "Aanvraag voor alliantie",
         "cancelApplication": "Toepassing annuleren",
-        "greatFederationDesc": "Sluit je aan bij sterke en georganiseerde mensen! Wees beter beschermd tegen invallen en haal meer middelen uit je onderdanen. Maar dit gaat ten koste van meer bureaucratie en minder belastinginkomsten.",
+        "greatFederationDesc": "Sluit je aan bij sterke en georganiseerde mensen! Wees beter beschermd tegen diefstal en haal meer middelen uit je onderdanen. Maar dit gaat ten koste van meer bureaucratie en minder belastinginkomsten.",
         "leaveAlliance": "Alliantie verlaten",
         "marketSizeLabel": "Marktomvang:",
         "scienceLeagueDesc": "Door lid te worden van een wetenschappelijke liga word je slimmer. Dat is wetenschappelijk bewezen. Profiteer van snellere onderzoekssnelheid en lagere expeditiekosten. Het maakt mensen ook gelukkiger! Maar we zijn niet zo goed in het daadwerkelijk maken van dingen.",
-        "tradeAllianceDesc": "Het draait allemaal om geld! Profiteer van kortingen op handelskosten en een hogere belastingefficiëntie, maar houd rekening met een hoger risico op overvallen."
+        "tradeAllianceDesc": "Het draait allemaal om geld! Profiteer van kortingen op handelskosten en een hogere belastingefficiëntie, maar houd rekening met een hoger risico op diefstal."
     },
     "biomes": {
         "1": "Tropische en subtropische loofbossen",
@@ -61,7 +61,9 @@
             "workerSafety": "Veiligheid van werknemers",
             "dubiousWorkingRules": "Twijfelachtige werkregels",
             "crampedQuarters": "Net als sardientjes!",
-            "intensiveFarming": "Intensieve landbouw"
+            "intensiveFarming": "Intensieve landbouw",
+            "newTownBoost": "Een nieuw begin!",
+            "foodShortage": "Voedseltekort"
         },
         "unlock": "Ontgrendelen"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Groente",
                 "market_stall_5": "Goederen",
                 "medium_ship": "Medium schip",
-                "nursery": "Kinderopvang",
+                "nursery": "Boomkwekerij",
                 "park": "Park",
                 "path": "Pad",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Houthakker",
                 "refinery": "Raffinaderij",
                 "iron_mine": "IJzermijn",
+                "iron_mine_upgraded": "Verbeterde ijzermijn",
                 "glassworks": "Glasfabriek",
                 "tools_workshop": "Gereedschapswerkplaats",
                 "well": "Goed"
@@ -249,7 +252,7 @@
                 "house_4": "Iedereen heeft een plek nodig om te wonen. Dit huis biedt je mensen een plek om te eten en te wonen.",
                 "house_5": "Iedereen heeft een plek nodig om te wonen. Dit uitgebreide huis biedt je mensen een plek om te eten en te wonen.",
                 "house_6": "Iedereen heeft een plek nodig om te wonen. Dit luxe huis biedt je mensen een plek om te eten en te wonen.",
-                "large_ship": "Ik denk niet dat ze nog groter kunnen worden dan dit. Kijk eens! Nee echt, iedereen, kijk eens!",
+                "large_ship": "Ik denk niet dat ze nog groter kunnen worden dan dit. Kijk eens! Nee, echt, iedereen, kijk eens! Dit moet de transportkosten nog meer halveren.",
                 "large_statue": "Een groot standbeeld voor een grote man. Mensen zeggen dat hij echt zo groot was.",
                 "logpile": "De beste manier om hout op te slaan? Gewoon op een hoop gooien.",
                 "market": "Op de markt kun je handel drijven met andere dorpen en steden. Huizen staan graag dicht bij deze markt.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Een kraam waar broodproducten worden verkocht.",
                 "market_stall_4": "Een kraam waar groenten worden verkocht.",
                 "market_stall_5": "Een kraam waar verschillende goederen worden verkocht.",
-                "medium_ship": "Dat is nog eens een mooi schip. Niet te groot, niet te klein. Gewoon mooi.",
+                "medium_ship": "Dat is nou een mooi schip. Niet te groot, niet te klein. Gewoon mooi. Verlaagt de transportkosten met nog eens 25%.",
                 "nursery": "Waarom zouden we de houthakker naar de bomen laten gaan als we de bomen ook naar de houthakker kunnen brengen?",
                 "park": "Voeg een mooi park toe aan je stad waar je burgers kunnen rondhangen.",
                 "path": "Een eenvoudig zandpad. Het voldoet prima. Hoewel gebouwen ook zonder deze tekst prima functioneren.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Vooruitgang! Met een paar handige tools kunnen we het bewerken van hout een fluitje van een cent maken.",
-                "small_ship": "Een klein schip voor kleine tochtjes. En kijk eens! Deze drijft zelfs.",
+                "small_ship": "Een klein schip voor korte tochten. En kijk eens! Deze drijft zelfs. Hiermee kunnen we de transportkosten waarschijnlijk nog iets verlagen.",
                 "small_statue": "Een klein beeldje voor een kleine man. Mensen zeggen dat hij echt zo klein was.",
                 "square": "Een echt stadscentrum! Dit plein ziet er chiquer uit dan het standaardcentrum.",
                 "stone_crane": "De kraan, een van de beste uitvindingen om je rug te sparen! Je hoeft al die stenen niet meer uit de steengroeve te slepen, gebruik gewoon de kraan.",
@@ -292,6 +295,7 @@
                 "woodcutter": "De houthakker zal hout hakken. Hoeveel hout? Zoveel als een houthakker kan.",
                 "refinery": "De raffinaderij wordt gebruikt om vreemde stenen te raffineren tot glanzende, kneedbare stenen.",
                 "iron_mine": "We hebben een diepe kuil gegraven, omdat we een paar vreemde stenen hebben gevonden. Laten we al onze mensen daarheen sturen om ze op te halen. Wat kan er nou misgaan?",
+                "iron_mine_upgraded": "Met deze vreemde materialen die we vinden, kunnen we vast sneller meer glimmende stenen uit de grond halen!",
                 "glassworks": "Met Glassworks kun je glas maken van zand, dat voor allerlei geavanceerde toepassingen kan worden gebruikt.",
                 "tools_workshop": "Met een gereedschapswerkplaats kun je gereedschap maken dat voor sommige mensen essentieel is voor hun werk.",
                 "well": "Hoewel het leuk is om met je mond open in de regen te staan, is het wat lastiger als je een badkuip moet vullen. Een waterput past beter bij je stad."
@@ -317,7 +321,8 @@
             "goodsProduction": "Productie van goederen",
             "happiness": "Geluk",
             "importCost": "Importkosten",
-            "raidRisk": "Risico van een inval",
+            "populationProduction": "Bevolking Wijzigen",
+            "raidRisk": "Diefstalrisico (bij overschrijding van opslagruimte)",
             "researchSpeed": "Onderzoekssnelheid",
             "taxation": "Belastingheffing"
         },
@@ -515,13 +520,15 @@
         "buying": "kopen",
         "confirmCancel": "Weet u zeker dat u deze bestelling wilt annuleren?",
         "for": "voor",
-        "myOrders": "Mijn bestellingen",
+        "marketStorage": "Handel Opslag",
+        "myOrders": "Plaats uw bestellingen",
+        "noMarketStorage": "Geen marktopslag beschikbaar. Bouw handelsgebouwen om verkooporders te plaatsen.",
         "noOrders": "Geen actieve orders",
         "onlyAllianceMembers": "Alleen verkopen aan leden van de alliantie",
-        "placeOrder": "Plaats een bestelling",
         "sell": "Kijk",
         "sellButton": "{{type}} {{amount}} {{resource}} voor {{price}} per eenheid",
         "selling": "verkoop",
+        "storageFull": "Opslagruimte vol! Bouw meer handelsgebouwen.",
         "totalPrice": "Totale prijs",
         "unitPrice": "Eenheidsprijs"
     },
@@ -634,8 +641,9 @@
             "Dubbelklik in de vorm-editor om knooppunten te plaatsen.",
             "Gebruik de shift-toets om gebouwen te blijven plaatsen.",
             "Als je problemen ondervindt, laat het ons dan weten op Discord.",
-            "Sommige gebouwen kunnen alleen in de buurt van het moedergebouw worden geplaatst. Zoals de zaag en de houthakker.",
+            "Word lid van onze levendige community van spelers op Discord om je creaties te delen en tips te krijgen.",
             "Niet alle grondstoffen zijn overal even gemakkelijk te verkrijgen. Soms is handelen goedkoper dan alles zelf produceren.",
+            "Een recensie op Steam helpt ons nieuwe spelers te vinden die deze wereld tot leven brengen.",
             "Een recensie op Steam helpt ons nieuwe spelers te vinden die deze wereld tot leven brengen."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(per m²)",
         "effects": "Effecten",
         "upkeep": "Onderhoud",
-        "production": "Productie"
+        "production": "Productie",
+        "move": "Verplaats dit gebouw"
     },
     "units": {
         "days": "dagen",

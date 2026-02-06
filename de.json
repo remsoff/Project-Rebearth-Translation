@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Sich mit anderen Spielern zusammenzuschließen ist eine coole Sache. Ihr könnt euch dafür entscheiden, ausschließlich untereinander zu handeln, und je nachdem, mit wem ihr euch verbündet, erhaltet ihr auch noch einige andere Vorteile.",
         "applyForAlliance": "Allianz beantragen",
         "cancelApplication": "Anwendung abbrechen",
-        "greatFederationDesc": "Schließe dich mit starken und organisierten Menschen zusammen! So bist du besser vor Überfällen geschützt und kannst deinen Untertanen mehr Ressourcen abverlangen. Dies geht jedoch mit mehr Bürokratie und geringeren Steuereinnahmen einher.",
+        "greatFederationDesc": "Schließe dich mit starken und organisierten Menschen zusammen! Sei besser vor Diebstahl geschützt und hole mehr Ressourcen aus deinen Untertanen heraus. Dies geht jedoch zu Lasten einer höheren Bürokratie und geringeren Steuereinnahmen.",
         "leaveAlliance": "Allianz verlassen",
         "marketSizeLabel": "Marktgröße:",
         "scienceLeagueDesc": "Der Beitritt zu einer Wissenschaftsliga macht Sie schlauer. Das ist wissenschaftlich bewiesen. Profitieren Sie von schnellerer Forschungsgeschwindigkeit und geringeren Expeditionskosten. Außerdem macht es die Menschen glücklicher! Aber wir sind nicht so gut darin, Dinge tatsächlich herzustellen.",
-        "tradeAllianceDesc": "Es dreht sich alles ums Geld! Profitieren Sie von reduzierten Handelskosten und einer höheren Steuereffizienz, aber auch von einem höheren Risiko von Überfällen."
+        "tradeAllianceDesc": "Es dreht sich alles ums Geld! Profitieren Sie von reduzierten Handelskosten und einer höheren Steuereffizienz, aber auch von einem höheren Diebstahlrisiko."
     },
     "biomes": {
         "1": "Tropische und subtropische Laubwälder",
@@ -61,7 +61,9 @@
             "workerSafety": "Arbeitssicherheit",
             "dubiousWorkingRules": "Zweifelhafte Arbeitsregeln",
             "crampedQuarters": "Wie Sardinen!",
-            "intensiveFarming": "Intensive Landwirtschaft"
+            "intensiveFarming": "Intensive Landwirtschaft",
+            "newTownBoost": "Neuanfang!",
+            "foodShortage": "Nahrungsmittelknappheit"
         },
         "unlock": "Freischalten"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Gemüse",
                 "market_stall_5": "Waren",
                 "medium_ship": "Mittleres Schiff",
-                "nursery": "Kinderzimmer",
+                "nursery": "Baumschule",
                 "park": "Park",
                 "path": "Pfad",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Holzfäller",
                 "refinery": "Raffinerie",
                 "iron_mine": "Eisenmine",
+                "iron_mine_upgraded": "Verbesserte Eisenmine",
                 "glassworks": "Glasmanufaktur",
                 "tools_workshop": "Werkzeugwerkstatt",
                 "well": "Gut"
@@ -249,7 +252,7 @@
                 "house_4": "Jeder braucht einen Ort zum Leben. Dieses Haus bietet deinen Leuten einen Ort zum Essen und Wohnen.",
                 "house_5": "Jeder braucht einen Ort zum Leben. Dieses aufwendig gestaltete Haus bietet deinen Leuten einen Ort zum Essen und Wohnen.",
                 "house_6": "Jeder braucht einen Ort zum Leben. Dieses luxuriöse Haus bietet deinen Leuten einen Ort zum Essen und Wohnen.",
-                "large_ship": "Ich glaube nicht, dass sie noch größer werden können. Seht euch das an! Nein, wirklich, seht euch das alle an!",
+                "large_ship": "Ich glaube nicht, dass sie noch größer werden können. Seht euch das an! Nein, wirklich, seht euch das alle an! Das muss die Transportkosten noch weiter halbieren.",
                 "large_statue": "Eine große Statue für einen großen Mann. Die Leute sagen, er sei tatsächlich so groß gewesen.",
                 "logpile": "Wie lagert man Holz am besten? Einfach zu einem Haufen aufschichten.",
                 "market": "Der Markt ermöglicht Ihnen den Handel mit anderen Städten. Häuser befinden sich gerne in der Nähe davon.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Ein Stand, an dem Brotwaren verkauft werden.",
                 "market_stall_4": "Ein Stand, an dem Gemüse verkauft wird.",
                 "market_stall_5": "Ein Stand, an dem verschiedene Waren verkauft werden.",
-                "medium_ship": "Das ist mal ein schickes Schiff. Nicht zu groß, nicht zu klein. Einfach schick.",
+                "medium_ship": "Das ist mal ein schickes Schiff. Nicht zu groß, nicht zu klein. Einfach schick. Senkt die Transportkosten um weitere 25 %.",
                 "nursery": "Warum den Holzfäller zu den Bäumen gehen lassen, wenn wir die Bäume zum Holzfäller bringen können?",
                 "park": "Fügen Sie Ihrer Stadt einen schönen Park hinzu, in dem Ihre Bürger herumlungern können.",
                 "path": "Ein einfacher Feldweg. Er erfüllt einfach seinen Zweck. Gebäude funktionieren aber auch ohne sie einwandfrei.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Fortschritt! Mit einigen ausgeklügelten Werkzeugen können wir die Holzverarbeitung zum Kinderspiel machen.",
-                "small_ship": "Ein kleines Schiff für kleine Ausflüge. Und schau mal! Dieses hier schwimmt sogar.",
+                "small_ship": "Ein kleines Schiff für kleine Ausflüge. Und schau mal! Dieses hier schwimmt sogar. Damit könnten wir die Transportkosten wahrscheinlich ein wenig senken.",
                 "small_statue": "Eine kleine Statue für einen kleinen Mann. Man sagt, er sei tatsächlich so klein gewesen.",
                 "square": "Ein richtiges Stadtzentrum! Dieser Platz sieht schicker aus als das einfache Zentrum.",
                 "stone_crane": "Der Kran, eine der besten Erfindungen, um den Rücken zu schonen! Sie müssen nicht mehr all diese Steine aus dem Steinbruch schleppen, sondern können einfach den Kran benutzen.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Der Holzfäller wird Holz hacken. Wie viel Holz? So viel, wie ein Holzfäller hacken kann.",
                 "refinery": "Die Raffinerie wird verwendet, um seltsame Steine zu glänzenden, formbaren Steinen zu verarbeiten.",
                 "iron_mine": "Wir haben eine tiefe Grube gegraben, weil wir seltsame Steine gefunden haben. Schicken wir alle unsere Leute dorthin, um sie zu holen. Was kann schon Schlimmes passieren?",
+                "iron_mine_upgraded": "Mit diesen seltsamen Materialien, die wir finden, können wir bestimmt schneller mehr glänzende Steine aus dem Boden holen!",
                 "glassworks": "Mit Glassworks können Sie aus Sand Glas herstellen, das für verschiedene fortgeschrittene Anwendungen verwendet werden kann.",
                 "tools_workshop": "Mit einer Werkzeugwerkstatt können Sie Werkzeuge herstellen, die für die Arbeit einiger Menschen unverzichtbar sind.",
                 "well": "Obwohl es Spaß macht, mit offenem Mund im Regen zu stehen, ist es etwas schwieriger, wenn man eine Badewanne füllen muss. Ein Brunnen passt besser zu Ihrer Stadt."
@@ -317,7 +321,8 @@
             "goodsProduction": "Warenproduktion",
             "happiness": "Glück",
             "importCost": "Importkosten",
-            "raidRisk": "Raid-Risiko",
+            "populationProduction": "Bevölkerung Bearbeiten",
+            "raidRisk": "Diebstahlrisiko (bei Überschreitung der Lagerkapazität)",
             "researchSpeed": "Forschungsgeschwindigkeit",
             "taxation": "Besteuerung"
         },
@@ -515,13 +520,15 @@
         "buying": "Kaufen",
         "confirmCancel": "Möchten Sie diesen Auftrag wirklich stornieren?",
         "for": "für",
-        "myOrders": "Meine Bestellungen",
+        "marketStorage": "Handel Lagerung",
+        "myOrders": "Geben Sie Ihre Bestellungen auf",
+        "noMarketStorage": "Es ist kein Marktspeicher verfügbar. Errichte Handelsgebäude, um Verkaufsaufträge zu platzieren.",
         "noOrders": "Keine aktiven Aufträge",
         "onlyAllianceMembers": "Nur an Allianzmitglieder verkaufen",
-        "placeOrder": "Bestellung aufgeben",
         "sell": "Aussehen",
         "sellButton": "{{type}} {{amount}} {{resource}} für {{price}} pro Einheit",
         "selling": "Verkauf",
+        "storageFull": "Speicher voll! Baue weitere Handelsgebäude.",
         "totalPrice": "Gesamtpreis",
         "unitPrice": "Stückpreis"
     },
@@ -634,8 +641,9 @@
             "Doppelklicken Sie im Form-Editor, um Knoten zu platzieren.",
             "Verwenden Sie die Umschalttaste, um weiterhin Gebäude zu platzieren.",
             "Wenn Sie Probleme haben, teilen Sie uns dies bitte auf Discord mit.",
-            "Einige Gebäude können nur in der Nähe des übergeordneten Gebäudes platziert werden. Wie beispielsweise die Säge und der Holzfäller.",
+            "Treten Sie unserer lebhaften Spielergemeinschaft auf Discord bei, um Ihre Kreationen zu teilen und Tipps zu erhalten.",
             "Nicht alle Ressourcen sind überall leicht zu bekommen. Manchmal ist es günstiger, zu handeln, als alles selbst zu produzieren.",
+            "Eine Rezension auf Steam hilft uns dabei, neue Spieler zu finden, die diese Welt lebendig machen.",
             "Eine Rezension auf Steam hilft uns dabei, neue Spieler zu finden, die diese Welt lebendig machen."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(pro m²)",
         "effects": "Effekte",
         "upkeep": "Unterhalt",
-        "production": "Produktion"
+        "production": "Produktion",
+        "move": "Dieses Gebäude verschieben"
     },
     "units": {
         "days": "Tage",

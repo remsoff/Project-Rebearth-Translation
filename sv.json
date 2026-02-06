@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Det är häftigt att samarbeta med andra spelare. Ni kan välja att handla exklusivt med varandra, och beroende på vem ni samarbetar med får ni även andra fördelar.",
         "applyForAlliance": "Ansök om allians",
         "cancelApplication": "Avbryt ansökan",
-        "greatFederationDesc": "Samarbeta med starka och organiserade människor! Bli bättre skyddad mot räder och tvinga fram mer resurser från dina undersåtar. Men detta sker på bekostnad av mer byråkrati och mindre skatteintäkter.",
+        "greatFederationDesc": "Samarbeta med starka och organiserade människor! Bli bättre skyddad mot stöld och tvinga fram mer resurser från dina undersåtar. Men detta sker på bekostnad av mer byråkrati och mindre skatteintäkter.",
         "leaveAlliance": "lämna alliansen",
         "marketSizeLabel": "Marknadsstorlek:",
         "scienceLeagueDesc": "Att gå med i en vetenskapsliga gör dig smartare. Det är vetenskapligt bevisat. Njut av snabbare forskning och lägre expeditionskostnader. Det gör också människor lyckligare! Men vi är inte så bra på att faktiskt tillverka saker.",
-        "tradeAllianceDesc": "Allt handlar om pengar! Få rabatterade handelskostnader och ökad skatteeffektivitet, men också en högre risk för räder."
+        "tradeAllianceDesc": "Allt handlar om pengar! Få rabatterade handelskostnader och ökad skatteeffektivitet, men också en högre risk för stöld."
     },
     "biomes": {
         "1": "Tropiska och subtropiska lövskogar",
@@ -61,7 +61,9 @@
             "workerSafety": "Arbetstagares säkerhet",
             "dubiousWorkingRules": "Tvivelaktiga arbetsregler",
             "crampedQuarters": "Som sardiner!",
-            "intensiveFarming": "Intensivt jordbruk"
+            "intensiveFarming": "Intensivt jordbruk",
+            "newTownBoost": "En ny början!",
+            "foodShortage": "Matbrist"
         },
         "unlock": "Lås upp"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Grönsak",
                 "market_stall_5": "Varor",
                 "medium_ship": "Medium skepp",
-                "nursery": "Barnkammare",
+                "nursery": "Trädplantskola",
                 "park": "Park",
                 "path": "Sökväg",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Träskärare",
                 "refinery": "Raffinaderi",
                 "iron_mine": "Järngruva",
+                "iron_mine_upgraded": "Förbättrad järngruva",
                 "glassworks": "Glasverk",
                 "tools_workshop": "Verktygsverkstad",
                 "well": "Bra"
@@ -249,7 +252,7 @@
                 "house_4": "Alla behöver någonstans att bo. Detta hus ger ditt folk en plats att äta och bo på.",
                 "house_5": "Alla behöver någonstans att bo. Detta välbyggda hus ger ditt folk en plats att äta och bo på.",
                 "house_6": "Alla behöver någonstans att bo. Detta lyxiga hus ger dina människor en plats att äta och bo på.",
-                "large_ship": "Jag tror inte att de kan bli större än så här. Titta på det här! Nej, allvarligt, alla, titta på det här!",
+                "large_ship": "Jag tror inte att de kan bli större än så här. Titta på det här! Nej, allvarligt, alla, titta på det här! Det här måste halvera transportkostnaderna ännu mer.",
                 "large_statue": "En stor staty för en stor kille. Folk säger att han faktiskt var så stor.",
                 "logpile": "Bästa sättet att lagra ved? Stapla den bara i en hög.",
                 "market": "Marknaden gör det möjligt för dig att handla med andra städer. Hus ligger gärna nära detta.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "En bod som säljer brödprodukter.",
                 "market_stall_4": "En bod som säljer grönsaksprodukter.",
                 "market_stall_5": "En bod som säljer olika varor.",
-                "medium_ship": "Det där är ett snyggt skepp. Inte för stort, inte för litet. Bara snyggt.",
+                "medium_ship": "Det där är ett snyggt skepp. Inte för stort, inte för litet. Bara snyggt. Sänker transportkostnaderna med ytterligare 25 %.",
                 "nursery": "Varför låta skogshuggaren gå till träden när vi kan ta träden till skogshuggaren?",
                 "park": "Lägg till en fin park i din stad där dina medborgare kan slöa.",
                 "path": "En enkel grusväg. Den fyller sin funktion. Byggnaderna fungerar dock utmärkt utan dem.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Framsteg! Med några smarta verktyg kan vi göra träbearbetningen till en barnlek.",
-                "small_ship": "Ett litet skepp för små resor. Och se! Det här flyter till och med.",
+                "small_ship": "Ett litet skepp för små resor. Och titta! Det här flyter till och med. Vi skulle nog kunna sänka transportkostnaderna lite med det här.",
                 "small_statue": "En liten staty för en liten kille. Folk säger att han faktiskt var så här liten.",
                 "square": "Ett riktigt stadskärna! Denna torg ser finare ut än den grundläggande stadskärnan.",
                 "stone_crane": "Kranen, en av de bästa uppfinningarna för att spara ryggen! Du behöver inte längre släpa alla stenar ut ur stenbrottet, använd bara kranen.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Skogshuggaren kommer att hugga ved. Hur mycket ved? Så mycket som en skogshuggare kan.",
                 "refinery": "Raffinaderiet används för att förädla konstiga stenar till glänsande formbara stenar.",
                 "iron_mine": "Vi grävde en djup grop eftersom vi hittade några konstiga stenar. Låt oss skicka alla våra människor dit för att hämta dem. Vad är det värsta som kan hända?",
+                "iron_mine_upgraded": "Med dessa märkliga material vi hittar är jag säker på att vi kan få upp fler glänsande stenar ur marken snabbare!",
                 "glassworks": "Glassworks låter dig producera glas från sand, som kan användas för olika avancerade tillämpningar.",
                 "tools_workshop": "Med en verktygsverkstad kan du tillverka verktyg som är nödvändiga för vissa människors arbete.",
                 "well": "Även om det är roligt att stå i regnet med öppen mun, är det lite svårare när man har ett badkar att fylla. En brunn passar bättre i din stad."
@@ -317,7 +321,8 @@
             "goodsProduction": "Varuproduktion",
             "happiness": "Lycka",
             "importCost": "Importkostnad",
-            "raidRisk": "Risk för raid",
+            "populationProduction": "Befolkning Redigera",
+            "raidRisk": "Stöldrisk (vid överskridande av lagringsutrymme)",
             "researchSpeed": "Forskningshastighet",
             "taxation": "Beskattning"
         },
@@ -515,13 +520,15 @@
         "buying": "köpa",
         "confirmCancel": "Är du säker på att du vill avbryta denna beställning?",
         "for": "för",
-        "myOrders": "Mina beställningar",
+        "marketStorage": "Handel Lager",
+        "myOrders": "Lägg dina beställningar",
+        "noMarketStorage": "Inget marknadslager tillgängligt. Bygg handelsbyggnader för att lägga säljorder.",
         "noOrders": "Inga aktiva order",
         "onlyAllianceMembers": "Sälj endast till alliansmedlemmar",
-        "placeOrder": "Lägg en beställning",
         "sell": "Se",
         "sellButton": "{{type}} {{amount}} {{resource}} för {{price}} per enhet",
         "selling": "försäljning",
+        "storageFull": "Lagringsutrymmet är fullt! Bygg fler handelsbyggnader.",
         "totalPrice": "Totalt pris",
         "unitPrice": "Enhetspris"
     },
@@ -634,8 +641,9 @@
             "Dubbelklicka i formredigeraren för att placera noder.",
             "Använd skift-tangenten för att fortsätta placera byggnader.",
             "Om du stöter på några problem, vänligen meddela oss på Discord.",
-            "Vissa byggnader kan endast placeras nära den överordnade byggnaden. Till exempel sågen och skogshuggaren.",
+            "Gå med i vår livliga spelargemenskap på Discord för att dela dina skapelser och få tips.",
             "Alla resurser är inte lika lätta att få tag på överallt. Ibland kan det vara billigare att handla än att producera allt själv.",
+            "En recension på Steam hjälper oss att hitta nya spelare som gör detta till en levande värld.",
             "En recension på Steam hjälper oss att hitta nya spelare som gör detta till en levande värld."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(per m²)",
         "effects": "Effekter",
         "upkeep": "Underhåll",
-        "production": "Produktion"
+        "production": "Produktion",
+        "move": "Flytta denna byggnad"
     },
     "units": {
         "days": "dagar",

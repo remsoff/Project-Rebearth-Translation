@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Juntar-se a outros jogadores é algo muito fixe. Pode optar por negociar exclusivamente entre si e, dependendo de com quem se aliar, também obtém outros benefícios.",
         "applyForAlliance": "Candidatar-se à aliança",
         "cancelApplication": "Cancelar aplicação",
-        "greatFederationDesc": "Junte-se a pessoas fortes e organizadas! Esteja mais protegido contra invasões e obtenha mais recursos dos seus súbditos. Mas isso tem um custo: mais burocracia e menos receitas fiscais.",
+        "greatFederationDesc": "Junte-se a pessoas fortes e organizadas! Esteja mais protegido contra roubos e obtenha mais recursos dos seus súbditos. Mas isso tem um custo: mais burocracia e menos receitas fiscais.",
         "leaveAlliance": "sair da aliança",
         "marketSizeLabel": "Dimensão do mercado:",
         "scienceLeagueDesc": "Juntar-se a uma liga científica torna-o mais inteligente. Isso está cientificamente comprovado. Desfrute de uma velocidade de pesquisa mais rápida e custos de expedição mais baixos. Também torna as pessoas mais felizes! Mas não somos muito bons a fazer coisas.",
-        "tradeAllianceDesc": "É tudo uma questão de dinheiro! Obtenha descontos nos custos comerciais e maior eficiência fiscal, mas também um risco maior de invasões."
+        "tradeAllianceDesc": "É tudo uma questão de dinheiro! Obtenha descontos nos custos comerciais e maior eficiência fiscal, mas também um risco mais elevado de roubo."
     },
     "biomes": {
         "1": "Florestas tropicais e subtropicais de folha larga",
@@ -61,7 +61,9 @@
             "workerSafety": "Segurança do trabalhador",
             "dubiousWorkingRules": "Regras de funcionamento duvidosas",
             "crampedQuarters": "Como sardinhas!",
-            "intensiveFarming": "Agricultura intensiva"
+            "intensiveFarming": "Agricultura intensiva",
+            "newTownBoost": "Novos começos!",
+            "foodShortage": "Escassez de alimentos"
         },
         "unlock": "Desbloquear"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Vegetais",
                 "market_stall_5": "Mercadorias",
                 "medium_ship": "Nave média",
-                "nursery": "Creche",
+                "nursery": "Viveiro de árvores",
                 "park": "Parque",
                 "path": "Caminho",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Lenhador",
                 "refinery": "Refinaria",
                 "iron_mine": "Mina de ferro",
+                "iron_mine_upgraded": "Mina de ferro melhorada",
                 "glassworks": "Vidraria",
                 "tools_workshop": "Oficina de ferramentas",
                 "well": "Bem"
@@ -249,7 +252,7 @@
                 "house_4": "Todos precisam de um lugar para morar. Esta casa oferece um lugar para o seu povo comer e viver.",
                 "house_5": "Todos precisam de um lugar para morar. Esta casa elaborada oferece um lugar para o seu povo comer e morar.",
                 "house_6": "Todos precisam de um lugar para morar. Esta casa luxuosa oferece um lugar para o seu povo comer e morar.",
-                "large_ship": "Acho que não dá para ficar maior do que isto. Olhem só! Não, sério, pessoal, olhem só!",
+                "large_ship": "Acho que não dá para ficar maior do que isso. Olhem só! Não, sério, pessoal, olhem só! Isso deve reduzir ainda mais os custos de transporte.",
                 "large_statue": "Uma estátua grande para um homem grande. As pessoas dizem que ele era realmente assim tão grande.",
                 "logpile": "Qual é a melhor maneira de armazenar madeira? Basta empilhá-la.",
                 "market": "O mercado permitirá que você negocie com outras vilas e cidades. As casas gostam de estar perto disso.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Uma banca que vende produtos de panificação.",
                 "market_stall_4": "Uma banca que vende produtos hortícolas.",
                 "market_stall_5": "Uma banca que vende vários produtos.",
-                "medium_ship": "Essa é uma nave bacana. Nem muito grande, nem muito pequena. Simplesmente bacana.",
+                "medium_ship": "Essa é uma nave bacana. Nem muito grande, nem muito pequena. Simplesmente bacana. Reduz os custos de transporte em mais 25%.",
                 "nursery": "Porquê deixar o lenhador ir até às árvores quando podemos trazer as árvores até ao lenhador?",
                 "park": "Adicione um belo parque à sua cidade para os seus cidadãos passearem.",
                 "path": "Um caminho de terra simples. Cumpre a sua função. No entanto, os edifícios funcionarão perfeitamente sem eles.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Progresso! Com algumas ferramentas sofisticadas, podemos tornar o processamento da madeira uma tarefa fácil.",
-                "small_ship": "Um pequeno navio para pequenas viagens. E veja só! Este até flutua.",
+                "small_ship": "Um pequeno navio para pequenas viagens. E veja só! Este até flutua. Provavelmente poderíamos reduzir um pouco os custos de transporte com ele.",
                 "small_statue": "Uma pequena estátua para um homem pequeno. As pessoas dizem que ele era realmente assim tão pequeno.",
                 "square": "Um centro da cidade adequado! Esta praça parece mais elegante do que o centro básico.",
                 "stone_crane": "O guindaste, uma das maiores invenções para poupar as costas! Já não é preciso transportar todas essas pedras da pedreira, basta usar o guindaste.",
@@ -292,6 +295,7 @@
                 "woodcutter": "O lenhador cortará madeira. Quanta madeira? Tanta quanto um lenhador conseguir.",
                 "refinery": "A refinaria é usada para refinar rochas estranhas e transformá-las em rochas brilhantes e maleáveis.",
                 "iron_mine": "Fizemos um buraco profundo, porque encontramos algumas rochas estranhas. Vamos enviar todo o nosso pessoal lá para as recolher. O que é que pode acontecer de pior?",
+                "iron_mine_upgraded": "Com estes materiais estranhos que encontramos, tenho a certeza de que conseguiremos extrair mais pedras brilhantes do solo mais rapidamente!",
                 "glassworks": "A Glassworks permite produzir vidro a partir de areia, que pode ser usado para várias aplicações avançadas.",
                 "tools_workshop": "Com uma oficina de ferramentas, pode produzir ferramentas essenciais para o trabalho de algumas pessoas.",
                 "well": "Embora ficar na chuva com a boca aberta seja divertido, é um pouco mais complicado quando se tem uma banheira para encher. Um poço será mais adequado para a sua cidade."
@@ -317,7 +321,8 @@
             "goodsProduction": "Produção de bens",
             "happiness": "Felicidade",
             "importCost": "Custo de importação",
-            "raidRisk": "Risco de ataque",
+            "populationProduction": "População Editar",
+            "raidRisk": "Risco de roubo (quando exceder o armazenamento)",
             "researchSpeed": "Velocidade de pesquisa",
             "taxation": "Tributação"
         },
@@ -515,13 +520,15 @@
         "buying": "compra",
         "confirmCancel": "Tem a certeza de que deseja cancelar este pedido?",
         "for": "para",
-        "myOrders": "As minhas encomendas",
+        "marketStorage": "Armazenamento comercial",
+        "myOrders": "Faça as suas encomendas",
+        "noMarketStorage": "Não há armazenamento disponível no mercado. Construa edifícios comerciais para colocar ordens de venda.",
         "noOrders": "Sem ordens ativas",
         "onlyAllianceMembers": "Venda apenas a membros da aliança.",
-        "placeOrder": "Fazer um pedido",
         "sell": "Olhe",
         "sellButton": "{{type}} {{amount}} {{resource}} para {{price}} por unidade",
         "selling": "venda",
+        "storageFull": "Armazenamento cheio! Construa mais edifícios comerciais.",
         "totalPrice": "Preço total",
         "unitPrice": "Preço unitário"
     },
@@ -634,8 +641,9 @@
             "Clique duas vezes no editor de formas para colocar nós.",
             "Use a tecla Shift para continuar a colocar edifícios.",
             "Se encontrar algum problema, informe-nos no Discord.",
-            "Alguns edifícios só podem ser colocados perto do edifício principal. Como a serra e o lenhador.",
+            "Junte-se à nossa animada comunidade de jogadores no Discord para partilhar as suas criações e obter dicas.",
             "Nem todos os recursos são fáceis de obter em todos os lugares. Às vezes, negociar será mais barato do que produzir tudo por conta própria.",
+            "Uma avaliação no Steam ajuda-nos a encontrar novos jogadores que tornam este mundo vivo.",
             "Uma avaliação no Steam ajuda-nos a encontrar novos jogadores que tornam este mundo vivo."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(por m²)",
         "effects": "Efeitos",
         "upkeep": "Manutenção",
-        "production": "Produção"
+        "production": "Produção",
+        "move": "Mova este edifício"
     },
     "units": {
         "days": "dias",

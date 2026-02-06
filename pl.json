@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Współpraca z innymi graczami to fajna sprawa. Możecie zdecydować się na wyłączną wymianę między sobą, a w zależności od tego, z kim się sprzymierzycie, otrzymacie również inne korzyści.",
         "applyForAlliance": "Zgłoś się do sojuszu",
         "cancelApplication": "Anuluj aplikację",
-        "greatFederationDesc": "Połącz siły z silnymi i zorganizowanymi ludźmi! Zyskaj lepszą ochronę przed najazdami i wymuś na swoich poddanych więcej zasobów. Ale to wiąże się z większą biurokracją i mniejszymi dochodami z podatków.",
+        "greatFederationDesc": "Połącz siły z silnymi i zorganizowanymi ludźmi! Zyskaj lepszą ochronę przed kradzieżami i wymuszaj na poddanych większe zasoby. Ale to wiąże się z większą biurokracją i mniejszymi dochodami z podatków.",
         "leaveAlliance": "opuszczenie sojuszu",
         "marketSizeLabel": "Wielkość rynku:",
         "scienceLeagueDesc": "Dołączenie do ligi naukowej sprawia, że stajesz się mądrzejszy. Jest to naukowo udowodnione. Ciesz się szybszym tempem badań i niższymi kosztami ekspedycji. Sprawia to również, że ludzie są szczęśliwsi! Nie jesteśmy jednak zbyt dobrzy w tworzeniu rzeczy.",
-        "tradeAllianceDesc": "Wszystko kręci się wokół pieniędzy! Uzyskaj zniżki na koszty handlu i zwiększoną efektywność podatkową, ale także większe ryzyko najazdów."
+        "tradeAllianceDesc": "Wszystko kręci się wokół pieniędzy! Uzyskaj zniżki na koszty handlu i zwiększoną efektywność podatkową, ale także większe ryzyko kradzieży."
     },
     "biomes": {
         "1": "Lasy tropikalne i subtropikalne liściaste",
@@ -61,7 +61,9 @@
             "workerSafety": "Bezpieczeństwo pracowników",
             "dubiousWorkingRules": "Wątpliwe zasady działania",
             "crampedQuarters": "Jak sardynki!",
-            "intensiveFarming": "Intensywne rolnictwo"
+            "intensiveFarming": "Intensywne rolnictwo",
+            "newTownBoost": "Nowy początek!",
+            "foodShortage": "Niedobór żywności"
         },
         "unlock": "Odblokuj"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Warzywa",
                 "market_stall_5": "Towary",
                 "medium_ship": "Średni statek",
-                "nursery": "Przedszkole",
+                "nursery": "Szkółka drzew",
                 "park": "Park",
                 "path": "Ścieżka",
                 "pier": "Molo",
@@ -205,6 +207,7 @@
                 "woodcutter": "Drwal",
                 "refinery": "Rafineria",
                 "iron_mine": "Kopalnia żelaza",
+                "iron_mine_upgraded": "Ulepszona kopalnia żelaza",
                 "glassworks": "Huta szkła",
                 "tools_workshop": "Warsztat narzędzi",
                 "well": "Studnia"
@@ -249,7 +252,7 @@
                 "house_4": "Każdy potrzebuje miejsca do życia. Ten dom zapewnia Twoim ludziom miejsce do jedzenia i życia.",
                 "house_5": "Każdy potrzebuje miejsca do życia. Ten rozbudowany dom zapewnia Twoim ludziom miejsce do jedzenia i życia.",
                 "house_6": "Każdy potrzebuje miejsca do życia. Ten luksusowy dom zapewni Twoim ludziom miejsce do jedzenia i mieszkania.",
-                "large_ship": "Nie sądzę, żeby mogły być większe niż to. Spójrzcie na to! Naprawdę, wszyscy, spójrzcie na to!",
+                "large_ship": "Nie sądzę, żeby mogły być większe niż to. Spójrzcie na to! Naprawdę, wszyscy, spójrzcie na to! To musi jeszcze bardziej obniżyć koszty transportu.",
                 "large_statue": "Duży pomnik dla dużego faceta. Ludzie mówią, że naprawdę był tak duży.",
                 "logpile": "Najlepszy sposób na przechowywanie drewna? Po prostu ułóż je w stos.",
                 "market": "Rynek umożliwi Ci handel z innymi miastami. Domostwa lubią znajdować się w pobliżu tego miejsca.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Stoisko sprzedające wyroby piekarnicze.",
                 "market_stall_4": "Stoisko sprzedające produkty warzywne.",
                 "market_stall_5": "Stoisko sprzedające różne towary.",
-                "medium_ship": "To jest fajny statek. Nie za duży, nie za mały. Po prostu fajny.",
+                "medium_ship": "To jest naprawdę fajny statek. Nie za duży, nie za mały. Po prostu fajny. Obniża koszty transportu o kolejne 25%.",
                 "nursery": "Po co wysyłać drwala do drzew, skoro możemy przynieść drzewa do drwala.",
                 "park": "Dodaj do swojego miasta ładny park, w którym mieszkańcy będą mogli spędzać czas.",
                 "path": "Prosta, polna droga. Po prostu spełnia swoje zadanie. Budynki będą jednak działać bez nich.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Postęp! Dzięki zaawansowanym narzędziom obróbka drewna staje się dziecinnie prosta.",
-                "small_ship": "Mały statek do krótkich podróży. I spójrz! Ten nawet unosi się na wodzie.",
+                "small_ship": "Mały statek do krótkich podróży. I spójrz! Ten nawet unosi się na wodzie. Dzięki temu prawdopodobnie uda nam się nieco obniżyć koszty transportu.",
                 "small_statue": "Mała statuetka dla małego faceta. Ludzie mówią, że naprawdę był tak mały.",
                 "square": "Prawdziwe centrum miasta! Ten plac wygląda bardziej elegancko niż zwykłe centrum.",
                 "stone_crane": "Żuraw, jedno z największych wynalazków chroniących plecy! Nie musisz już wyciągać wszystkich tych kamieni z kamieniołomu, wystarczy użyć żurawia.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Drwal będzie rąbał drewno. Ile drewna? Tyle, ile drwal jest w stanie.",
                 "refinery": "Rafineria służy do przetwarzania dziwnych skał w błyszczące, plastyczne skały.",
                 "iron_mine": "Wykopaliśmy głęboki dół, ponieważ znaleźliśmy dziwne skały. Wyślijmy tam wszystkich naszych ludzi, aby je wydobyli. Co złego może się stać?",
+                "iron_mine_upgraded": "Dzięki tym dziwnym materiałom, które znaleźliśmy, na pewno uda nam się szybciej wydobywać więcej błyszczących kamieni z ziemi!",
                 "glassworks": "Glassworks pozwala produkować szkło z piasku, które może być wykorzystywane do różnych zaawansowanych zastosowań.",
                 "tools_workshop": "Dzięki warsztatowi narzędziowemu możesz produkować narzędzia niezbędne w pracy niektórych osób.",
                 "well": "Chociaż stanie w deszczu z otwartymi ustami jest fajne, to jednak jest to nieco trudniejsze, gdy trzeba napełnić wannę. Studnia będzie lepszym rozwiązaniem dla Twojego miasta."
@@ -317,7 +321,8 @@
             "goodsProduction": "Produkcja towarów",
             "happiness": "Szczęście",
             "importCost": "Koszt importu",
-            "raidRisk": "Ryzyko nalotu",
+            "populationProduction": "Ludność Edytuj",
+            "raidRisk": "Ryzyko kradzieży (w przypadku przekroczenia pojemności magazynu)",
             "researchSpeed": "Szybkość badań",
             "taxation": "Opodatkowanie"
         },
@@ -515,13 +520,16 @@
         "buying": "zakup",
         "confirmCancel": "Czy na pewno chcesz anulować to zamówienie?",
         "for": "dla",
-        "myOrders": "Moje zamówienia",
+        "marketStorage": "Handel Magazynowanie",
+        "myOrders": "Złóż zamówienie",
+        "noMarketStorage": "Brak dostępnej przestrzeni magazynowej. Zbuduj budynki handlowe, aby złożyć zlecenia sprzedaży.",
         "noOrders": "Brak aktywnych zamówień",
         "onlyAllianceMembers": "Sprzedawaj tylko członkom sojuszu.",
         "placeOrder": "Złóż zamówienie",
-        "sell": "Sprzedaj",
+        "sell": "Wygląd",
         "sellButton": "{{type}} {{amount}} {{resource}} dla {{price}} za sztukę",
         "selling": "sprzedaż",
+        "storageFull": "Pamięć pełna! Zbuduj więcej budynków handlowych.",
         "totalPrice": "Cena całkowita",
         "unitPrice": "Cena jednostkowa"
     },
@@ -634,8 +642,9 @@
             "Kliknij dwukrotnie w edytorze kształtów, aby umieścić węzły.",
             "Użyj klawisza Shift, aby kontynuować umieszczanie budynków.",
             "Jeśli napotkasz jakiekolwiek problemy, poinformuj nas o tym na Discordzie.",
-            "Niektóre budynki można umieścić tylko w pobliżu budynku nadrzędnego. Na przykład piła i drwal.",
+            "Dołącz do naszej aktywnej społeczności graczy na Discordzie, aby dzielić się swoimi dziełami i uzyskać wskazówki.",
             "Nie wszystkie zasoby są łatwo dostępne wszędzie. Czasami handel będzie tańszy niż samodzielna produkcja wszystkich zasobów.",
+            "Recenzje na Steamie pomagają nam znaleźć nowych graczy, którzy sprawiają, że ten świat jest żywy.",
             "Recenzje na Steamie pomagają nam znaleźć nowych graczy, którzy sprawiają, że ten świat jest żywy."
         ]
     },
@@ -646,7 +655,8 @@
         "costPerSquareMeter": "(na m²)",
         "effects": "Efekty",
         "upkeep": "Utrzymanie",
-        "production": "Produkcja"
+        "production": "Produkcja",
+        "move": "Przenieś ten budynek"
     },
     "units": {
         "days": "dni",

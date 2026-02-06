@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Este foarte interesant să faci echipă cu alți jucători. Puteți alege să faceți comerț exclusiv între voi și, în funcție de cei cu care vă aliați, puteți obține și alte beneficii.",
         "applyForAlliance": "Aplică pentru alianță",
         "cancelApplication": "Anulează aplicația",
-        "greatFederationDesc": "Aliază-te cu oameni puternici și organizați! Fii mai bine protejat împotriva raidurilor și obține mai multe resurse de la supușii tăi. Dar acest lucru vine cu prețul unei birocrații mai mari și a unor venituri fiscale mai mici.",
+        "greatFederationDesc": "Aliază-te cu oameni puternici și organizați! Fii mai bine protejat împotriva furturilor și obține mai multe resurse de la supușii tăi. Dar acest lucru vine cu prețul unei birocrații mai mari și a unor venituri fiscale mai mici.",
         "leaveAlliance": "părăsi alianța",
         "marketSizeLabel": "Dimensiunea pieței:",
         "scienceLeagueDesc": "Aderarea la o ligă științifică te face mai inteligent. Acest lucru este dovedit științific. Bucură-te de o viteză mai mare de cercetare și de costuri mai mici pentru expediții. De asemenea, oamenii devin mai fericiți! Dar nu suntem atât de buni la realizarea lucrurilor.",
-        "tradeAllianceDesc": "Totul se reduce la bani! Beneficiați de costuri comerciale reduse și de o eficiență fiscală sporită, dar și de un risc mai mare de raiduri."
+        "tradeAllianceDesc": "Totul se reduce la bani! Beneficiați de costuri comerciale reduse și de o eficiență fiscală sporită, dar și de un risc mai mare de furt."
     },
     "biomes": {
         "1": "Păduri tropicale și subtropicale de foioase",
@@ -61,7 +61,9 @@
             "workerSafety": "Siguranța lucrătorilor",
             "dubiousWorkingRules": "Reguli de lucru dubioase",
             "crampedQuarters": "Ca sardinele!",
-            "intensiveFarming": "Agricultură intensivă"
+            "intensiveFarming": "Agricultură intensivă",
+            "newTownBoost": "Un nou început!",
+            "foodShortage": "Penurie alimentară"
         },
         "unlock": "Deblocare"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Legume",
                 "market_stall_5": "Bunuri",
                 "medium_ship": "Navă medie",
-                "nursery": "Creșă",
+                "nursery": "Pepinieră",
                 "park": "Parc",
                 "path": "Cale",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Tăietor de lemne",
                 "refinery": "Rafinărie",
                 "iron_mine": "Mina de fier",
+                "iron_mine_upgraded": "Mină de fier îmbunătățită",
                 "glassworks": "Glassworks",
                 "tools_workshop": "Atelier de instrumente",
                 "well": "Bine"
@@ -249,7 +252,7 @@
                 "house_4": "Toată lumea are nevoie de un loc unde să locuiască. Această casă oferă un loc unde oamenii tăi pot mânca și locui.",
                 "house_5": "Toată lumea are nevoie de un loc unde să locuiască. Această casă elaborată oferă un loc unde oamenii tăi pot mânca și locui.",
                 "house_6": "Toată lumea are nevoie de un loc unde să locuiască. Această casă luxoasă oferă un loc unde oamenii tăi pot mânca și locui.",
-                "large_ship": "Nu cred că pot fi mai mari de atât. Uitați-vă la asta! Nu, serios, uitați-vă cu toții la asta!",
+                "large_ship": "Nu cred că pot fi mai mari de atât. Uitați-vă la asta! Nu, serios, uitați-vă cu toții! Asta trebuie să reducă și mai mult costurile de transport.",
                 "large_statue": "O statuie mare pentru un tip mare. Oamenii spun că era chiar atât de mare.",
                 "logpile": "Care este cel mai bun mod de a depozita lemnul? Pur și simplu îngrămădește-l într-o grămadă.",
                 "market": "Piața vă va permite să faceți comerț cu alte orașe. Casele preferă să fie situate în apropierea acesteia.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Un stand care vinde produse de panificație.",
                 "market_stall_4": "Un chioșc care vinde produse vegetale.",
                 "market_stall_5": "Un stand care vinde diverse produse.",
-                "medium_ship": "Asta da navă elegantă. Nici prea mare, nici prea mică. Pur și simplu elegantă.",
+                "medium_ship": "Asta da navă elegantă. Nici prea mare, nici prea mică. Pur și simplu elegantă. Reduce costurile de transport cu încă 25%.",
                 "nursery": "De ce să-l lăsăm pe tăietorul de lemne să meargă la copaci, când putem aduce copacii la tăietorul de lemne?",
                 "park": "Adăugați un parc frumos în orașul dvs. pentru ca cetățenii să se poată relaxa.",
                 "path": "Un drum simplu de pământ. Își face treaba. Deși clădirile vor funcționa foarte bine și fără ele.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Progres! Cu ajutorul unor instrumente sofisticate, putem transforma prelucrarea lemnului într-o joacă de copii.",
-                "small_ship": "O navă mică pentru călătorii scurte. Și uite! Aceasta chiar plutește.",
+                "small_ship": "O navă mică pentru călătorii scurte. Și uite! Aceasta chiar plutește. Probabil că am putea reduce puțin costurile de transport cu aceasta.",
                 "small_statue": "O statuetă mică pentru un om mic. Oamenii spun că era chiar atât de mic.",
                 "square": "Un centru urban adecvat! Această piață arată mai elegantă decât centrul de bază.",
                 "stone_crane": "Macaraua, una dintre cele mai mari invenții care ne scutesc de efortul fizic! Nu mai trebuie să transportați toate pietrele din carieră, folosiți pur și simplu macaraua.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Tăietorul de lemne va tăia lemne. Cât de multe lemne? Cât poate tăia un tăietor de lemne.",
                 "refinery": "Rafinăria este utilizată pentru a transforma roci ciudate în roci strălucitoare și maleabile.",
                 "iron_mine": "Am săpat o groapă adâncă, pentru că am găsit niște pietre ciudate. Să trimitem toți oamenii acolo să le aducă. Ce poate să se întâmple rău?",
+                "iron_mine_upgraded": "Cu aceste materiale ciudate pe care le găsim, sunt sigur că putem extrage mai repede mai multe pietre strălucitoare din pământ!",
                 "glassworks": "Glassworks vă permite să produceți sticlă din nisip, care poate fi utilizată pentru diverse aplicații avansate.",
                 "tools_workshop": "Cu ajutorul unui atelier de scule, poți produce scule esențiale pentru meseriile anumitor persoane.",
                 "well": "Deși este distractiv să stai în ploaie cu gura deschisă, este puțin mai complicat când ai o cadă de umplut. O fântână se potrivește mai bine orașului tău."
@@ -317,7 +321,8 @@
             "goodsProduction": "Producția de bunuri",
             "happiness": "Fericire",
             "importCost": "Costul importului",
-            "raidRisk": "Risc de raid",
+            "populationProduction": "Populație Modificare",
+            "raidRisk": "Risc de furt (atunci când se depășește capacitatea de stocare)",
             "researchSpeed": "Viteza de cercetare",
             "taxation": "Impozitare"
         },
@@ -515,13 +520,15 @@
         "buying": "cumpărare",
         "confirmCancel": "Sunteți sigur că doriți să anulați această comandă?",
         "for": "pentru",
-        "myOrders": "Comenzile mele",
+        "marketStorage": "Depozit comercial",
+        "myOrders": "Plasați comenzile",
+        "noMarketStorage": "Nu există spațiu de stocare disponibil pe piață. Construiește clădiri comerciale pentru a plasa comenzi de vânzare.",
         "noOrders": "Nu există comenzi active",
         "onlyAllianceMembers": "Vindeți numai membrilor alianței.",
-        "placeOrder": "Plasați o comandă",
         "sell": "Aspect",
         "sellButton": "{{type}} {{amount}} {{resource}} pentru {{price}} pe unitate",
         "selling": "vânzare",
+        "storageFull": "Memoria este plină! Construiește mai multe clădiri comerciale.",
         "totalPrice": "Preț total",
         "unitPrice": "Preț unitar"
     },
@@ -634,8 +641,9 @@
             "Faceți dublu clic în editorul de forme pentru a plasa noduri.",
             "Folosiți tasta Shift pentru a continua să plasați clădiri.",
             "Dacă întâmpinați probleme, vă rugăm să ne informați pe Discord.",
-            "Unele clădiri pot fi amplasate numai în apropierea clădirii-mamă. De exemplu, ferăstrăul și tăietorul de lemne.",
+            "Alătură-te comunității noastre dinamice de jucători pe Discord pentru a-ți împărtăși creațiile și a primi sfaturi.",
             "Nu toate resursele sunt ușor de obținut peste tot. Uneori, comerțul va fi mai ieftin decât producerea tuturor resurselor pe cont propriu.",
+            "O recenzie pe Steam ne ajută să găsim noi jucători care fac din acest joc o lume vie.",
             "O recenzie pe Steam ne ajută să găsim noi jucători care fac din acest joc o lume vie."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(pe m²)",
         "effects": "Efecte",
         "upkeep": "Întreținere",
-        "production": "Producție"
+        "production": "Producție",
+        "move": "Mută această clădire"
     },
     "units": {
         "days": "zile",

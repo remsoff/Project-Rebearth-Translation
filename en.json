@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Banding together with other players is a cool thing. You can choose to trade exclusively with each other, and depending on who you align with, you get some other benefits as well.",
         "applyForAlliance": "Apply for alliance",
         "cancelApplication": "Cancel application",
-        "greatFederationDesc": "Band together with strong and organized people! Be better protected against raids and force more resources out of your subjects. But this comes at the cost of more bureaucracy and less taxation income.",
+        "greatFederationDesc": "Band together with strong and organized people! Be better protected against theft and force more resources out of your subjects. But this comes at the cost of more bureaucracy and less taxation income.",
         "leaveAlliance": "leave alliance",
         "marketSizeLabel": "Market Size:",
         "scienceLeagueDesc": "Joining a science league makes you smarter. That is scientifically proven. Enjoy faster research speed and lower expedition costs. It makes people happier too! But we're not so good at actually making things.",
-        "tradeAllianceDesc": "It's all about the money! Get discounted trade costs and increased taxation efficiency, but also a higher risk of raids."
+        "tradeAllianceDesc": "It's all about the money! Get discounted trade costs and increased taxation efficiency, but also a higher risk of theft."
     },
     "biomes": {
         "1": "Tropical and subtropical broadleaf forests",
@@ -61,7 +61,9 @@
             "workerSafety": "Worker Safety",
             "dubiousWorkingRules": "Dubious Working Rules",
             "crampedQuarters": "Like Sardines!",
-            "intensiveFarming": "Intensive Farming"
+            "intensiveFarming": "Intensive Farming",
+            "newTownBoost": "New Beginnings!",
+            "foodShortage": "Food Shortage"
         },
         "unlock": "Unlock"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Vegetable",
                 "market_stall_5": "Goods",
                 "medium_ship": "Medium Ship",
-                "nursery": "Nursery",
+                "nursery": "Tree nursery",
                 "park": "Park",
                 "path": "Path",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Woodcutter",
                 "refinery": "Refinery",
                 "iron_mine": "Iron Mine",
+                "iron_mine_upgraded": "Improved Iron Mine",
                 "glassworks": "Glassworks",
                 "tools_workshop": "Tools Workshop",
                 "well": "Well"
@@ -249,7 +252,7 @@
                 "house_4": "Everybody needs a place to live. This house provide a place for your people to eat and live.",
                 "house_5": "Everybody needs a place to live. This ellaborate house provide a place for your people to eat and live.",
                 "house_6": "Everybody needs a place to live. This luxurious house provide a place for your people to eat and live.",
-                "large_ship": "I don't think they can get any bigger than this. Look at this! No really, everyone, look at this!",
+                "large_ship": "I don't think they can get any bigger than this. Look at this! No really, everyone, look at this! This must halve transport costs even more.",
                 "large_statue": "A large statue for a large guy. people say he was actually this big.",
                 "logpile": "Best way to store wood? Just chug it in a pile.",
                 "market": "The market will allow you to trade with other towns and cities. Houses like to be close to this.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "A stall selling bread products.",
                 "market_stall_4": "A stall selling vegetable products.",
                 "market_stall_5": "A stall selling various goods.",
-                "medium_ship": "Now that's a neat ship. Not too big, not too small. just neat.",
+                "medium_ship": "Now that's a neat ship. Not too big, not too small. just neat. slashes transport costs another 25%.",
                 "nursery": "Why let the woodcutter go to the trees when we can bring the trees to the woodcutter.",
                 "park": "Add a  nice park to your town for your citizens to dillydally in.",
                 "path": "A simple dirt path. It just gets the job done. Altough buildings will work just fine without them.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Progress! With some fancy tools we can make processing wood a breeze.",
-                "small_ship": "A small ship for small trips. And look! This one even floats.",
+                "small_ship": "A small ship for small trips. And look! This one even floats. we could probably make transport costs just a bit lower with this.",
                 "small_statue": "A small statue for a small guy. people say he was actually this small.",
                 "square": "A proper town center! This square looks fancier than the basic center.",
                 "stone_crane": "The crane, one of the greatest back saving inventions! No longer haul all this stone out of the quarry, just use the crane.",
@@ -292,6 +295,7 @@
                 "woodcutter": "The woodcutter will cut wood. How much wood? as much as a woodcutter could.",
                 "refinery": "The refinery is used to refine weird rocks into shiny malleable rocks.",
                 "iron_mine": "We made a deep pit, because we found some weird rocks. Let's send all of our people in there to go get them. Whats the worse that can happen.",
+                "iron_mine_upgraded": "With these weird materials we find, I'm sure we can get more shiny rocks out of the ground faster!",
                 "glassworks": "Glassworks allows you to produce glass from sand, which can be used for various advanced applications.",
                 "tools_workshop": "With a tools workshop you can produce tools that are essential for some people's jobs.",
                 "well": "Altough standing in the rain with your mouth open is fun, it is a bit more tricky when you have a bathtub to fill. A well will suit your town better."
@@ -317,7 +321,8 @@
             "goodsProduction": "Goods Production",
             "happiness": "Happiness",
             "importCost": "Import Cost",
-            "raidRisk": "Raid Risk",
+            "populationProduction": "Population Modifier",
+            "raidRisk": "Theft Risk (when exceeding storage)",
             "researchSpeed": "Research Speed",
             "taxation": "Taxation"
         },
@@ -515,13 +520,15 @@
         "buying": "buying",
         "confirmCancel": "Are you sure you want to cancel this order?",
         "for": "for",
-        "myOrders": "My Orders",
+        "marketStorage": "Trade Storage",
+        "myOrders": "Place Your Orders",
+        "noMarketStorage": "No market storage available. Build trade buildings to place sell orders.",
         "noOrders": "No active orders",
         "onlyAllianceMembers": "Only sell to alliance members",
-        "placeOrder": "Place an order",
         "sell": "Sell",
         "sellButton": "{{type}} {{amount}} {{resource}} for {{price}} per unit",
         "selling": "selling",
+        "storageFull": "Storage full! Build more trade buildings.",
         "totalPrice": "Total Price",
         "unitPrice": "Unit Price"
     },
@@ -634,6 +641,7 @@
             "Double click in the shape editor to place nodes.",
             "Use the shift key to keep placing buildings.",
             "If you encounter any issues, please let us know on Discord.",
+            "Join our lively community of players on Discord to share your creations and get tips.",
             "Some buildings can only be placed close the parent building. Like the saw and the woodcutter.",
             "Not all resources are easy to get everywhere. Sometimes trading will be cheaper than producing everything yourself.",
             "A review on Steam helps us find new players that make this a living world."
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(per m²)",
         "effects": "Effects",
         "upkeep": "Upkeep",
-        "production": "Production"
+        "production": "Production",
+        "move": "Move this building"
     },
     "units": {
         "days": "days",

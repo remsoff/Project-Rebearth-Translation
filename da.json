@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Det er fedt at slå sig sammen med andre spillere. I kan vælge at handle eksklusivt med hinanden, og afhængigt af hvem I slutter jer sammen med, får I også nogle andre fordele.",
         "applyForAlliance": "Ansøg om alliance",
         "cancelApplication": "Annuller ansøgning",
-        "greatFederationDesc": "Slå dig sammen med stærke og organiserede mennesker! Få bedre beskyttelse mod angreb og få flere ressourcer ud af dine undersåtter. Men dette kommer på bekostning af mere bureaukrati og mindre skatteindtægter.",
+        "greatFederationDesc": "Slå dig sammen med stærke og organiserede mennesker! Få bedre beskyttelse mod tyveri og få flere ressourcer ud af dine undersåtter. Men dette kommer på bekostning af mere bureaukrati og mindre skatteindtægter.",
         "leaveAlliance": "forlade alliance",
         "marketSizeLabel": "Markedsstørrelse:",
         "scienceLeagueDesc": "Ved at blive medlem af en videnskabsliga bliver du klogere. Det er videnskabeligt bevist. Nyd hurtigere forskning og lavere ekspeditionsomkostninger. Det gør også folk gladere! Men vi er ikke så gode til at fremstille ting.",
-        "tradeAllianceDesc": "Det handler om penge! Få rabat på handelsomkostninger og øget skatteeffektivitet, men også en højere risiko for razziaer."
+        "tradeAllianceDesc": "Det handler om penge! Få rabat på handelsomkostninger og øget skatteeffektivitet, men også en højere risiko for tyveri."
     },
     "biomes": {
         "1": "Tropiske og subtropiske bredbladede skove",
@@ -61,7 +61,9 @@
             "workerSafety": "Arbejdssikkerhed",
             "dubiousWorkingRules": "Tvivlsomme arbejdsregler",
             "crampedQuarters": "Som sardiner!",
-            "intensiveFarming": "Intensivt landbrug"
+            "intensiveFarming": "Intensivt landbrug",
+            "newTownBoost": "Nye begyndelser!",
+            "foodShortage": "Fødevaremangel"
         },
         "unlock": "Lås op"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Grøntsager",
                 "market_stall_5": "Varer",
                 "medium_ship": "Mellemstor skib",
-                "nursery": "Børnehave",
+                "nursery": "Træplanteskole",
                 "park": "Park",
                 "path": "Sti",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Træfælder",
                 "refinery": "Raffinaderi",
                 "iron_mine": "Jernmine",
+                "iron_mine_upgraded": "Forbedret jernmine",
                 "glassworks": "Glasværk",
                 "tools_workshop": "Værktøjsværksted",
                 "well": "Godt"
@@ -249,7 +252,7 @@
                 "house_4": "Alle har brug for et sted at bo. Dette hus giver dine folk et sted at spise og bo.",
                 "house_5": "Alle har brug for et sted at bo. Dette veludstyrede hus giver dine folk et sted at spise og bo.",
                 "house_6": "Alle har brug for et sted at bo. Dette luksuriøse hus giver dine folk et sted at spise og bo.",
-                "large_ship": "Jeg tror ikke, de kan blive større end dette. Se her! Nej, virkelig, alle sammen, se her!",
+                "large_ship": "Jeg tror ikke, de kan blive større end dette. Se her! Nej, virkelig, alle sammen, se her! Det må halvere transportomkostningerne endnu mere.",
                 "large_statue": "En stor statue til en stor fyr. Folk siger, at han faktisk var så stor.",
                 "logpile": "Hvad er den bedste måde at opbevare træ på? Bare smid det i en bunke.",
                 "market": "Markedet giver dig mulighed for at handle med andre byer. Huse ligger gerne tæt på dette.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "En bod, der sælger brødprodukter.",
                 "market_stall_4": "En bod, der sælger grøntsagsprodukter.",
                 "market_stall_5": "En bod, der sælger forskellige varer.",
-                "medium_ship": "Det er da et flot skib. Ikke for stort, ikke for lille. Bare flot.",
+                "medium_ship": "Det er et flot skib. Ikke for stort, ikke for lille. Bare flot. Reducerer transportomkostningerne med yderligere 25 %.",
                 "nursery": "Hvorfor lade skovhuggeren gå til træerne, når vi kan bringe træerne til skovhuggeren?",
                 "park": "Tilføj en dejlig park til din by, hvor dine borgere kan slentre rundt.",
                 "path": "En simpel grusvej. Den gør bare sit job. Bygninger fungerer dog fint uden dem.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Fremskridt! Med nogle smarte værktøjer kan vi gøre træbearbejdning til en leg.",
-                "small_ship": "Et lille skib til små ture. Og se! Det her kan endda flyde.",
+                "small_ship": "Et lille skib til små ture. Og se! Det her kan endda flyde. Vi kunne nok gøre transportomkostningerne lidt lavere med det her.",
                 "small_statue": "En lille statue til en lille fyr. Folk siger, at han faktisk var så lille.",
                 "square": "Et rigtigt bycenter! Denne plads ser mere elegant ud end det almindelige center.",
                 "stone_crane": "Kranen, en af de største opfindelser, der har sparet ryggen! Du behøver ikke længere at slæbe alle disse sten ud af stenbruddet, bare brug kranen.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Skovhuggeren vil hugge træ. Hvor meget træ? Så meget som en skovhugger kan.",
                 "refinery": "Raffinaderiet bruges til at forædle mærkelige sten til skinnende, formbare sten.",
                 "iron_mine": "Vi gravede en dyb grav, fordi vi fandt nogle mærkelige sten. Lad os sende alle vores folk derned for at hente dem. Hvad er det værste, der kan ske?",
+                "iron_mine_upgraded": "Med disse mærkelige materialer, vi finder, er jeg sikker på, at vi kan få flere skinnende sten ud af jorden hurtigere!",
                 "glassworks": "Glassworks giver dig mulighed for at fremstille glas af sand, som kan bruges til forskellige avancerede formål.",
                 "tools_workshop": "Med et værktøjsværksted kan du fremstille værktøjer, der er uundværlige for visse menneskers arbejde.",
                 "well": "Selvom det er sjovt at stå i regnen med åben mund, er det lidt mere besværligt, når man skal fylde et badekar. En brønd passer bedre til din by."
@@ -317,7 +321,8 @@
             "goodsProduction": "Produktion af varer",
             "happiness": "Lykke",
             "importCost": "Importomkostninger",
-            "raidRisk": "Raid-risiko",
+            "populationProduction": "Befolkning Rediger",
+            "raidRisk": "Tyveririsiko (når lagerplads overskrides)",
             "researchSpeed": "Forskningshastighed",
             "taxation": "Beskatning"
         },
@@ -515,13 +520,15 @@
         "buying": "køb",
         "confirmCancel": "Er du sikker på, at du vil annullere denne ordre?",
         "for": "for",
-        "myOrders": "Mine ordrer",
+        "marketStorage": "Handel Lager",
+        "myOrders": "Afgiv dine ordrer",
+        "noMarketStorage": "Der er ingen lagerplads til rådighed. Byg handelsbygninger for at placere salgsordrer.",
         "noOrders": "Ingen aktive ordrer",
         "onlyAllianceMembers": "Sælg kun til alliancemedlemmer",
-        "placeOrder": "Afgiv en ordre",
         "sell": "Se",
         "sellButton": "{{type}} {{amount}} {{resource}} {{price}}er pr. enhed",
         "selling": "salg",
+        "storageFull": "Opbevaringsplads fuld! Byg flere handelsbygninger.",
         "totalPrice": "Samlet pris",
         "unitPrice": "Enhedspris"
     },
@@ -634,8 +641,9 @@
             "Dobbeltklik i formredigeringsprogrammet for at placere noder.",
             "Brug shift-tasten til at fortsætte med at placere bygninger.",
             "Hvis du støder på problemer, bedes du give os besked på Discord.",
-            "Nogle bygninger kan kun placeres tæt på den overordnede bygning. F.eks. saven og træfælderen.",
+            "Deltag i vores livlige spillerfællesskab på Discord, hvor du kan dele dine kreationer og få tips.",
             "Ikke alle ressourcer er lige nemme at få fat i overalt. Nogle gange er det billigere at handle end at producere alt selv.",
+            "En anmeldelse på Steam hjælper os med at finde nye spillere, der gør dette til en levende verden.",
             "En anmeldelse på Steam hjælper os med at finde nye spillere, der gør dette til en levende verden."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(pr. m²)",
         "effects": "Effekter",
         "upkeep": "Vedligeholdelse",
-        "production": "Produktion"
+        "production": "Produktion",
+        "move": "Flyt denne bygning"
     },
     "units": {
         "days": "dage",
