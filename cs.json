@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Spojit se s ostatními hráči je skvělá věc. Můžete se rozhodnout obchodovat výhradně mezi sebou a v závislosti na tom, s kým se spojíte, získáte i další výhody.",
         "applyForAlliance": "Požádat o alianci",
         "cancelApplication": "Zrušit aplikaci",
-        "greatFederationDesc": "Spojte se se silnými a organizovanými lidmi! Získejte lepší ochranu před nájezdy a vynuťte si od svých poddaných více zdrojů. To však bude znamenat větší byrokracii a nižší daňové příjmy.",
+        "greatFederationDesc": "Spojte se se silnými a organizovanými lidmi! Získejte lepší ochranu před krádežemi a vynuťte si od svých poddaných více zdrojů. To však bude znamenat větší byrokracii a nižší příjmy z daní.",
         "leaveAlliance": "opustit alianci",
         "marketSizeLabel": "Velikost trhu:",
         "scienceLeagueDesc": "Připojením se k vědecké lize se stanete chytřejšími. To je vědecky prokázáno. Užijte si rychlejší výzkum a nižší náklady na expedice. Lidé jsou díky tomu také šťastnější! Ale ve skutečnosti nejsme tak dobří v tom, něco vytvářet.",
-        "tradeAllianceDesc": "Všechno je to o penězích! Získejte slevy na obchodní náklady a vyšší daňovou efektivitu, ale také vyšší riziko nájezdů."
+        "tradeAllianceDesc": "Všechno je to o penězích! Získejte slevy na obchodní náklady a vyšší daňovou efektivitu, ale také vyšší riziko krádeží."
     },
     "biomes": {
         "1": "Tropické a subtropické listnaté lesy",
@@ -61,7 +61,9 @@
             "workerSafety": "Bezpečnost pracovníků",
             "dubiousWorkingRules": "Pochybná pracovní pravidla",
             "crampedQuarters": "Jako sardinky!",
-            "intensiveFarming": "Intenzivní zemědělství"
+            "intensiveFarming": "Intenzivní zemědělství",
+            "newTownBoost": "Nový začátek!",
+            "foodShortage": "Nedostatek potravin"
         },
         "unlock": "Odemknout"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Zelenina",
                 "market_stall_5": "Zboží",
                 "medium_ship": "Střední loď",
-                "nursery": "Školka",
+                "nursery": "Školka stromů",
                 "park": "Park",
                 "path": "Cesta",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Dřevorubec",
                 "refinery": "Rafinerie",
                 "iron_mine": "Železná důl",
+                "iron_mine_upgraded": "Vylepšená železná důl",
                 "glassworks": "Sklárna",
                 "tools_workshop": "Nástroje Dílna",
                 "well": "Dobře"
@@ -249,7 +252,7 @@
                 "house_4": "Každý potřebuje místo k životu. Tento dům poskytuje vašim lidem místo, kde mohou jíst a žít.",
                 "house_5": "Každý potřebuje místo k životu. Tento propracovaný dům poskytuje vašim lidem místo, kde mohou jíst a žít.",
                 "house_6": "Každý potřebuje místo k životu. Tento luxusní dům poskytuje vašim lidem místo, kde mohou jíst a žít.",
-                "large_ship": "Myslím, že větší už být nemohou. Podívejte se na to! Ne, vážně, všichni se na to podívejte!",
+                "large_ship": "Myslím, že větší už být nemohou. Podívejte se na to! Ne, vážně, všichni se na to podívejte! To musí ještě více snížit náklady na dopravu.",
                 "large_statue": "Velká socha pro velkého chlapa. Lidé říkají, že byl opravdu tak velký.",
                 "logpile": "Jak nejlépe skladovat dřevo? Prostě ho naházet na hromadu.",
                 "market": "Trh vám umožní obchodovat s jinými městy. Domy mají rády blízkost trhu.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Stánek s pečivem.",
                 "market_stall_4": "Stánek s prodejem zeleniny.",
                 "market_stall_5": "Stánek prodávající různé zboží.",
-                "medium_ship": "To je ale pěkná loď. Není příliš velká, není příliš malá. Prostě pěkná.",
+                "medium_ship": "To je ale pěkná loď. Není příliš velká, není příliš malá. Prostě pěkná. Snižuje náklady na dopravu o dalších 25 %.",
                 "nursery": "Proč nechat dřevorubce chodit ke stromům, když můžeme stromy přivést k dřevorubci.",
                 "park": "Přidejte do svého města pěkný park, kde se budou moci vaši občané procházet.",
                 "path": "Jednoduchá polní cesta. Prostě splní svůj účel. Budovy však budou fungovat i bez nich.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Pokrok! S pomocí několika šikovných nástrojů můžeme zpracování dřeva zvládnout hravě.",
-                "small_ship": "Malá loďka pro malé výlety. A podívejte! Tahle dokonce plave.",
+                "small_ship": "Malá loďka pro malé výlety. A podívejte! Tahle dokonce plave. S touhle bychom asi mohli trochu snížit náklady na dopravu.",
                 "small_statue": "Malá soška pro malého chlápka. Lidé říkají, že byl ve skutečnosti tak malý.",
                 "square": "Správné centrum města! Toto náměstí vypadá lépe než základní centrum.",
                 "stone_crane": "Jeřáb, jeden z nejlepších vynálezů, který šetří záda! Už nemusíte tahat všechny ty kameny z lomu, stačí použít jeřáb.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Dřevorubec bude řezat dřevo. Kolik dřeva? Tolik, kolik dřevorubec zvládne.",
                 "refinery": "Rafinerie se používá k rafinaci podivných hornin na lesklé tvárné horniny.",
                 "iron_mine": "Vykopali jsme hlubokou jámu, protože jsme našli nějaké podivné kameny. Pošleme tam všechny naše lidi, aby je přinesli. Co horšího se může stát?",
+                "iron_mine_upgraded": "S těmito podivnými materiály, které jsme našli, určitě dokážeme z podzemí vytěžit více lesklých kamenů!",
                 "glassworks": "Glassworks vám umožňuje vyrábět sklo z písku, které lze použít pro různé pokročilé aplikace.",
                 "tools_workshop": "V dílně na výrobu nástrojů můžete vyrábět nástroje, které jsou nezbytné pro práci některých lidí.",
                 "well": "I když je zábavné stát v dešti s otevřenou pusou, je to trochu složitější, když máte naplnit vanu. Studna se pro vaše město hodí lépe."
@@ -317,7 +321,8 @@
             "goodsProduction": "Výroba zboží",
             "happiness": "Štěstí",
             "importCost": "Náklady na dovoz",
-            "raidRisk": "Riziko nájezdu",
+            "populationProduction": "Populace Upravit",
+            "raidRisk": "Riziko krádeže (při překročení kapacity úložiště)",
             "researchSpeed": "Rychlost výzkumu",
             "taxation": "Zdanění"
         },
@@ -515,13 +520,15 @@
         "buying": "nákup",
         "confirmCancel": "Opravdu chcete tuto objednávku zrušit?",
         "for": "pro",
-        "myOrders": "Moje objednávky",
+        "marketStorage": "Obchodní sklad",
+        "myOrders": "Zadejte své objednávky",
+        "noMarketStorage": "Není k dispozici žádné tržní úložiště. Postavte obchodní budovy, abyste mohli zadávat prodejní příkazy.",
         "noOrders": "Žádné aktivní příkazy",
         "onlyAllianceMembers": "Prodávejte pouze členům aliance.",
-        "placeOrder": "Zadat objednávku",
         "sell": "Podívejte se",
         "sellButton": "{{type}} {{amount}} {{resource}} {{price}}ů za jednotku",
         "selling": "prodej",
+        "storageFull": "Úložiště je plné! Postavte více obchodních budov.",
         "totalPrice": "Celková cena",
         "unitPrice": "Jednotková cena"
     },
@@ -634,8 +641,9 @@
             "Dvojitým kliknutím v editoru tvarů umístíte uzly.",
             "Pomocí klávesy Shift můžete pokračovat v umisťování budov.",
             "Pokud narazíte na nějaké problémy, dejte nám prosím vědět na Discord.",
-            "Některé budovy lze umístit pouze v blízkosti mateřské budovy. Například pila a dřevorubec.",
+            "Připojte se k naší živé komunitě hráčů na Discord a sdílejte své výtvory a získejte tipy.",
             "Ne všechny suroviny lze snadno získat všude. Někdy bude obchodování levnější než vlastní výroba.",
+            "Recenze na Steam nám pomáhá najít nové hráče, kteří tento svět oživují.",
             "Recenze na Steam nám pomáhá najít nové hráče, kteří tento svět oživují."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(na m²)",
         "effects": "Efekty",
         "upkeep": "Údržba",
-        "production": "Produkce"
+        "production": "Produkce",
+        "move": "Přesuňte tuto budovu"
     },
     "units": {
         "days": "dny",

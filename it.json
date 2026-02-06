@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Unirsi ad altri giocatori è una cosa fantastica. Potete scegliere di commerciare esclusivamente tra di voi e, a seconda di chi scegliete come alleato, potrete ottenere anche altri vantaggi.",
         "applyForAlliance": "Richiedi l'alleanza",
         "cancelApplication": "Annulla applicazione",
-        "greatFederationDesc": "Unisciti a persone forti e organizzate! Sarai più protetto dai raid e potrai ottenere più risorse dai tuoi sudditi. Ma questo comporta un aumento della burocrazia e una diminuzione delle entrate fiscali.",
+        "greatFederationDesc": "Unisciti a persone forti e organizzate! Sarai più protetto dai furti e potrai ottenere maggiori risorse dai tuoi sudditi. Ma questo comporta un aumento della burocrazia e una diminuzione delle entrate fiscali.",
         "leaveAlliance": "Lascia l'alleanza",
         "marketSizeLabel": "Dimensioni del mercato:",
         "scienceLeagueDesc": "Entrare a far parte di una lega scientifica ti rende più intelligente. È scientificamente provato. Goditi una maggiore velocità di ricerca e costi di spedizione inferiori. Rende anche le persone più felici! Ma non siamo così bravi a realizzare effettivamente le cose.",
-        "tradeAllianceDesc": "È tutta una questione di soldi! Ottieni costi commerciali scontati e una maggiore efficienza fiscale, ma anche un rischio più elevato di incursioni."
+        "tradeAllianceDesc": "È tutta una questione di soldi! Ottieni costi commerciali scontati e una maggiore efficienza fiscale, ma anche un rischio più elevato di furti."
     },
     "biomes": {
         "1": "Foreste tropicali e subtropicali di latifoglie",
@@ -61,7 +61,9 @@
             "workerSafety": "Sicurezza dei lavoratori",
             "dubiousWorkingRules": "Regole di funzionamento dubbie",
             "crampedQuarters": "Come le sardine!",
-            "intensiveFarming": "Agricoltura intensiva"
+            "intensiveFarming": "Agricoltura intensiva",
+            "newTownBoost": "Nuovi inizi!",
+            "foodShortage": "Carenza di cibo"
         },
         "unlock": "Sblocca"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Verdura",
                 "market_stall_5": "Merci",
                 "medium_ship": "Nave media",
-                "nursery": "Asilo nido",
+                "nursery": "Vivaio",
                 "park": "Parco",
                 "path": "Percorso",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Taglialegna",
                 "refinery": "Raffineria",
                 "iron_mine": "Miniera di ferro",
+                "iron_mine_upgraded": "Mina di ferro migliorata",
                 "glassworks": "Vetreria",
                 "tools_workshop": "Officina degli strumenti",
                 "well": "Bene"
@@ -249,7 +252,7 @@
                 "house_4": "Tutti hanno bisogno di un posto dove vivere. Questa casa offre ai tuoi cittadini un luogo dove mangiare e vivere.",
                 "house_5": "Tutti hanno bisogno di un posto dove vivere. Questa casa elaborata offre ai tuoi cittadini un luogo dove mangiare e vivere.",
                 "house_6": "Tutti hanno bisogno di un posto dove vivere. Questa lussuosa dimora offre ai tuoi cittadini un luogo dove mangiare e vivere.",
-                "large_ship": "Non credo che possano diventare più grandi di così. Guardate qui! No, davvero, guardate tutti qui!",
+                "large_ship": "Non credo che possano diventare più grandi di così. Guardate qui! No, davvero, guardate tutti! Questo deve dimezzare ancora di più i costi di trasporto.",
                 "large_statue": "Una grande statua per un uomo grande. La gente dice che fosse davvero così grande.",
                 "logpile": "Il modo migliore per conservare la legna? Accatastala in un mucchio.",
                 "market": "Il mercato ti consentirà di commerciare con altre città. Le case amano essere vicine a questo.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Una bancarella che vende prodotti da forno.",
                 "market_stall_4": "Una bancarella che vende prodotti ortofrutticoli.",
                 "market_stall_5": "Una bancarella che vende vari prodotti.",
-                "medium_ship": "Ecco una nave davvero elegante. Né troppo grande, né troppo piccola. Semplicemente elegante.",
+                "medium_ship": "Ecco una nave davvero elegante. Né troppo grande, né troppo piccola. Semplicemente elegante. Riduce i costi di trasporto di un altro 25%.",
                 "nursery": "Perché lasciare che il boscaiolo vada dagli alberi quando possiamo portare gli alberi dal boscaiolo?",
                 "park": "Aggiungi un bel parco alla tua città dove i tuoi cittadini possano trascorrere il tempo libero.",
                 "path": "Un semplice sentiero sterrato. Fa semplicemente il suo lavoro. Anche se gli edifici funzionano perfettamente anche senza.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Progressi! Con alcuni strumenti sofisticati possiamo rendere la lavorazione del legno un gioco da ragazzi.",
-                "small_ship": "Una piccola nave per piccoli viaggi. E guarda! Questa galleggia persino.",
+                "small_ship": "Una piccola nave per piccoli viaggi. E guarda! Questa galleggia persino. Probabilmente potremmo ridurre leggermente i costi di trasporto con questa.",
                 "small_statue": "Una piccola statua per un uomo piccolo. Si dice che fosse davvero così piccolo.",
                 "square": "Un vero e proprio centro cittadino! Questa piazza sembra più elegante rispetto al centro di base.",
                 "stone_crane": "La gru, una delle più grandi invenzioni per risparmiare la schiena! Non è più necessario trasportare tutte queste pietre fuori dalla cava, basta usare la gru.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Il boscaiolo taglierà la legna. Quanta legna? Quanta ne può tagliare un boscaiolo.",
                 "refinery": "La raffineria viene utilizzata per raffinare rocce strane in rocce lucide e malleabili.",
                 "iron_mine": "Abbiamo scavato una buca profonda perché abbiamo trovato delle rocce strane. Mandiamo lì tutta la nostra gente a prenderle. Che cosa potrà mai succedere di male?",
+                "iron_mine_upgraded": "Con questi strani materiali che abbiamo trovato, sono sicuro che riusciremo a estrarre più rapidamente altre pietre luccicanti dal terreno!",
                 "glassworks": "Glassworks consente di produrre vetro dalla sabbia, che può essere utilizzato per varie applicazioni avanzate.",
                 "tools_workshop": "Con un'officina è possibile produrre strumenti indispensabili per il lavoro di alcune persone.",
                 "well": "Sebbene stare sotto la pioggia con la bocca aperta sia divertente, è un po' più complicato quando si ha una vasca da riempire. Un pozzo sarà più adatto alla tua città."
@@ -317,7 +321,8 @@
             "goodsProduction": "Produzione di beni",
             "happiness": "Felicità",
             "importCost": "Costo di importazione",
-            "raidRisk": "Rischio di incursione",
+            "populationProduction": "Popolazione Modifica",
+            "raidRisk": "Rischio di furto (quando si supera la capacità di stoccaggio)",
             "researchSpeed": "Velocità di ricerca",
             "taxation": "Tassazione"
         },
@@ -515,13 +520,15 @@
         "buying": "acquisto",
         "confirmCancel": "Sei sicuro di voler annullare questo ordine?",
         "for": "per",
-        "myOrders": "I miei ordini",
+        "marketStorage": "Commercio Magazzino",
+        "myOrders": "Effettua i tuoi ordini",
+        "noMarketStorage": "Nessun magazzino disponibile sul mercato. Costruisci edifici commerciali per inserire ordini di vendita.",
         "noOrders": "Nessun ordine attivo",
         "onlyAllianceMembers": "Vendi solo ai membri dell'alleanza",
-        "placeOrder": "Effettua un ordine",
         "sell": "Look",
         "sellButton": "{{type}} {{amount}} {{resource}} per {{price}} per unità",
         "selling": "vendita",
+        "storageFull": "Memoria piena! Costruisci altri edifici commerciali.",
         "totalPrice": "Prezzo totale",
         "unitPrice": "Prezzo unitario"
     },
@@ -634,8 +641,9 @@
             "Fai doppio clic nell'editor delle forme per posizionare i nodi.",
             "Utilizza il tasto Maiusc per continuare a posizionare gli edifici.",
             "Se riscontri qualche problema, ti preghiamo di segnalarlo su Discord.",
-            "Alcuni edifici possono essere posizionati solo vicino all'edificio principale. Come la sega e il taglialegna.",
+            "Unisciti alla nostra vivace community di giocatori su Discord per condividere le tue creazioni e ricevere consigli.",
             "Non tutte le risorse sono facili da ottenere ovunque. A volte commerciare sarà più economico che produrre tutto da soli.",
+            "Una recensione su Steam ci aiuta a trovare nuovi giocatori che rendono questo mondo vivo.",
             "Una recensione su Steam ci aiuta a trovare nuovi giocatori che rendono questo mondo vivo."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(per m²)",
         "effects": "Effetti",
         "upkeep": "Manutenzione",
-        "production": "Produzione"
+        "production": "Produzione",
+        "move": "Sposta questo edificio"
     },
     "units": {
         "days": "giorni",

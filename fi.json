@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Yhteistyö muiden pelaajien kanssa on hieno juttu. Voitte päättää käydä kauppaa yksinomaan keskenänne, ja riippuen siitä, kenen kanssa liittoudutte, saatte myös muita etuja.",
         "applyForAlliance": "Hae liittoutumaan",
         "cancelApplication": "Peruuta hakemus",
-        "greatFederationDesc": "Liittoudu vahvojen ja järjestäytyneiden ihmisten kanssa! Suojaudu paremmin hyökkäyksiltä ja pakota alaisiltasi enemmän resursseja. Tämä kuitenkin lisää byrokratiaa ja vähentää verotuloja.",
+        "greatFederationDesc": "Liity yhteen vahvojen ja järjestäytyneiden ihmisten kanssa! Suojaudu paremmin varkauksilta ja pakota alaisiltasi enemmän resursseja. Tämä kuitenkin lisää byrokratiaa ja vähentää verotuloja.",
         "leaveAlliance": "poistu liittoumasta",
         "marketSizeLabel": "Markkinoiden koko:",
         "scienceLeagueDesc": "Liittymällä tiedeliigaan tulet älykkäämmäksi. Se on tieteellisesti todistettu. Nauti nopeammasta tutkimuksesta ja alhaisemmista tutkimusmatkojen kustannuksista. Se tekee ihmisistä myös onnellisempia! Mutta emme ole kovin hyviä tekemään asioita.",
-        "tradeAllianceDesc": "Kaikki on kiinni rahasta! Saat alennettuja kauppakustannuksia ja parempaa verotustehokkuutta, mutta myös suuremman ryöstöjen riskin."
+        "tradeAllianceDesc": "Kaikki on kiinni rahasta! Saat alennettuja kauppakustannuksia ja parempaa verotustehokkuutta, mutta myös suuremman varkausriskin."
     },
     "biomes": {
         "1": "Trooppiset ja subtrooppiset lehtipuumetsät",
@@ -61,7 +61,9 @@
             "workerSafety": "Työntekijöiden turvallisuus",
             "dubiousWorkingRules": "Epäilyttävät työehdot",
             "crampedQuarters": "Kuin sardiinit!",
-            "intensiveFarming": "Intensiivinen maatalous"
+            "intensiveFarming": "Intensiivinen maatalous",
+            "newTownBoost": "Uusi alku!",
+            "foodShortage": "Elintarvikepula"
         },
         "unlock": "Avaa"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Vihannes",
                 "market_stall_5": "Tavarat",
                 "medium_ship": "Keskikokoinen alus",
-                "nursery": "Lastenhuone",
+                "nursery": "Puutarha",
                 "park": "Puisto",
                 "path": "Polku",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Puunkorjaaja",
                 "refinery": "Jalostamo",
                 "iron_mine": "Rautakaivos",
+                "iron_mine_upgraded": "Parannettu rautakaivos",
                 "glassworks": "Lasitehdas",
                 "tools_workshop": "Työkalujen työpaja",
                 "well": "Hyvä"
@@ -249,7 +252,7 @@
                 "house_4": "Kaikki tarvitsevat paikan, jossa asua. Tämä talo tarjoaa kansallesi paikan, jossa syödä ja asua.",
                 "house_5": "Jokainen tarvitsee paikan, jossa asua. Tämä hieno talo tarjoaa kansallesi paikan, jossa syödä ja asua.",
                 "house_6": "Jokainen tarvitsee paikan, jossa asua. Tämä ylellinen talo tarjoaa kansallesi paikan, jossa syödä ja asua.",
-                "large_ship": "En usko, että ne voivat enää kasvaa tätä suuremmiksi. Katsokaa tätä! Ei, oikeasti, katsokaa kaikki tätä!",
+                "large_ship": "En usko, että ne voivat enää kasvaa tämän suuremmiksi. Katsokaa tätä! Ei, oikeasti, katsokaa kaikki tätä! Tämä varmasti puolittaa kuljetuskustannukset entisestään.",
                 "large_statue": "Suuri patsas suurelle miehelle. Ihmiset sanovat, että hän oli todellakin näin suuri.",
                 "logpile": "Mikä on paras tapa varastoida puuta? Kasaa se vain kasaan.",
                 "market": "Markkinat mahdollistavat kaupan muiden kaupunkien kanssa. Talot haluavat olla lähellä tätä.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Leipomotuotteita myyvä koju.",
                 "market_stall_4": "Vihannes tuotteita myyvä koju.",
                 "market_stall_5": "Erilaisia tavaroita myyvä koju.",
-                "medium_ship": "Tuo on hieno alus. Ei liian iso, ei liian pieni. Juuri sopiva.",
+                "medium_ship": "Tuo on hieno alus. Ei liian iso, ei liian pieni. Juuri sopiva. Vähentää kuljetuskustannuksia vielä 25 %.",
                 "nursery": "Miksi päästää puunhakija metsään, kun voimme tuoda metsän puunhakijan luokse.",
                 "park": "Lisää kaupunkiisi mukava puisto, jossa kansalaiset voivat viettää aikaa.",
                 "path": "Yksinkertainen hiekkatie. Se vain hoitaa tehtävänsä. Rakennukset toimivat kuitenkin hyvin myös ilman niitä.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Edistystä! Hienojen työkalujen avulla puun käsittely on helppoa.",
-                "small_ship": "Pieni alus pienille matkoille. Ja katso! Tämä jopa kelluu.",
+                "small_ship": "Pieni alus pienille matkoille. Ja katso! Tämä jopa kelluu. Tämän avulla voisimme todennäköisesti alentaa kuljetuskustannuksia hieman.",
                 "small_statue": "Pieni patsas pienelle miehelle. Ihmiset sanovat, että hän oli todellakin näin pieni.",
                 "square": "Oikea kaupungin keskusta! Tämä aukio näyttää hienommalta kuin tavallinen keskusta.",
                 "stone_crane": "Nosturi, yksi suurimmista selkää säästävistä keksinnöistä! Enää ei tarvitse raahata kaikkia näitä kiviä louhoksesta, vaan riittää, että käytetään nosturia.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Puunkorjaaja hakkaa puuta. Kuinka paljon puuta? Niin paljon kuin puunkorjaaja voi.",
                 "refinery": "Jalostamoa käytetään jalostamaan outoja kiviä kiiltäviksi, muokattaviksi kiviksi.",
                 "iron_mine": "Teimme syvän kuopan, koska löysimme outoja kiviä. Lähetetään kaikki väkemme sinne hakemaan ne. Mikä pahinta voisi tapahtua?",
+                "iron_mine_upgraded": "Näiden outojen materiaalien avulla voimme varmasti saada maasta enemmän kiiltäviä kiviä nopeammin!",
                 "glassworks": "Glassworksin avulla voit valmistaa hiekasta lasia, jota voidaan käyttää erilaisissa edistyneissä sovelluksissa.",
                 "tools_workshop": "Työkalupajalla voit valmistaa työkaluja, jotka ovat välttämättömiä joidenkin ihmisten työssä.",
                 "well": "Vaikka sateessa seisominen suu auki on hauskaa, se on hieman hankalampaa, kun sinulla on kylpyamme täytettävänä. Kaivo sopii kaupunkiisi paremmin."
@@ -317,7 +321,8 @@
             "goodsProduction": "Tavaroiden tuotanto",
             "happiness": "Onnellisuus",
             "importCost": "Tuontikustannukset",
-            "raidRisk": "Raid-riski",
+            "populationProduction": "Väestö Muokkaa",
+            "raidRisk": "Varkausriski (kun varastointikapasiteetti ylitetään)",
             "researchSpeed": "Tutkimuksen nopeus",
             "taxation": "Verotus"
         },
@@ -515,13 +520,15 @@
         "buying": "ostaminen",
         "confirmCancel": "Haluatko varmasti peruuttaa tämän tilauksen?",
         "for": "for",
-        "myOrders": "Omat tilaukset",
+        "marketStorage": "Kauppa Varastointi",
+        "myOrders": "Tee tilauksesi",
+        "noMarketStorage": "Markkinavarastoa ei ole käytettävissä. Rakenna kaupparakennuksia myyntitilausten tekemistä varten.",
         "noOrders": "Ei aktiivisia tilauksia",
         "onlyAllianceMembers": "Myy vain liittouman jäsenille",
-        "placeOrder": "Tee tilaus",
         "sell": "Katso",
         "sellButton": "{{type}} {{amount}} {{resource}} {{price}}:n yksikköhinta",
         "selling": "myynti",
+        "storageFull": "Tallennustila täynnä! Rakenna lisää kaupparakennuksia.",
         "totalPrice": "Kokonaishinta",
         "unitPrice": "Yksikköhinta"
     },
@@ -634,8 +641,9 @@
             "Kaksoisnapsauta muotoeditoriin sijoittaaksesi solmuja.",
             "Käytä shift-näppäintä rakennusten sijoittamiseen.",
             "Jos kohtaat ongelmia, ilmoita siitä meille Discordissa.",
-            "Jotkut rakennukset voidaan sijoittaa vain lähellä emorakennusta. Kuten saha ja puunhakkuukone.",
+            "Liity vilkkaaseen pelaajayhteisöömme Discordissa, jaa luomuksiasi ja hanki vinkkejä.",
             "Kaikkia resursseja ei ole helppo hankkia kaikkialta. Joskus kauppa on halvempaa kuin kaiken tuottaminen itse.",
+            "Steam-palvelussa julkaistu arvostelu auttaa meitä löytämään uusia pelaajia, jotka tekevät tästä elävän maailman.",
             "Steam-palvelussa julkaistu arvostelu auttaa meitä löytämään uusia pelaajia, jotka tekevät tästä elävän maailman."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(per m²)",
         "effects": "Tehosteet",
         "upkeep": "Ylläpito",
-        "production": "Tuotanto"
+        "production": "Tuotanto",
+        "move": "Siirrä tämä rakennus"
     },
     "units": {
         "days": "päivät",

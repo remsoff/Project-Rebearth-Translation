@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Faire équipe avec d'autres joueurs, c'est cool. Vous pouvez choisir de ne faire du commerce qu'entre vous, et selon les joueurs avec lesquels vous vous alliez, vous bénéficiez également d'autres avantages.",
         "applyForAlliance": "Demander à rejoindre une alliance",
         "cancelApplication": "Annuler l'application",
-        "greatFederationDesc": "Faites équipe avec des personnes fortes et organisées ! Soyez mieux protégé contre les raids et obtenez davantage de ressources de vos sujets. Mais cela se fait au prix d'une bureaucratie accrue et d'une baisse des recettes fiscales.",
+        "greatFederationDesc": "Faites équipe avec des personnes fortes et organisées ! Soyez mieux protégé contre le vol et exigez davantage de ressources de vos sujets. Mais cela se fait au prix d'une bureaucratie accrue et d'une baisse des recettes fiscales.",
         "leaveAlliance": "Quitter l'alliance",
         "marketSizeLabel": "Taille du marché :",
         "scienceLeagueDesc": "Rejoindre une ligue scientifique vous rend plus intelligent. C'est scientifiquement prouvé. Profitez d'une vitesse de recherche plus rapide et de coûts d'expédition réduits. Cela rend les gens plus heureux aussi ! Mais nous ne sommes pas très doués pour fabriquer des choses.",
-        "tradeAllianceDesc": "Tout est question d'argent ! Bénéficiez de coûts commerciaux réduits et d'une efficacité fiscale accrue, mais aussi d'un risque plus élevé de raids."
+        "tradeAllianceDesc": "Tout est question d'argent ! Bénéficiez de coûts commerciaux réduits et d'une efficacité fiscale accrue, mais aussi d'un risque de vol plus élevé."
     },
     "biomes": {
         "1": "Forêts tropicales et subtropicales à feuilles larges",
@@ -61,7 +61,9 @@
             "workerSafety": "Sécurité des travailleurs",
             "dubiousWorkingRules": "Règles de fonctionnement douteuses",
             "crampedQuarters": "Comme des sardines !",
-            "intensiveFarming": "Agriculture intensive"
+            "intensiveFarming": "Agriculture intensive",
+            "newTownBoost": "Un nouveau départ !",
+            "foodShortage": "Pénurie alimentaire"
         },
         "unlock": "Déverrouiller"
     },
@@ -205,6 +207,7 @@
                 "woodcutter": "Bûcheron",
                 "refinery": "Raffinerie",
                 "iron_mine": "Iron Mine",
+                "iron_mine_upgraded": "Mine de fer améliorée",
                 "glassworks": "Verrerie",
                 "tools_workshop": "Atelier d'outils",
                 "well": "Bien"
@@ -249,7 +252,7 @@
                 "house_4": "Tout le monde a besoin d'un endroit où vivre. Cette maison offre à votre peuple un endroit où manger et vivre.",
                 "house_5": "Tout le monde a besoin d'un endroit où vivre. Cette maison sophistiquée offre à votre peuple un endroit où manger et vivre.",
                 "house_6": "Tout le monde a besoin d'un endroit où vivre. Cette maison luxueuse offre à vos personnages un endroit où manger et vivre.",
-                "large_ship": "Je ne pense pas qu'ils puissent être plus grands que ça. Regardez ça ! Non, vraiment, regardez tous ça !",
+                "large_ship": "Je ne pense pas qu'ils puissent faire plus grand que ça. Regardez ça ! Non, vraiment, regardez tous ça ! Cela doit réduire encore davantage les coûts de transport.",
                 "large_statue": "Une grande statue pour un grand homme. Les gens disent qu'il était vraiment aussi grand que ça.",
                 "logpile": "La meilleure façon de stocker le bois ? Il suffit de l'empiler.",
                 "market": "Le marché vous permettra de commercer avec d'autres villes. Les maisons aiment être proches de celui-ci.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Un étal vendant des produits de boulangerie.",
                 "market_stall_4": "Un étal vendant des produits végétaux.",
                 "market_stall_5": "Un étal vendant divers produits.",
-                "medium_ship": "Voilà un vaisseau bien conçu. Ni trop grand, ni trop petit. Juste parfait.",
+                "medium_ship": "Voilà un vaisseau bien conçu. Ni trop grand, ni trop petit. Juste parfait. Réduit les coûts de transport de 25 % supplémentaires.",
                 "nursery": "Pourquoi laisser le bûcheron aller vers les arbres alors que nous pouvons amener les arbres vers le bûcheron ?",
                 "park": "Ajoutez un joli parc à votre ville pour que vos citoyens puissent s'y promener.",
                 "path": "Un simple chemin de terre. Il fait simplement son travail. Même si les bâtiments fonctionnent très bien sans eux.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Progrès ! Grâce à des outils sophistiqués, nous pouvons faciliter le traitement du bois.",
-                "small_ship": "Un petit bateau pour les petits voyages. Et regardez ! Celui-ci flotte même.",
+                "small_ship": "Un petit bateau pour les petits trajets. Et regardez ! Celui-ci flotte même. Nous pourrions probablement réduire légèrement les coûts de transport grâce à lui.",
                 "small_statue": "Une petite statue pour un petit bonhomme. Les gens disent qu'il était vraiment aussi petit.",
                 "square": "Un véritable centre-ville ! Cette place semble plus sophistiquée que le centre de base.",
                 "stone_crane": "La grue, l'une des plus grandes inventions pour soulager le dos ! Plus besoin de transporter toutes ces pierres hors de la carrière, il suffit d'utiliser la grue.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Le bûcheron va couper du bois. Combien de bois ? Autant qu'un bûcheron peut en couper.",
                 "refinery": "La raffinerie sert à transformer des roches étranges en roches brillantes et malléables.",
                 "iron_mine": "Nous avons creusé un trou profond, car nous avons trouvé des roches étranges. Envoyons tous nos hommes là-bas pour les récupérer. Que peut-il arriver de pire ?",
+                "iron_mine_upgraded": "Avec ces matériaux étranges que nous trouvons, je suis sûr que nous pourrons extraire plus rapidement davantage de pierres brillantes du sol !",
                 "glassworks": "Glassworks vous permet de produire du verre à partir de sable, qui peut être utilisé pour diverses applications avancées.",
                 "tools_workshop": "Grâce à un atelier d'outillage, vous pouvez fabriquer des outils indispensables à certaines professions.",
                 "well": "Même si rester debout sous la pluie, la bouche ouverte, est amusant, c'est un peu plus compliqué quand il faut remplir une baignoire. Un puits conviendra mieux à votre ville."
@@ -317,7 +321,8 @@
             "goodsProduction": "Production de marchandises",
             "happiness": "Bonheur",
             "importCost": "Coût d'importation",
-            "raidRisk": "Risque de raid",
+            "populationProduction": "Population Modifier",
+            "raidRisk": "Risque de vol (en cas de dépassement de la capacité de stockage)",
             "researchSpeed": "Vitesse de recherche",
             "taxation": "Fiscalité"
         },
@@ -515,13 +520,15 @@
         "buying": "achat",
         "confirmCancel": "Êtes-vous sûr de vouloir annuler cette commande ?",
         "for": "pour",
-        "myOrders": "Mes commandes",
+        "marketStorage": "Commerce Stockage",
+        "myOrders": "Passez vos commandes",
+        "noMarketStorage": "Aucun espace de stockage disponible sur le marché. Construisez des bâtiments commerciaux pour passer des ordres de vente.",
         "noOrders": "Aucune commande active",
         "onlyAllianceMembers": "Vendre uniquement aux membres de l'alliance",
-        "placeOrder": "Passer une commande",
         "sell": "Regardez",
         "sellButton": "{{type}} {{amount}} {{resource}} pour {{price}} par unité",
         "selling": "vente",
+        "storageFull": "Stockage plein ! Construisez davantage de bâtiments commerciaux.",
         "totalPrice": "Prix total",
         "unitPrice": "Prix unitaire"
     },
@@ -634,8 +641,9 @@
             "Double-cliquez dans l'éditeur de formes pour placer des nœuds.",
             "Utilisez la touche Maj pour continuer à placer des bâtiments.",
             "Si vous rencontrez des problèmes, veuillez nous en faire part sur Discord.",
-            "Certains bâtiments ne peuvent être placés qu'à proximité du bâtiment parent. C'est le cas de la scie et du bûcheron.",
+            "Rejoignez notre communauté animée de joueurs sur Discord pour partager vos créations et obtenir des conseils.",
             "Toutes les ressources ne sont pas faciles à obtenir partout. Parfois, il sera moins coûteux de faire du commerce que de tout produire soi-même.",
+            "Les avis publiés sur Steam nous aident à trouver de nouveaux joueurs qui font de ce monde un univers vivant.",
             "Les avis publiés sur Steam nous aident à trouver de nouveaux joueurs qui font de ce monde un univers vivant."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(par m²)",
         "effects": "Effets",
         "upkeep": "Entretien",
-        "production": "Production"
+        "production": "Production",
+        "move": "Déplacer ce bâtiment"
     },
     "units": {
         "days": "jours",

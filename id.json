@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Bekerja sama dengan pemain lain adalah hal yang keren. Anda dapat memilih untuk berdagang secara eksklusif satu sama lain, dan tergantung pada siapa yang Anda dukung, Anda juga akan mendapatkan beberapa keuntungan tambahan.",
         "applyForAlliance": "Ajukan permohonan untuk bergabung dengan aliansi.",
         "cancelApplication": "Batalkan aplikasi",
-        "greatFederationDesc": "Bergabunglah dengan orang-orang yang kuat dan terorganisir! Anda akan lebih terlindungi dari serangan dan dapat memaksa lebih banyak sumber daya dari rakyat Anda. Namun, hal ini datang dengan biaya lebih banyak birokrasi dan pendapatan pajak yang lebih sedikit.",
+        "greatFederationDesc": "Bergabunglah dengan orang-orang yang kuat dan terorganisir! Anda akan lebih terlindungi dari pencurian dan dapat memaksa lebih banyak sumber daya dari rakyat Anda. Namun, hal ini datang dengan biaya birokrasi yang lebih tinggi dan pendapatan pajak yang lebih rendah.",
         "leaveAlliance": "Keluar dari aliansi",
         "marketSizeLabel": "Ukuran Pasar:",
         "scienceLeagueDesc": "Bergabung dengan liga sains membuat Anda lebih pintar. Hal ini telah terbukti secara ilmiah. Nikmati kecepatan penelitian yang lebih cepat dan biaya ekspedisi yang lebih rendah. Hal ini juga membuat orang lebih bahagia! Tapi kami tidak terlalu pandai dalam membuat hal-hal tersebut.",
-        "tradeAllianceDesc": "Semua tentang uang! Dapatkan biaya perdagangan yang lebih murah dan efisiensi pajak yang lebih tinggi, tetapi juga risiko serangan yang lebih tinggi."
+        "tradeAllianceDesc": "Semua tentang uang! Dapatkan biaya perdagangan yang lebih murah dan efisiensi perpajakan yang lebih tinggi, tetapi juga risiko pencurian yang lebih tinggi."
     },
     "biomes": {
         "1": "Hutan berdaun lebar tropis dan subtropis",
@@ -61,7 +61,9 @@
             "workerSafety": "Keselamatan Pekerja",
             "dubiousWorkingRules": "Aturan Kerja yang Meragukan",
             "crampedQuarters": "Seperti sarden!",
-            "intensiveFarming": "Pertanian Intensif"
+            "intensiveFarming": "Pertanian Intensif",
+            "newTownBoost": "Awal yang Baru!",
+            "foodShortage": "Kekurangan Pangan"
         },
         "unlock": "Buka kunci"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Sayuran",
                 "market_stall_5": "Barang",
                 "medium_ship": "Kapal Menengah",
-                "nursery": "Taman Kanak-Kanak",
+                "nursery": "Pembibitan pohon",
                 "park": "Park",
                 "path": "Jalur",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Penebang kayu",
                 "refinery": "Pabrik pengolahan",
                 "iron_mine": "Tambang Besi",
+                "iron_mine_upgraded": "Tambang Besi yang Ditingkatkan",
                 "glassworks": "Glassworks",
                 "tools_workshop": "Workshop Alat",
                 "well": "Baik"
@@ -249,7 +252,7 @@
                 "house_4": "Setiap orang membutuhkan tempat tinggal. Rumah ini menyediakan tempat bagi orang-orang Anda untuk makan dan tinggal.",
                 "house_5": "Setiap orang membutuhkan tempat tinggal. Rumah mewah ini menyediakan tempat bagi penduduk Anda untuk makan dan tinggal.",
                 "house_6": "Setiap orang membutuhkan tempat tinggal. Rumah mewah ini menyediakan tempat bagi orang-orang Anda untuk makan dan tinggal.",
-                "large_ship": "Saya rasa mereka tidak bisa lebih besar dari ini. Lihat ini! Benar-benar, semua orang, lihat ini!",
+                "large_ship": "Saya rasa mereka tidak bisa membuatnya lebih besar dari ini. Lihat ini! Benar-benar, semua orang, lihat ini! Ini pasti akan mengurangi biaya transportasi lebih jauh lagi.",
                 "large_statue": "Patung besar untuk pria besar. Orang-orang mengatakan dia sebenarnya sebesar itu.",
                 "logpile": "Cara terbaik untuk menyimpan kayu? Cukup tumpuk saja dalam tumpukan.",
                 "market": "Pasar memungkinkan Anda berdagang dengan kota-kota lain. Rumah-rumah cenderung dibangun dekat dengan pasar.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Kios yang menjual produk roti.",
                 "market_stall_4": "Kios yang menjual produk sayuran.",
                 "market_stall_5": "Sebuah kios yang menjual berbagai barang.",
-                "medium_ship": "Itu kapal yang keren. Tidak terlalu besar, tidak terlalu kecil. Hanya saja keren.",
+                "medium_ship": "Itu kapal yang bagus. Tidak terlalu besar, tidak terlalu kecil. Hanya saja bagus. Mengurangi biaya transportasi sebesar 25%.",
                 "nursery": "Mengapa membiarkan tukang kayu pergi ke pohon-pohon ketika kita bisa membawa pohon-pohon ke tukang kayu.",
                 "park": "Tambahkan taman yang indah ke kota Anda agar warga Anda dapat bersantai di sana.",
                 "path": "Jalan tanah sederhana. Itu cukup untuk menyelesaikan tugas. Meskipun bangunan akan berfungsi dengan baik tanpa mereka.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Kemajuan! Dengan alat-alat canggih, kita bisa memproses kayu dengan mudah.",
-                "small_ship": "Kapal kecil untuk perjalanan singkat. Dan lihat! Yang ini bahkan bisa mengapung.",
+                "small_ship": "Kapal kecil untuk perjalanan singkat. Dan lihat! Kapal ini bahkan bisa mengapung. Kita mungkin bisa sedikit menurunkan biaya transportasi dengan ini.",
                 "small_statue": "Patung kecil untuk pria kecil. Orang-orang mengatakan dia sebenarnya seukuran itu.",
                 "square": "Pusat kota yang layak! Lapangan ini terlihat lebih mewah daripada pusat kota dasar.",
                 "stone_crane": "Kran, salah satu penemuan terhebat yang menghemat tenaga! Tidak perlu lagi mengangkut semua batu ini dari tambang, cukup gunakan kran.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Penebang kayu akan menebang kayu. Berapa banyak kayu? Sebanyak yang bisa ditebang oleh seorang penebang kayu.",
                 "refinery": "Pabrik pengolahan digunakan untuk mengolah batu aneh menjadi batu yang berkilau dan lentur.",
                 "iron_mine": "Kami membuat lubang dalam, karena kami menemukan beberapa batu aneh. Mari kirim semua orang kita ke sana untuk mengambilnya. Apa yang paling buruk yang bisa terjadi.",
+                "iron_mine_upgraded": "Dengan bahan-bahan aneh yang kita temukan ini, saya yakin kita bisa mendapatkan lebih banyak batu berkilau dari tanah dengan lebih cepat!",
                 "glassworks": "Glassworks memungkinkan Anda memproduksi kaca dari pasir, yang dapat digunakan untuk berbagai aplikasi canggih.",
                 "tools_workshop": "Dengan bengkel alat, Anda dapat memproduksi alat-alat yang sangat penting untuk pekerjaan beberapa orang.",
                 "well": "Meskipun berdiri di bawah hujan dengan mulut terbuka memang menyenangkan, hal itu menjadi sedikit lebih rumit jika Anda harus mengisi bak mandi. Sumur akan lebih cocok untuk kota Anda."
@@ -317,7 +321,8 @@
             "goodsProduction": "Produksi Barang",
             "happiness": "Kebahagiaan",
             "importCost": "Biaya Impor",
-            "raidRisk": "Risiko Serangan",
+            "populationProduction": "Populasi Ubah",
+            "raidRisk": "Risiko Pencurian (saat melebihi kapasitas penyimpanan)",
             "researchSpeed": "Kecepatan Penelitian",
             "taxation": "Pajak"
         },
@@ -515,13 +520,15 @@
         "buying": "Pembelian",
         "confirmCancel": "Apakah Anda yakin ingin membatalkan pesanan ini?",
         "for": "untuk",
-        "myOrders": "Pesanan Saya",
+        "marketStorage": "Penyimpanan Perdagangan",
+        "myOrders": "Tempatkan Pesanan Anda",
+        "noMarketStorage": "Tidak ada ruang penyimpanan pasar yang tersedia. Bangun bangunan perdagangan untuk menempatkan pesanan jual.",
         "noOrders": "Tidak ada pesanan aktif.",
         "onlyAllianceMembers": "Hanya jual kepada anggota aliansi.",
-        "placeOrder": "Lakukan pemesanan",
         "sell": "Lihat",
         "sellButton": "{{type}} {{amount}} {{resource}} untuk {{price}} per unit",
         "selling": "penjualan",
+        "storageFull": "Penyimpanan penuh! Bangun lebih banyak bangunan perdagangan.",
         "totalPrice": "Harga Total",
         "unitPrice": "Harga per unit"
     },
@@ -634,8 +641,9 @@
             "Klik ganda di editor bentuk untuk menempatkan node.",
             "Gunakan tombol Shift untuk terus menempatkan bangunan.",
             "Jika Anda mengalami masalah, silakan beritahu kami di Discord.",
-            "Beberapa bangunan hanya dapat ditempatkan di dekat bangunan induknya. Misalnya, gergaji dan penebang kayu.",
+            "Bergabunglah dengan komunitas pemain kami yang ramai di Discord untuk berbagi kreasi Anda dan mendapatkan tips.",
             "Tidak semua sumber daya mudah didapatkan di mana-mana. Terkadang berdagang akan lebih murah daripada memproduksi semuanya sendiri.",
+            "Ulasan di Steam membantu kami menemukan pemain baru yang menjadikan dunia ini hidup.",
             "Ulasan di Steam membantu kami menemukan pemain baru yang menjadikan dunia ini hidup."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(per m²)",
         "effects": "Efek",
         "upkeep": "Perawatan",
-        "production": "Produksi"
+        "production": "Produksi",
+        "move": "Pindahkan bangunan ini"
     },
     "units": {
         "days": "hari",

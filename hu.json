@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Más játékosokkal összefogni nagyon jó dolog. Dönthettek úgy, hogy kizárólag egymással kereskedtek, és attól függően, hogy kivel álltok össze, más előnyöket is kaphattok.",
         "applyForAlliance": "Szövetséghez való csatlakozás",
         "cancelApplication": "Alkalmazás törlése",
-        "greatFederationDesc": "Csatlakozz erős és szervezett emberekhez! Legyél jobban védve a támadások ellen, és szerezzen több erőforrást alattvalóidtól. De ez több bürokráciával és kevesebb adóbevétellel jár.",
+        "greatFederationDesc": "Csatlakozz erős és szervezett emberekhez! Legyél jobban védve a lopások ellen, és szerezzen több erőforrást alattvalóidtól. De ez több bürokráciával és kevesebb adóbevétellel jár.",
         "leaveAlliance": "szövetségből való kilépés",
         "marketSizeLabel": "Piac mérete:",
         "scienceLeagueDesc": "A tudományos ligához való csatlakozás okosabbá tesz. Ez tudományosan bizonyított. Élvezze a gyorsabb kutatási sebességet és az alacsonyabb expedíciós költségeket. Az embereket is boldogabbá teszi! De mi nem vagyunk olyan jók a dolgok elkészítésében.",
-        "tradeAllianceDesc": "Minden a pénzről szól! Kedvezményes kereskedelmi költségeket és nagyobb adóhatékonyságot kapsz, de a rablások kockázata is nagyobb."
+        "tradeAllianceDesc": "Minden a pénzről szól! Kedvezményes kereskedelmi költségeket és nagyobb adóhatékonyságot kapsz, de a lopás kockázata is nagyobb."
     },
     "biomes": {
         "1": "Trópusi és szubtrópusi lombhullató erdők",
@@ -61,7 +61,9 @@
             "workerSafety": "Munkavállalók biztonsága",
             "dubiousWorkingRules": "Kétes működési szabályok",
             "crampedQuarters": "Mint a szardínia!",
-            "intensiveFarming": "Intenzív gazdálkodás"
+            "intensiveFarming": "Intenzív gazdálkodás",
+            "newTownBoost": "Új kezdetek!",
+            "foodShortage": "Élelmiszerhiány"
         },
         "unlock": "Feloldás"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Zöldség",
                 "market_stall_5": "Áruk",
                 "medium_ship": "Közepes hajó",
-                "nursery": "Óvoda",
+                "nursery": "Faiskola",
                 "park": "Park",
                 "path": "Útvonal",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Favágó",
                 "refinery": "Finomító",
                 "iron_mine": "Vasbánya",
+                "iron_mine_upgraded": "Továbbfejlesztett vasbánya",
                 "glassworks": "Üveggyár",
                 "tools_workshop": "Eszközök műhely",
                 "well": "Nos"
@@ -249,7 +252,7 @@
                 "house_4": "Mindenkinek szüksége van egy helyre, ahol élhet. Ez a ház biztosít helyet az embereidnek, ahol enni és élni tudnak.",
                 "house_5": "Mindenkinek szüksége van egy helyre, ahol élhet. Ez a gondosan megtervezett ház biztosítja az embereidnek az étkezés és a lakás lehetőségét.",
                 "house_6": "Mindenkinek szüksége van egy helyre, ahol élhet. Ez a luxus ház biztosít helyet az embereidnek, ahol enni és élni tudnak.",
-                "large_ship": "Nem hiszem, hogy ennél nagyobbak lehetnek. Nézzétek meg! Nem, komolyan, mindenki, nézzétek meg!",
+                "large_ship": "Szerintem ennél nagyobb már nem lehet. Nézzétek meg! Nem, komolyan, mindenki, nézzétek meg! Ez biztosan még jobban csökkenti a szállítási költségeket.",
                 "large_statue": "Egy nagy szobor egy nagy embernek. Az emberek azt mondják, hogy valójában ilyen nagy volt.",
                 "logpile": "Hogyan tároljuk a fát a legjobban? Csak halmozzuk fel egy kupacba.",
                 "market": "A piacon más városokkal is kereskedhetsz. A házak szeretnek ehhez közel lenni.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Kenyértermékeket árusító stand.",
                 "market_stall_4": "Zöldségtermékeket árusító stand.",
                 "market_stall_5": "Különféle árukat árusító stand.",
-                "medium_ship": "Ez aztán egy szép hajó. Nem túl nagy, nem túl kicsi. Csak szép.",
+                "medium_ship": "Ez egy remek hajó. Nem túl nagy, nem túl kicsi, egyszerűen remek. A szállítási költségeket további 25%-kal csökkenti.",
                 "nursery": "Miért engedjük a favágót a fákhoz menni, amikor mi is elvihetjük a fákat a favágóhoz?",
                 "park": "Adj hozzá egy szép parkot a városodhoz, ahol a polgárok elüldögélhetnek.",
                 "path": "Egy egyszerű földút. Csak elvégzi a feladatát. Az épületek azonban ezek nélkül is tökéletesen működnek.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Haladás! Néhány kifinomult eszközzel a fa feldolgozása gyerekjáték lesz.",
-                "small_ship": "Egy kis hajó kis utazásokhoz. És nézd! Ez még úszik is.",
+                "small_ship": "Egy kis hajó kis utazásokhoz. És nézd! Ez még úszik is. Ezzel valószínűleg kicsit csökkenthetnénk a szállítási költségeket.",
                 "small_statue": "Egy kis szobor egy kis embernek. Az emberek azt mondják, hogy valójában ilyen kicsi volt.",
                 "square": "Egy igazi város központja! Ez a tér szebbnek tűnik, mint az alapvető központ.",
                 "stone_crane": "A daru, az egyik legnagyobb hátat kímélő találmány! Már nem kell az összes követ a kőbányából kihordani, csak használja a darut.",
@@ -292,6 +295,7 @@
                 "woodcutter": "A favágó fát fog vágni. Mennyi fát? Amennyit egy favágó tud.",
                 "refinery": "A finomítóban furcsa köveket finomítanak fényes, képlékeny kövekké.",
                 "iron_mine": "Mély gödröt ástunk, mert furcsa köveket találtunk. Küldjük oda az összes emberünket, hogy szedjék össze őket. Mi a legrosszabb, ami történhet?",
+                "iron_mine_upgraded": "Ezekkel a furcsa anyagokkal, amiket találtunk, biztosan gyorsabban tudunk több csillogó követ kitermelni a földből!",
                 "glassworks": "A Glassworks lehetővé teszi, hogy homokból üveget állítson elő, amely számos fejlett alkalmazáshoz felhasználható.",
                 "tools_workshop": "Egy szerszámműhely segítségével olyan szerszámokat állíthatsz elő, amelyek egyesek munkájához elengedhetetlenek.",
                 "well": "Bár nyitott szájjal állni az esőben szórakoztató, ez kissé bonyolultabb, ha van egy fürdőkád, amit meg kell tölteni. Egy kút jobban illik a városodhoz."
@@ -317,7 +321,8 @@
             "goodsProduction": "Áruk gyártása",
             "happiness": "Boldogság",
             "importCost": "Importköltség",
-            "raidRisk": "Raid kockázat",
+            "populationProduction": "Népesség Szerkesztés",
+            "raidRisk": "Lopás kockázata (a tárolókapacitás túllépése esetén)",
             "researchSpeed": "Kutatási sebesség",
             "taxation": "Adózás"
         },
@@ -515,13 +520,15 @@
         "buying": "vásárlás",
         "confirmCancel": "Biztosan törölni szeretné ezt a megrendelést?",
         "for": "for",
-        "myOrders": "Megrendeléseim",
+        "marketStorage": "Kereskedelem Tárolás",
+        "myOrders": "Adja le megrendelését",
+        "noMarketStorage": "Nincs elérhető piaci raktár. Építs kereskedelmi épületeket, hogy eladási megbízásokat adhass le.",
         "noOrders": "Nincs aktív megrendelés",
         "onlyAllianceMembers": "Csak szövetségi tagoknak értékesítsen",
-        "placeOrder": "Rendelés leadása",
         "sell": "Nézd meg",
         "sellButton": "{{type}} {{amount}} {{resource}} {{price}}/egység",
         "selling": "értékesítés",
+        "storageFull": "A tárhely megtelt! Építs több kereskedelmi épületet.",
         "totalPrice": "Teljes ár",
         "unitPrice": "Egységár"
     },
@@ -634,8 +641,9 @@
             "Kattintson duplán a forma szerkesztőben a csomópontok elhelyezéséhez.",
             "A Shift billentyűvel folytathatod az épületek elhelyezését.",
             "Ha bármilyen problémát tapasztalsz, kérjük, jelezd nekünk a Discordon.",
-            "Egyes épületek csak a szülőépület közelében helyezhetők el. Például a fűrész és a favágó.",
+            "Csatlakozz a Discordon található élénk játékos közösségünkhöz, hogy megoszthasd alkotásaidat és tippeket kaphass.",
             "Nem minden erőforrás könnyen beszerezhető mindenhol. Néha a kereskedelem olcsóbb, mint mindent magadnak előállítani.",
+            "A Steam-en írt vélemények segítenek nekünk új játékosokat találni, akik élettel töltik meg ezt a világot.",
             "A Steam-en írt vélemények segítenek nekünk új játékosokat találni, akik élettel töltik meg ezt a világot."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(m²-enként)",
         "effects": "Hatások",
         "upkeep": "Karbantartás",
-        "production": "Gyártás"
+        "production": "Gyártás",
+        "move": "Ezt az épületet mozgassa"
     },
     "units": {
         "days": "napok",

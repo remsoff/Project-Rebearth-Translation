@@ -61,7 +61,9 @@
             "workerSafety": "Seguridad de los trabajadores",
             "dubiousWorkingRules": "Reglas de funcionamiento dudosas.",
             "crampedQuarters": "¡Como sardinas!",
-            "intensiveFarming": "Agricultura intensiva"
+            "intensiveFarming": "Agricultura intensiva",
+            "newTownBoost": "¡Nuevos comienzos!",
+            "foodShortage": "Escasez de alimentos"
         },
         "unlock": "Desbloquear"
     },
@@ -205,6 +207,7 @@
                 "woodcutter": "Leñador",
                 "refinery": "Refinería",
                 "iron_mine": "Mina de hierro",
+                "iron_mine_upgraded": "Mina de hierro mejorada.",
                 "glassworks": "Cristalería",
                 "tools_workshop": "Taller de herramientas",
                 "well": "Bien."
@@ -292,6 +295,7 @@
                 "woodcutter": "El leñador cortará leña. ¿Cuánta leña? Tanta como pueda cortar un leñador.",
                 "refinery": "La refinería se utiliza para refinar rocas extrañas y convertirlas en rocas brillantes y maleables.",
                 "iron_mine": "Hemos cavado un hoyo profundo porque hemos encontrado unas rocas extrañas. Enviemos a toda nuestra gente allí para que las recojan. ¿Qué es lo peor que puede pasar?",
+                "iron_mine_upgraded": "Con estos extraños materiales que encontramos, ¡estoy seguro de que podremos extraer más rocas brillantes del suelo más rápido!",
                 "glassworks": "Glassworks te permite producir vidrio a partir de arena, que puede utilizarse para diversas aplicaciones avanzadas.",
                 "tools_workshop": "Con un taller de herramientas puedes fabricar herramientas que son esenciales para el trabajo de algunas personas.",
                 "well": "Aunque estar parado bajo la lluvia con la boca abierta es divertido, es un poco más complicado cuando tienes que llenar una bañera. Un pozo se adapta mejor a tu ciudad."
@@ -317,6 +321,7 @@
             "goodsProduction": "Producción de bienes",
             "happiness": "Felicidad",
             "importCost": "Coste de importación",
+            "populationProduction": "Población Modificar",
             "raidRisk": "Riesgo de incursión",
             "researchSpeed": "Velocidad de investigación",
             "taxation": "Fiscalidad"
@@ -515,13 +520,15 @@
         "buying": "Comprar",
         "confirmCancel": "¿Está seguro de que desea cancelar este pedido?",
         "for": "para",
+        "marketStorage": "Almacén comercial",
         "myOrders": "Mis pedidos",
+        "noMarketStorage": "No hay almacenamiento disponible en el mercado. Construye edificios comerciales para colocar órdenes de venta.",
         "noOrders": "No hay órdenes activas.",
         "onlyAllianceMembers": "Vender solo a miembros de la alianza.",
-        "placeOrder": "Realizar un pedido",
         "sell": "Aspecto",
         "sellButton": "{{type}} {{amount}} {{resource}} para {{price}} por unidad",
         "selling": "venta",
+        "storageFull": "¡Almacenamiento lleno! Construye más edificios comerciales.",
         "totalPrice": "Precio total",
         "unitPrice": "Precio unitario"
     },
@@ -636,6 +643,7 @@
             "Si tienes algún problema, háznoslo saber en Discord.",
             "Algunos edificios solo se pueden colocar cerca del edificio principal. Como la sierra y el leñador.",
             "No todos los recursos son fáciles de conseguir en todas partes. A veces, comerciar será más barato que producirlo todo por ti mismo.",
+            "Las reseñas en Steam nos ayudan a encontrar nuevos jugadores que hacen de este un mundo vivo.",
             "Las reseñas en Steam nos ayudan a encontrar nuevos jugadores que hacen de este un mundo vivo."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(por m²)",
         "effects": "Efectos",
         "upkeep": "Mantenimiento",
-        "production": "Producción"
+        "production": "Producción",
+        "move": "Mover este edificio."
     },
     "units": {
         "days": "días",

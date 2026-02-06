@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Hợp tác với các người chơi khác là một điều thú vị. Bạn có thể chọn giao dịch độc quyền với nhau, và tùy thuộc vào việc bạn hợp tác với ai, bạn sẽ nhận được một số lợi ích khác nữa.",
         "applyForAlliance": "Đăng ký tham gia liên minh",
         "cancelApplication": "Hủy ứng dụng",
-        "greatFederationDesc": "Hợp tác với những người mạnh mẽ và có tổ chức! Bạn sẽ được bảo vệ tốt hơn khỏi các cuộc tấn công và ép buộc người dân nộp nhiều tài nguyên hơn. Tuy nhiên, điều này đi kèm với chi phí là tăng cường quan liêu và giảm thu nhập từ thuế.",
+        "greatFederationDesc": "Hợp tác với những người mạnh mẽ và có tổ chức! Bạn sẽ được bảo vệ tốt hơn khỏi trộm cắp và ép buộc người dân của mình cung cấp nhiều tài nguyên hơn. Tuy nhiên, điều này đi kèm với chi phí là tăng cường quan liêu và giảm thu nhập từ thuế.",
         "leaveAlliance": "Rời khỏi liên minh",
         "marketSizeLabel": "Kích thước thị trường:",
         "scienceLeagueDesc": "Tham gia Liên minh Khoa học sẽ giúp bạn thông minh hơn. Điều này đã được khoa học chứng minh. Bạn sẽ tận hưởng tốc độ nghiên cứu nhanh hơn và chi phí thám hiểm thấp hơn. Nó cũng làm cho mọi người hạnh phúc hơn! Nhưng chúng ta không giỏi trong việc thực sự tạo ra những thứ đó.",
-        "tradeAllianceDesc": "Tất cả đều xoay quanh tiền bạc! Nhận chi phí giao dịch giảm giá và hiệu quả thu thuế cao hơn, nhưng cũng đi kèm với rủi ro bị cướp bóc cao hơn."
+        "tradeAllianceDesc": "Tất cả đều xoay quanh tiền bạc! Nhận chi phí giao dịch giảm giá và hiệu quả thu thuế cao hơn, nhưng cũng đi kèm với rủi ro trộm cắp cao hơn."
     },
     "biomes": {
         "1": "Rừng lá rộng nhiệt đới và cận nhiệt đới",
@@ -61,7 +61,9 @@
             "workerSafety": "An toàn lao động",
             "dubiousWorkingRules": "Quy tắc làm việc đáng ngờ",
             "crampedQuarters": "Giống như cá mòi!",
-            "intensiveFarming": "Nông nghiệp tập trung"
+            "intensiveFarming": "Nông nghiệp tập trung",
+            "newTownBoost": "Khởi đầu mới!",
+            "foodShortage": "Thiếu hụt lương thực"
         },
         "unlock": "Mở khóa"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Rau củ",
                 "market_stall_5": "Hàng hóa",
                 "medium_ship": "Tàu trung bình",
-                "nursery": "Trường mầm non",
+                "nursery": "Trang trại cây giống",
                 "park": "Công viên",
                 "path": "Đường dẫn",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Người thợ chặt gỗ",
                 "refinery": "Nhà máy lọc dầu",
                 "iron_mine": "Mỏ sắt",
+                "iron_mine_upgraded": "Mỏ sắt được cải tiến",
                 "glassworks": "Glassworks",
                 "tools_workshop": "Xưởng công cụ",
                 "well": "Tốt"
@@ -249,7 +252,7 @@
                 "house_4": "Mọi người đều cần một nơi để sống. Ngôi nhà này cung cấp nơi ở và ăn uống cho người dân của bạn.",
                 "house_5": "Mọi người đều cần một nơi để sống. Ngôi nhà này cung cấp một nơi cho người dân của bạn ăn uống và sinh sống.",
                 "house_6": "Mọi người đều cần một nơi để sống. Ngôi nhà sang trọng này cung cấp một nơi cho người dân của bạn ăn uống và sinh sống.",
-                "large_ship": "Tôi không nghĩ họ có thể làm nó to hơn nữa. Nhìn này! Thật đấy, mọi người, nhìn này!",
+                "large_ship": "Tôi không nghĩ họ có thể làm nó lớn hơn nữa. Nhìn này! Thật đấy, mọi người, nhìn này! Điều này chắc chắn sẽ giảm chi phí vận chuyển xuống một nửa.",
                 "large_statue": "Một bức tượng lớn cho một người đàn ông cao lớn. Người ta nói rằng anh ta thực sự cao lớn như vậy.",
                 "logpile": "Cách tốt nhất để lưu trữ gỗ? Chỉ cần chất nó thành đống.",
                 "market": "Thị trường cho phép bạn giao dịch với các thị trấn và thành phố khác. Các ngôi nhà thích nằm gần khu vực này.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Quầy bán các sản phẩm bánh mì.",
                 "market_stall_4": "Quầy bán sản phẩm rau củ.",
                 "market_stall_5": "Một quầy hàng bán các mặt hàng đa dạng.",
-                "medium_ship": "Đó quả là một con tàu tuyệt vời. Không quá lớn, không quá nhỏ. Chỉ đơn giản là tuyệt vời.",
+                "medium_ship": "Đó quả là một con tàu tuyệt vời. Không quá lớn, không quá nhỏ. Chỉ đơn giản là tuyệt vời. Giảm thêm 25% chi phí vận chuyển.",
                 "nursery": "Tại sao phải để người thợ chặt cây đi đến cây khi chúng ta có thể mang cây đến cho người thợ chặt cây.",
                 "park": "Thêm một công viên đẹp vào thị trấn của bạn để cư dân có thể thư giãn và tận hưởng.",
                 "path": "Một con đường đất đơn giản. Nó chỉ đơn giản là hoàn thành công việc. Mặc dù các tòa nhà vẫn hoạt động tốt mà không cần chúng.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "Tiến bộ! Với một số công cụ hiện đại, chúng ta có thể xử lý gỗ một cách dễ dàng.",
-                "small_ship": "Một con tàu nhỏ cho những chuyến đi ngắn. Và nhìn kìa! Con tàu này thậm chí còn nổi được.",
+                "small_ship": "Một con tàu nhỏ cho những chuyến đi ngắn. Và nhìn kìa! Con tàu này thậm chí còn nổi được. Chúng ta có thể giảm chi phí vận chuyển xuống một chút với con tàu này.",
                 "small_statue": "Một bức tượng nhỏ cho một người nhỏ bé. Người ta nói rằng anh ta thực sự nhỏ bé như vậy.",
                 "square": "Một trung tâm thành phố đúng nghĩa! Quảng trường này trông sang trọng hơn so với trung tâm cơ bản.",
                 "stone_crane": "Cần cẩu, một trong những phát minh vĩ đại nhất giúp giảm bớt sức lao động! Không còn phải vác hết số đá này ra khỏi mỏ đá nữa, chỉ cần sử dụng cần cẩu.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Người thợ chặt gỗ sẽ chặt gỗ. Bao nhiêu gỗ? Nhiều như một người thợ chặt gỗ có thể chặt.",
                 "refinery": "Nhà máy lọc dầu được sử dụng để tinh chế các loại đá kỳ lạ thành các loại đá sáng bóng và dẻo dai.",
                 "iron_mine": "Chúng ta đã đào một hố sâu, vì chúng ta phát hiện ra một số tảng đá kỳ lạ. Hãy gửi tất cả mọi người vào đó để lấy chúng. Điều tồi tệ nhất có thể xảy ra là gì?",
+                "iron_mine_upgraded": "Với những vật liệu kỳ lạ này, tôi chắc chắn chúng ta có thể khai thác được nhiều đá sáng bóng hơn từ lòng đất nhanh hơn!",
                 "glassworks": "Glassworks cho phép bạn sản xuất kính từ cát, có thể được sử dụng cho các ứng dụng tiên tiến khác nhau.",
                 "tools_workshop": "Với một xưởng sản xuất công cụ, bạn có thể tạo ra các công cụ cần thiết cho công việc của một số người.",
                 "well": "Mặc dù đứng dưới mưa với miệng mở là thú vị, nhưng việc này sẽ phức tạp hơn một chút khi bạn cần đổ đầy bồn tắm. Một giếng nước sẽ phù hợp hơn với thị trấn của bạn."
@@ -317,7 +321,8 @@
             "goodsProduction": "Sản xuất hàng hóa",
             "happiness": "Hạnh phúc",
             "importCost": "Chi phí nhập khẩu",
-            "raidRisk": "Rủi ro khi tấn công",
+            "populationProduction": "Dân số Sửa đổi",
+            "raidRisk": "Rủi ro trộm cắp (khi vượt quá dung lượng lưu trữ)",
             "researchSpeed": "Tốc độ nghiên cứu",
             "taxation": "Thuế"
         },
@@ -515,13 +520,15 @@
         "buying": "Mua hàng",
         "confirmCancel": "Bạn có chắc chắn muốn hủy đơn hàng này không?",
         "for": "cho",
-        "myOrders": "Đơn hàng của tôi",
+        "marketStorage": "Kho thương mại",
+        "myOrders": "Đặt hàng của bạn",
+        "noMarketStorage": "Không có kho hàng trên thị trường. Xây dựng các tòa nhà thương mại để đặt lệnh bán.",
         "noOrders": "Không có lệnh nào đang hoạt động.",
         "onlyAllianceMembers": "Chỉ bán cho thành viên liên minh.",
-        "placeOrder": "Đặt hàng",
         "sell": "Xem",
         "sellButton": "{{type}} {{amount}} {{resource}} cho {{price}} mỗi đơn vị",
         "selling": "Bán hàng",
+        "storageFull": "Bộ nhớ đầy! Xây dựng thêm các tòa nhà thương mại.",
         "totalPrice": "Giá tổng cộng",
         "unitPrice": "Giá đơn vị"
     },
@@ -634,8 +641,9 @@
             "Nhấp đúp vào trình chỉnh sửa hình dạng để đặt các nút.",
             "Sử dụng phím Shift để tiếp tục đặt các công trình.",
             "Nếu bạn gặp bất kỳ vấn đề nào, vui lòng thông báo cho chúng tôi trên Discord.",
-            "Một số công trình chỉ có thể được đặt gần công trình cha. Ví dụ như cưa và thợ chặt gỗ.",
+            "Hãy tham gia cộng đồng sôi động của chúng tôi trên Discord để chia sẻ tác phẩm của bạn và nhận lời khuyên.",
             "Không phải tất cả các tài nguyên đều dễ dàng có được ở mọi nơi. Đôi khi việc giao dịch sẽ rẻ hơn so với việc tự sản xuất mọi thứ.",
+            "Một đánh giá trên Steam giúp chúng tôi tìm kiếm người chơi mới, biến thế giới này thành một thế giới sống động.",
             "Một đánh giá trên Steam giúp chúng tôi tìm kiếm người chơi mới, biến thế giới này thành một thế giới sống động."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(mỗi m²)",
         "effects": "Hiệu ứng",
         "upkeep": "Chi phí duy trì",
-        "production": "Sản xuất"
+        "production": "Sản xuất",
+        "move": "Di chuyển tòa nhà này"
     },
     "units": {
         "days": "ngày",

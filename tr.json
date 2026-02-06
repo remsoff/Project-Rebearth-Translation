@@ -3,11 +3,11 @@
         "allianceTradeInfo": "Diğer oyuncularla bir araya gelmek harika bir şeydir. Birbirinizle özel olarak ticaret yapmayı seçebilir ve kiminle ittifak kurduğunuza bağlı olarak başka avantajlar da elde edebilirsiniz.",
         "applyForAlliance": "İttifak için başvur",
         "cancelApplication": "Uygulamayı iptal et",
-        "greatFederationDesc": "Güçlü ve organize insanlarla bir araya gelin! Baskınlara karşı daha iyi korunmak ve tebaalarınızdan daha fazla kaynak elde etmek için. Ancak bunun bedeli, daha fazla bürokrasi ve daha az vergi geliri olacaktır.",
+        "greatFederationDesc": "Güçlü ve organize insanlarla bir araya gelin! Hırsızlığa karşı daha iyi korunmak ve tebaalarınızdan daha fazla kaynak elde etmek için. Ancak bunun bedeli, daha fazla bürokrasi ve daha az vergi geliri olacaktır.",
         "leaveAlliance": "ittifaktan ayrıl",
         "marketSizeLabel": "Pazar Büyüklüğü:",
         "scienceLeagueDesc": "Bir bilim ligine katılmak sizi daha akıllı yapar. Bu bilimsel olarak kanıtlanmıştır. Daha hızlı araştırma hızının ve daha düşük keşif maliyetlerinin keyfini çıkarın. İnsanları da daha mutlu eder! Ama aslında bir şeyler üretme konusunda pek iyi değiliz.",
-        "tradeAllianceDesc": "Her şey parayla ilgili! İndirimli ticaret maliyetleri ve artan vergi verimliliği elde edin, ancak aynı zamanda baskın riskinin de artacağını unutmayın."
+        "tradeAllianceDesc": "Her şey parayla ilgili! İndirimli ticaret maliyetleri ve artan vergi verimliliği elde edin, ancak hırsızlık riskinin de arttığını unutmayın."
     },
     "biomes": {
         "1": "Tropikal ve subtropikal geniş yapraklı ormanlar",
@@ -61,7 +61,9 @@
             "workerSafety": "İşçi Güvenliği",
             "dubiousWorkingRules": "Şüpheli Çalışma Kuralları",
             "crampedQuarters": "Sardalya gibi!",
-            "intensiveFarming": "Yoğun Tarım"
+            "intensiveFarming": "Yoğun Tarım",
+            "newTownBoost": "Yeni başlangıçlar!",
+            "foodShortage": "Gıda Kıtlığı"
         },
         "unlock": "Kilidi aç"
     },
@@ -173,7 +175,7 @@
                 "market_stall_4": "Sebze",
                 "market_stall_5": "Mallar",
                 "medium_ship": "Orta Boy Gemi",
-                "nursery": "Çocuk odası",
+                "nursery": "Ağaç fidanlığı",
                 "park": "Park",
                 "path": "Yol",
                 "pier": "Pier",
@@ -205,6 +207,7 @@
                 "woodcutter": "Oduncu",
                 "refinery": "Rafineri",
                 "iron_mine": "Demir Madeni",
+                "iron_mine_upgraded": "Geliştirilmiş Demir Madeni",
                 "glassworks": "Cam işleri",
                 "tools_workshop": "Aletler Atölyesi",
                 "well": "Peki"
@@ -249,7 +252,7 @@
                 "house_4": "Herkesin yaşayacak bir yere ihtiyacı vardır. Bu ev, halkınızın yemek yiyip yaşayabileceği bir yer sağlar.",
                 "house_5": "Herkesin yaşayacak bir yere ihtiyacı vardır. Bu özenle tasarlanmış ev, halkınızın yemek yiyip yaşayabileceği bir yer sağlar.",
                 "house_6": "Herkesin yaşayacak bir yere ihtiyacı vardır. Bu lüks ev, halkınızın yemek yiyip yaşayabileceği bir yer sağlar.",
-                "large_ship": "Bundan daha büyüyemezler sanırım. Şuna bakın! Hayır, gerçekten, millet, şuna bakın!",
+                "large_ship": "Bundan daha büyüyemezler sanırım. Şuna bakın! Hayır, gerçekten, millet, şuna bakın! Bu, nakliye maliyetlerini daha da yarı yarıya azaltacaktır.",
                 "large_statue": "Büyük bir adam için büyük bir heykel. İnsanlar onun gerçekten bu kadar büyük olduğunu söylüyor.",
                 "logpile": "Odunu saklamanın en iyi yolu nedir? Bir yığın halinde istiflemek.",
                 "market": "Pazar, diğer kasaba ve şehirlerle ticaret yapmanıza olanak tanır. Evler buna yakın olmayı sever.",
@@ -259,7 +262,7 @@
                 "market_stall_3": "Ekmek ürünleri satan bir tezgah.",
                 "market_stall_4": "Sebze ürünleri satan bir tezgah.",
                 "market_stall_5": "Çeşitli ürünler satan bir tezgah.",
-                "medium_ship": "İşte bu çok şık bir gemi. Ne çok büyük, ne çok küçük. Tamamen şık.",
+                "medium_ship": "Bu gerçekten şık bir gemi. Ne çok büyük, ne çok küçük. Tamamen şık. Nakliye maliyetlerini %25 daha düşürüyor.",
                 "nursery": "Ağaçları oduncuya götürebilecekken neden oduncuyu ağaçlara götürelim?",
                 "park": "Vatandaşlarınızın vakit geçirebileceği güzel bir park ekleyin.",
                 "path": "Basit bir toprak yol. İşini gayet iyi yapıyor. Binalar bunlar olmadan da gayet iyi çalışacaktır.",
@@ -271,7 +274,7 @@
                 "ruinsBig": "",
                 "ruinsSmall": "",
                 "saw": "İlerleme! Bazı gelişmiş araçlarla odun işlemeyi çocuk oyuncağı haline getirebiliriz.",
-                "small_ship": "Küçük geziler için küçük bir gemi. Ve bakın! Bu gemi su üstünde bile yüzüyor.",
+                "small_ship": "Küçük geziler için küçük bir gemi. Ve bakın! Bu gemi su üstünde bile yüzüyor. Bununla nakliye maliyetlerini biraz daha düşürebiliriz.",
                 "small_statue": "Küçük bir adam için küçük bir heykel. İnsanlar onun gerçekten bu kadar küçük olduğunu söylüyor.",
                 "square": "Uygun bir şehir merkezi! Bu meydan, temel merkezden daha şık görünüyor.",
                 "stone_crane": "Vinç, sırtınızı koruyan en büyük icatlardan biri! Artık tüm bu taşları taş ocağından taşımaya gerek yok, sadece vinci kullanın.",
@@ -292,6 +295,7 @@
                 "woodcutter": "Oduncu odun kesecek. Ne kadar odun? Bir oduncunun kesebileceği kadar.",
                 "refinery": "Rafineri, garip kayaları parlak ve şekillendirilebilir kayalara dönüştürmek için kullanılır.",
                 "iron_mine": "Garip kayalar bulduğumuz için derin bir çukur kazdık. Bütün adamlarımızı oraya gönderip onları alalım. En kötü ne olabilir ki?",
+                "iron_mine_upgraded": "Bulduğumuz bu garip malzemelerle, yerden daha hızlı ve daha fazla parlak taş çıkarabileceğimizden eminim!",
                 "glassworks": "Glassworks, çeşitli gelişmiş uygulamalar için kullanılabilen camı kumdan üretmenizi sağlar.",
                 "tools_workshop": "Alet atölyesi ile bazı insanların işleri için gerekli olan aletleri üretebilirsiniz.",
                 "well": "Ağzın açık bir şekilde yağmurda durmak eğlenceli olsa da, doldurman gereken bir küvet varsa bu biraz daha zor olabilir. Bir kuyu kasabana daha uygun olacaktır."
@@ -317,7 +321,8 @@
             "goodsProduction": "Mal Üretimi",
             "happiness": "Mutluluk",
             "importCost": "İthalat Maliyeti",
-            "raidRisk": "Baskın Riski",
+            "populationProduction": "Nüfus Değiştir",
+            "raidRisk": "Hırsızlık Riski (depolama kapasitesini aştığında)",
             "researchSpeed": "Araştırma Hızı",
             "taxation": "Vergilendirme"
         },
@@ -515,13 +520,15 @@
         "buying": "satın alma",
         "confirmCancel": "Bu siparişi iptal etmek istediğinizden emin misiniz?",
         "for": "için",
-        "myOrders": "Siparişlerim",
+        "marketStorage": "Ticaret Depolama",
+        "myOrders": "Siparişlerinizi Verin",
+        "noMarketStorage": "Piyasada depolama alanı mevcut değil. Satış emirleri vermek için ticaret binaları inşa edin.",
         "noOrders": "Etkin sipariş yok",
         "onlyAllianceMembers": "Sadece ittifak üyelerine satış yapın",
-        "placeOrder": "Sipariş ver",
         "sell": "Bak",
         "sellButton": "{{type}} {{amount}} {{resource}} {{price}}'lık birim başına",
         "selling": "satış",
+        "storageFull": "Depo dolu! Daha fazla ticaret binası inşa edin.",
         "totalPrice": "Toplam Fiyat",
         "unitPrice": "Birim Fiyat"
     },
@@ -634,8 +641,9 @@
             "Şekil düzenleyicide çift tıklayarak düğümleri yerleştirin.",
             "Shift tuşunu kullanarak binaları yerleştirmeye devam edin.",
             "Herhangi bir sorunla karşılaşırsanız, lütfen Discord üzerinden bize bildirin.",
-            "Bazı binalar sadece ana binanın yakınına yerleştirilebilir. Testere ve oduncu gibi.",
+            "Discord'daki canlı oyuncu topluluğumuza katılın, yaratımlarınızı paylaşın ve ipuçları alın.",
             "Tüm kaynaklar her yerde kolayca elde edilemez. Bazen ticaret, her şeyi kendiniz üretmekten daha ucuz olabilir.",
+            "Steam'deki yorumlar, bu oyunu canlı bir dünya haline getiren yeni oyuncular bulmamıza yardımcı oluyor.",
             "Steam'deki yorumlar, bu oyunu canlı bir dünya haline getiren yeni oyuncular bulmamıza yardımcı oluyor."
         ]
     },
@@ -646,7 +654,8 @@
         "costPerSquareMeter": "(metrekare başına)",
         "effects": "Efektler",
         "upkeep": "Bakım",
-        "production": "Üretim"
+        "production": "Üretim",
+        "move": "Bu binayı taşıyın"
     },
     "units": {
         "days": "günler",
