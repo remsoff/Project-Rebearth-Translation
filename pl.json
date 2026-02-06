@@ -533,7 +533,7 @@
         "applyForAlliance": "Zgłoś się do sojuszu",
         "back": "Powrót",
         "cancelApplication": "Anuluj aplikację",
-        "choiceChangeCooldown": "Ten wybór można ponownie zmienić po upływie{{days}}dni.",
+        "choiceChangeCooldown": "Ten wybór można ponownie zmienić po upływie{{days}} dni.",
         "common": {
             "accept": "Akceptuj",
             "applications": "Aplikacje",
@@ -552,12 +552,12 @@
         },
         "createAlliance": "utwórz sojusz",
         "days": "dni",
-        "disbandAlliance": "rozwiązać sojusz",
+        "disbandAlliance": "rozwiąż sojusz",
         "globalRank": "Globalny ranking",
         "go": "do",
-        "inviteToAlliance": "zaproszenie do sojuszu",
+        "inviteToAlliance": "zaproś do sojuszu",
         "kick": "kick",
-        "leaveAlliance": "opuszczenie sojuszu",
+        "leaveAlliance": "opuść sojuszu",
         "loading": "Ładowanie...",
         "marketSize": "Wielkość rynku",
         "marketSizeLabel": "Wielkość rynku: {{size}}",
@@ -595,7 +595,7 @@
         "townName": "Nazwa miasta:",
         "townColor": "Kolor miasta:",
         "unnamedTown": "miasto bez nazwy",
-        "upgrade": "Aktualizacja do wersji{{building}}"
+        "upgrade": "Aktualizacja do wersji {{building}}"
     },
     "settings": {
         "animations": "Animacje",
