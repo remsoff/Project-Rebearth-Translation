@@ -120,7 +120,8 @@
             "expedition_found": "The expedition returns!",
             "animal_unlock": "Well well well... what do we have here?",
             "bankruptcy": "Bankrupt!",
-            "raid": "Your goods got stolen!"
+            "raid": "Your goods got stolen!",
+            "trade": "Deal!"
         },
         "descriptions": {
             "food_shortage": "You are running out of food! If people can't eat, they will steal whatever they can to get by, or even stop working.",
@@ -130,7 +131,8 @@
             "expedition_found": "Your expedition has returned with valuable resources and knowledge! This will greatly benefit your town's development and research efforts. Their logbook has an interesting entry however:",
             "animal_unlock": "What did we find here? Your expedition returned with a surprisingly tame animal. It seems to want to live in your town rather than in the wilderness. it would be rude to send it back now, wouldn't it?",
             "bankruptcy": "You simply have no coin! A tower has broken down. Towers you have build will deteriorate and get destroyed if you don't maintain them with sufficient coin.",
-            "raid": "You should have stowed away your goods better! They were easily up for grabs and some unknown thieves made off with a portion of your resources."
+            "raid": "You should have stowed away your goods better! They were easily up for grabs and some unknown thieves made off with a portion of your resources.",
+            "trade": "Someone fulfilled (part of) your trade order."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Settings",
             "subtitle": "This is an early release of Project Rebearth. Please reach out if you encounter any issues while playing.",
             "demoSubtitle": "This is the demo of Project Rebearth. Only the sandbox city-builder is enabled. For playing on the multiplayer globe with resource management, get the full release.",
+            "demoRestriction1": "Behind this button lies the massive online multiplayer world of Project Rebearth. You are in the demo however, only the sandbox mode without resource management is available.",
+            "demoRestriction2": "The sandbox mode still allows you to make awesome maps, export them in high resolution, and experience what a 1:1 scale game world feels like.",
             "title": "Project Rebearth Server",
             "welcome": "Welcome, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Select a Save Slot",
             "unlockHint1000": "Unlock at 1K inhabitants",
-            "unlockHint100000": "Unlock at 100K inhabitants",
+            "unlockHint10000": "Unlock at 10K inhabitants",
             "unnamedCity": "Unnamed City"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Base",
             "buy": "BUY",
             "buys": "buys",
+            "bought": "bought",
             "for": "for",
             "price": "Price",
             "pricePerUnit": "Price per unit",
@@ -489,6 +494,7 @@
             "resource": "Resource",
             "sell": "SELL",
             "sells": "sells",
+            "sold": "sold",
             "title": "Market",
             "total": "Total",
             "totalLabel": "Total",
@@ -641,15 +647,20 @@
             "Double click in the shape editor to place nodes.",
             "Use the shift key to keep placing buildings.",
             "If you encounter any issues, please let us know on Discord.",
+            "Build a market or a port to unlock trading with other players.",
+            "Build a town hall to unlock alliances, rankings and choices.",
+            "Build a university to unlock expeditions and research.",
             "Join our lively community of players on Discord to share your creations and get tips.",
             "Some buildings can only be placed close the parent building. Like the saw and the woodcutter.",
             "Not all resources are easy to get everywhere. Sometimes trading will be cheaper than producing everything yourself.",
-            "A review on Steam helps us find new players that make this a living world."
+            "A review on Steam helps us find new players that make this a living world.",
+            "Visit the wiki at projectrebearth.com to learn everything about the world of Project."
         ]
     },
     "tooltip": {
         "cannotChange": "Cannot be changed for",
         "construction": "Construction",
+        "refund": "Refund",
         "costPerMeter": "(per m)",
         "costPerSquareMeter": "(per m²)",
         "effects": "Effects",

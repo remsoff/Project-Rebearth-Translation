@@ -120,7 +120,8 @@
             "expedition_found": "Retkikunta palaa!",
             "animal_unlock": "No no no... mitä meillä täällä on?",
             "bankruptcy": "Konkurssi!",
-            "raid": "Tavarat on varastettu!"
+            "raid": "Tavarat on varastettu!",
+            "trade": "Sovittu!"
         },
         "descriptions": {
             "food_shortage": "Ruoka on loppumassa! Jos ihmiset eivät saa syödä, he varastavat mitä tahansa selviytyäkseen tai jopa lopettavat työnteon.",
@@ -130,7 +131,8 @@
             "expedition_found": "Retkikuntasi on palannut mukanaan arvokkaita resursseja ja tietoa! Tämä hyödyttää suuresti kaupunkisi kehitystä ja tutkimustoimintaa. Heidän lokikirjassaan on kuitenkin mielenkiintoinen merkintä:",
             "animal_unlock": "Mitä löysimme täältä? Retkikuntasi palasi yllättävän kesyn eläimen kanssa. Se näyttää haluavan asua kaupungissasi eikä erämaassa. Olisi epäkohteliasta lähettää se nyt takaisin, eikö niin?",
             "bankruptcy": "Sinulla ei yksinkertaisesti ole kolikoita! Torni on romahtanut. Rakentamasi tornit rapistuvat ja tuhoutuvat, jos et ylläpidä niitä riittävällä määrällä kolikoita.",
-            "raid": "Sinun olisi pitänyt varastoida tavarasi paremmin! Ne olivat helposti saatavilla, ja tuntemattomat varkaat veivät osan resursseistasi."
+            "raid": "Sinun olisi pitänyt varastoida tavarasi paremmin! Ne olivat helposti saatavilla, ja tuntemattomat varkaat veivät osan resursseistasi.",
+            "trade": "Joku on täyttänyt (osan) kauppatilauksestasi."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Asetukset",
             "subtitle": "Tämä on Project Rebearthin varhainen versio. Ota yhteyttä, jos kohtaat ongelmia pelatessasi.",
             "demoSubtitle": "Tämä on Project Rebearthin demo. Vain sandbox-kaupunkien rakentelu on käytössä. Jos haluat pelata moninpelissä, jossa on resurssienhallinta, hanki täysversio.",
+            "demoRestriction1": "Tämän painikkeen takana on Project Rebearthin valtava online-moninpeli. Olet kuitenkin demoversiossa, jossa on käytettävissä vain sandbox-tila ilman resurssien hallintaa.",
+            "demoRestriction2": "Sandbox-tilassa voit edelleen luoda upeita karttoja, viedä ne korkealla resoluutiolla ja kokea, miltä 1:1-mittakaavassa oleva pelimaailma tuntuu.",
             "title": "Project Rebearth -palvelin",
             "welcome": "Tervetuloa, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Valitse tallennuspaikka",
             "unlockHint1000": "Avaa 1 000 asukkaan kohdalla",
-            "unlockHint100000": "Avaa 100 000 asukkaan rajalla",
+            "unlockHint10000": "Avaa 10 000 asukkaan kohdalla",
             "unnamedCity": "Nimetön kaupunki"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Perusta",
             "buy": "OSTA",
             "buys": "ostaa",
+            "bought": "ostettu",
             "for": "for",
             "price": "Hinta",
             "pricePerUnit": "Yksikköhinta",
@@ -489,6 +494,7 @@
             "resource": "Resurssi",
             "sell": "Katso",
             "sells": "myy",
+            "sold": "myyty",
             "title": "Markkina",
             "total": "Yhteensä",
             "totalLabel": "Yhteensä",
@@ -641,15 +647,20 @@
             "Kaksoisnapsauta muotoeditoriin sijoittaaksesi solmuja.",
             "Käytä shift-näppäintä rakennusten sijoittamiseen.",
             "Jos kohtaat ongelmia, ilmoita siitä meille Discordissa.",
-            "Liity vilkkaaseen pelaajayhteisöömme Discordissa, jaa luomuksiasi ja hanki vinkkejä.",
+            "Rakenna markkinat tai satama avataksesi kaupan muiden pelaajien kanssa.",
+            "Rakenna kaupungintalo avataksesi liittoutumat, rankingit ja valinnat.",
+            "Rakenna yliopisto avataksesi tutkimusmatkoja ja tutkimusta.",
+            "Steam-palvelussa julkaistu arvostelu auttaa meitä löytämään uusia pelaajia, jotka tekevät tästä elävän maailman.",
             "Kaikkia resursseja ei ole helppo hankkia kaikkialta. Joskus kauppa on halvempaa kuin kaiken tuottaminen itse.",
             "Steam-palvelussa julkaistu arvostelu auttaa meitä löytämään uusia pelaajia, jotka tekevät tästä elävän maailman.",
-            "Steam-palvelussa julkaistu arvostelu auttaa meitä löytämään uusia pelaajia, jotka tekevät tästä elävän maailman."
+            "Steam-palvelussa julkaistu arvostelu auttaa meitä löytämään uusia pelaajia, jotka tekevät tästä elävän maailman.",
+            "Vieraile projektin verkkosivustolla osoitteessa projectrebearth.com ja lue kaikki Project-pelin maailmasta."
         ]
     },
     "tooltip": {
         "cannotChange": "Ei voi muuttaa",
         "construction": "Rakentaminen",
+        "refund": "Palautus",
         "costPerMeter": "(per m)",
         "costPerSquareMeter": "(per m²)",
         "effects": "Tehosteet",

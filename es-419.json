@@ -120,7 +120,8 @@
             "expedition_found": "¡Vuelve la expedición!",
             "animal_unlock": "Vaya, vaya, vaya... ¿qué tenemos aquí?",
             "bankruptcy": "¡En bancarrota!",
-            "raid": "¡Te han robado tus mercancías!"
+            "raid": "¡Te han robado tus mercancías!",
+            "trade": "¡Trato hecho!"
         },
         "descriptions": {
             "food_shortage": "¡Te estás quedando sin comida! Si la gente no puede comer, robará lo que pueda para sobrevivir, o incluso dejará de trabajar.",
@@ -130,7 +131,8 @@
             "expedition_found": "¡Tu expedición ha regresado con valiosos recursos y conocimientos! Esto beneficiará enormemente al desarrollo y los esfuerzos de investigación de tu ciudad. Sin embargo, su diario de a bordo contiene una entrada interesante:",
             "animal_unlock": "¿Qué hemos encontrado aquí? Tu expedición ha regresado con un animal sorprendentemente dócil. Parece que prefiere vivir en tu ciudad antes que en la naturaleza. Sería descortés devolverlo ahora, ¿no crees?",
             "bankruptcy": "¡Simplemente no tienes monedas! Una torre se ha derrumbado. Las torres que has construido se deteriorarán y se destruirán si no las mantienes con suficientes monedas.",
-            "raid": "¡Deberías haber guardado mejor tus mercancías! Estaban al alcance de cualquiera y unos ladrones desconocidos se han llevado parte de tus recursos."
+            "raid": "¡Deberías haber guardado mejor tus mercancías! Estaban al alcance de cualquiera y unos ladrones desconocidos se han llevado parte de tus recursos.",
+            "trade": "Alguien ha completado (parte de) tu orden comercial."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Configuración",
             "subtitle": "Esta es una versión preliminar de Project Rebearth. Ponte en contacto con nosotros si encuentras algún problema mientras juegas.",
             "demoSubtitle": "Esta es la demo de Project Rebearth. Solo está habilitado el constructor de ciudades sandbox. Para jugar en el globo multijugador con gestión de recursos, consigue la versión completa.",
+            "demoRestriction1": "Detrás de este botón se esconde el enorme mundo multijugador online de Project Rebearth. Sin embargo, en la demo solo está disponible el modo sandbox, sin gestión de recursos.",
+            "demoRestriction2": "El modo sandbox te sigue permitiendo crear mapas increíbles, exportarlos en alta resolución y experimentar cómo es un mundo de juego a escala 1:1.",
             "title": "Proyecto Rebearth Server",
             "welcome": "¡Bienvenido, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Ranura",
             "title": "Selecciona una ranura de guardado.",
             "unlockHint1000": "Desbloquear con 1000 habitantes.",
-            "unlockHint100000": "Desbloquear con 100 000 habitantes.",
+            "unlockHint10000": "Desbloquear con 10 000 habitantes.",
             "unnamedCity": "Ciudad sin nombre"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Base",
             "buy": "COMPRAR",
             "buys": "compra",
+            "bought": "comprado",
             "for": "para",
             "price": "Precio",
             "pricePerUnit": "Precio por unidad.",
@@ -489,6 +494,7 @@
             "resource": "Recursos",
             "sell": "Aspecto",
             "sells": "vende",
+            "sold": "vendido",
             "title": "Mercado",
             "total": "Total",
             "totalLabel": "Total",
@@ -641,15 +647,20 @@
             "Haga doble clic en el editor de formas para colocar nodos.",
             "Utiliza la tecla Mayús para seguir colocando edificios.",
             "Si tienes algún problema, háznoslo saber en Discord.",
-            "Únete a nuestra animada comunidad de jugadores en Discord para compartir tus creaciones y obtener consejos.",
+            "Construye un mercado o un puerto para desbloquear el comercio con otros jugadores.",
+            "Construye un ayuntamiento para desbloquear alianzas, clasificaciones y opciones.",
+            "Construye una universidad para desbloquear expediciones e investigaciones.",
+            "Las reseñas en Steam nos ayudan a encontrar nuevos jugadores que hacen de este un mundo vivo.",
             "No todos los recursos son fáciles de conseguir en todas partes. A veces, comerciar será más barato que producirlo todo por ti mismo.",
             "Las reseñas en Steam nos ayudan a encontrar nuevos jugadores que hacen de este un mundo vivo.",
-            "Las reseñas en Steam nos ayudan a encontrar nuevos jugadores que hacen de este un mundo vivo."
+            "Las reseñas en Steam nos ayudan a encontrar nuevos jugadores que hacen de este un mundo vivo.",
+            "Visita la wiki en projectrebearth.com para aprender todo sobre el mundo de Project."
         ]
     },
     "tooltip": {
         "cannotChange": "No se puede cambiar para",
         "construction": "Construcción",
+        "refund": "Reembolso",
         "costPerMeter": "(por m)",
         "costPerSquareMeter": "(por m²)",
         "effects": "Efectos",

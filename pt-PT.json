@@ -120,7 +120,8 @@
             "expedition_found": "A expedição regressa!",
             "animal_unlock": "Bem, bem, bem... o que temos aqui?",
             "bankruptcy": "Falência!",
-            "raid": "Os seus bens foram roubados!"
+            "raid": "Os seus bens foram roubados!",
+            "trade": "Feito!"
         },
         "descriptions": {
             "food_shortage": "Está a ficar sem comida! Se as pessoas não puderem comer, roubarão tudo o que puderem para sobreviver ou até mesmo deixarão de trabalhar.",
@@ -130,7 +131,8 @@
             "expedition_found": "A sua expedição regressou com recursos e conhecimentos valiosos! Isto irá beneficiar significativamente o desenvolvimento e os esforços de investigação da sua cidade. No entanto, o diário de bordo deles contém uma entrada interessante:",
             "animal_unlock": "O que encontramos aqui? A sua expedição regressou com um animal surpreendentemente dócil. Parece que ele prefere viver na sua cidade do que na selva. Seria rude mandá-lo de volta agora, não seria?",
             "bankruptcy": "Você simplesmente não tem moedas! Uma torre ruiu. As torres que você construiu se deteriorarão e serão destruídas se você não as mantiver com moedas suficientes.",
-            "raid": "Devia ter guardado melhor os seus bens! Eles estavam facilmente acessíveis e alguns ladrões desconhecidos levaram uma parte dos seus recursos."
+            "raid": "Devia ter guardado melhor os seus bens! Eles estavam facilmente acessíveis e alguns ladrões desconhecidos levaram uma parte dos seus recursos.",
+            "trade": "Alguém cumpriu (parte da) sua ordem de troca."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Configurações",
             "subtitle": "Esta é uma versão inicial do Project Rebearth. Entre em contacto connosco se encontrar algum problema durante o jogo.",
             "demoSubtitle": "Esta é a demonstração do Project Rebearth. Apenas o modo sandbox de construção de cidades está ativado. Para jogar no modo multijogador global com gestão de recursos, adquira a versão completa.",
+            "demoRestriction1": "Por trás deste botão encontra-se o enorme mundo multijogador online do Project Rebearth. No entanto, na versão demo, apenas está disponível o modo sandbox, sem gestão de recursos.",
+            "demoRestriction2": "O modo sandbox ainda permite criar mapas incríveis, exportá-los em alta resolução e experimentar como é um mundo de jogo em escala 1:1.",
             "title": "Servidor do Projeto Rebearth",
             "welcome": "Bem-vindo, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Selecione um espaço de armazenamento",
             "unlockHint1000": "Desbloquear com 1000 habitantes",
-            "unlockHint100000": "Desbloquear com 100 mil habitantes",
+            "unlockHint10000": "Desbloquear com 10 mil habitantes",
             "unnamedCity": "Cidade sem nome"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Base",
             "buy": "COMPRAR",
             "buys": "compra",
+            "bought": "comprado",
             "for": "para",
             "price": "Preço",
             "pricePerUnit": "Preço por unidade",
@@ -489,6 +494,7 @@
             "resource": "Recurso",
             "sell": "Olhe",
             "sells": "vende",
+            "sold": "vendido",
             "title": "Mercado",
             "total": "Total",
             "totalLabel": "Total",
@@ -641,15 +647,20 @@
             "Clique duas vezes no editor de formas para colocar nós.",
             "Use a tecla Shift para continuar a colocar edifícios.",
             "Se encontrar algum problema, informe-nos no Discord.",
-            "Junte-se à nossa animada comunidade de jogadores no Discord para partilhar as suas criações e obter dicas.",
+            "Construa um mercado ou um porto para desbloquear o comércio com outros jogadores.",
+            "Construa uma câmara municipal para desbloquear alianças, classificações e opções.",
+            "Construa uma universidade para desbloquear expedições e pesquisas.",
+            "Uma avaliação no Steam ajuda-nos a encontrar novos jogadores que tornam este mundo vivo.",
             "Nem todos os recursos são fáceis de obter em todos os lugares. Às vezes, negociar será mais barato do que produzir tudo por conta própria.",
             "Uma avaliação no Steam ajuda-nos a encontrar novos jogadores que tornam este mundo vivo.",
-            "Uma avaliação no Steam ajuda-nos a encontrar novos jogadores que tornam este mundo vivo."
+            "Uma avaliação no Steam ajuda-nos a encontrar novos jogadores que tornam este mundo vivo.",
+            "Visite o wiki em projectrebearth.com para saber tudo sobre o mundo do Project."
         ]
     },
     "tooltip": {
         "cannotChange": "Não pode ser alterado para",
         "construction": "Construção",
+        "refund": "Reembolso",
         "costPerMeter": "(para m)",
         "costPerSquareMeter": "(por m²)",
         "effects": "Efeitos",

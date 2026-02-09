@@ -120,7 +120,8 @@
             "expedition_found": "Ekspedisi kembali!",
             "animal_unlock": "Well well well... apa yang kita punya di sini?",
             "bankruptcy": "Bangkrut!",
-            "raid": "Barang Anda dicuri!"
+            "raid": "Barang Anda dicuri!",
+            "trade": "Setuju!"
         },
         "descriptions": {
             "food_shortage": "Anda kehabisan makanan! Jika orang-orang tidak bisa makan, mereka akan mencuri apa pun yang bisa mereka dapatkan untuk bertahan hidup, atau bahkan berhenti bekerja.",
@@ -130,7 +131,8 @@
             "expedition_found": "Ekspedisi Anda telah kembali dengan sumber daya dan pengetahuan berharga! Hal ini akan sangat bermanfaat bagi perkembangan kota dan upaya penelitian Anda. Namun, buku harian mereka memiliki entri yang menarik:",
             "animal_unlock": "Apa yang kita temukan di sini? Ekspedisi Anda kembali dengan seekor hewan yang ternyata sangat jinak. Sepertinya hewan itu ingin tinggal di kota Anda daripada di hutan belantara. Akan tidak sopan jika kita mengembalikannya sekarang, bukan?",
             "bankruptcy": "Anda tidak memiliki koin sama sekali! Sebuah menara telah runtuh. Menara yang Anda bangun akan rusak dan hancur jika Anda tidak merawatnya dengan koin yang cukup.",
-            "raid": "Anda seharusnya menyimpan barang-barang Anda dengan lebih baik! Barang-barang tersebut mudah dijarah, dan beberapa pencuri tak dikenal berhasil membawa kabur sebagian sumber daya Anda."
+            "raid": "Anda seharusnya menyimpan barang-barang Anda dengan lebih baik! Barang-barang tersebut mudah dijarah, dan beberapa pencuri tak dikenal berhasil membawa kabur sebagian sumber daya Anda.",
+            "trade": "Seseorang telah memenuhi (sebagian) pesanan perdagangan Anda."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Pengaturan",
             "subtitle": "Ini adalah versi awal dari Project Rebearth. Silakan hubungi kami jika Anda menemui masalah saat bermain.",
             "demoSubtitle": "Ini adalah demo dari Project Rebearth. Hanya mode sandbox pembangun kota yang diaktifkan. Untuk bermain di globe multipemain dengan manajemen sumber daya, dapatkan versi lengkapnya.",
+            "demoRestriction1": "Di balik tombol ini terdapat dunia multipemain online yang luas dari Project Rebearth. Namun, Anda saat ini berada di versi demo, di mana hanya mode sandbox tanpa manajemen sumber daya yang tersedia.",
+            "demoRestriction2": "Mode sandbox masih memungkinkan Anda untuk membuat peta yang luar biasa, mengekspornya dalam resolusi tinggi, dan merasakan seperti apa dunia permainan dengan skala 1:1.",
             "title": "Server Proyek Rebearth",
             "welcome": "Selamat datang, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Pilih Slot Simpan",
             "unlockHint1000": "Buka kunci pada 1.000 penduduk.",
-            "unlockHint100000": "Buka kunci pada 100.000 penduduk.",
+            "unlockHint10000": "Buka kunci pada 10.000 penduduk.",
             "unnamedCity": "Kota Tanpa Nama"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Dasar",
             "buy": "BELI",
             "buys": "membeli",
+            "bought": "dibeli",
             "for": "untuk",
             "price": "Harga",
             "pricePerUnit": "Harga per unit",
@@ -489,6 +494,7 @@
             "resource": "Sumber daya",
             "sell": "Lihat",
             "sells": "menjual",
+            "sold": "dijual",
             "title": "Pasar",
             "total": "Total",
             "totalLabel": "Total",
@@ -641,15 +647,20 @@
             "Klik ganda di editor bentuk untuk menempatkan node.",
             "Gunakan tombol Shift untuk terus menempatkan bangunan.",
             "Jika Anda mengalami masalah, silakan beritahu kami di Discord.",
-            "Bergabunglah dengan komunitas pemain kami yang ramai di Discord untuk berbagi kreasi Anda dan mendapatkan tips.",
+            "Bangun pasar atau pelabuhan untuk membuka perdagangan dengan pemain lain.",
+            "Bangun balai kota untuk membuka aliansi, peringkat, dan pilihan.",
+            "Bangun universitas untuk membuka ekspedisi dan penelitian.",
+            "Ulasan di Steam membantu kami menemukan pemain baru yang menjadikan dunia ini hidup.",
             "Tidak semua sumber daya mudah didapatkan di mana-mana. Terkadang berdagang akan lebih murah daripada memproduksi semuanya sendiri.",
             "Ulasan di Steam membantu kami menemukan pemain baru yang menjadikan dunia ini hidup.",
-            "Ulasan di Steam membantu kami menemukan pemain baru yang menjadikan dunia ini hidup."
+            "Ulasan di Steam membantu kami menemukan pemain baru yang menjadikan dunia ini hidup.",
+            "Kunjungi wiki di projectrebearth.com untuk mengetahui segala hal tentang dunia Project."
         ]
     },
     "tooltip": {
         "cannotChange": "Tidak dapat diubah untuk",
         "construction": "Konstruksi",
+        "refund": "Pengembalian dana",
         "costPerMeter": "(untuk m)",
         "costPerSquareMeter": "(per m²)",
         "effects": "Efek",

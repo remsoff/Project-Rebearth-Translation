@@ -120,7 +120,8 @@
             "expedition_found": "Cuộc thám hiểm trở lại!",
             "animal_unlock": "Ồ ồ ồ... đây là gì nhỉ?",
             "bankruptcy": "Phá sản!",
-            "raid": "Hàng hóa của bạn đã bị đánh cắp!"
+            "raid": "Hàng hóa của bạn đã bị đánh cắp!",
+            "trade": "Thỏa thuận!"
         },
         "descriptions": {
             "food_shortage": "Bạn đang cạn kiệt thực phẩm! Nếu người dân không có gì để ăn, họ sẽ ăn cắp bất cứ thứ gì có thể để sống sót, hoặc thậm chí ngừng làm việc.",
@@ -130,7 +131,8 @@
             "expedition_found": "Cuộc thám hiểm của bạn đã trở về với những tài nguyên và kiến thức quý giá! Điều này sẽ mang lại lợi ích lớn cho sự phát triển và nỗ lực nghiên cứu của thị trấn bạn. Tuy nhiên, nhật ký của họ có một mục ghi chép thú vị:",
             "animal_unlock": "Chúng ta đã tìm thấy gì ở đây? Đoàn thám hiểm của bạn đã trở về với một con vật khá hiền lành. Có vẻ như nó muốn sống trong thị trấn của bạn thay vì ở trong rừng hoang dã. Sẽ thật bất lịch sự nếu gửi nó trở lại bây giờ, phải không?",
             "bankruptcy": "Bạn không có đủ tiền! Một tháp đã bị hư hỏng. Các tháp mà bạn đã xây dựng sẽ bị hư hỏng và phá hủy nếu bạn không duy trì chúng bằng đủ tiền.",
-            "raid": "Bạn nên cất giữ hàng hóa của mình cẩn thận hơn! Chúng đã bị lấy cắp một cách dễ dàng và một số tên trộm không rõ danh tính đã lấy đi một phần tài nguyên của bạn."
+            "raid": "Bạn nên cất giữ hàng hóa của mình cẩn thận hơn! Chúng đã bị lấy cắp một cách dễ dàng và một số tên trộm không rõ danh tính đã lấy đi một phần tài nguyên của bạn.",
+            "trade": "Ai đó đã hoàn thành (một phần) đơn đặt hàng của bạn."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Cài đặt",
             "subtitle": "Đây là phiên bản thử nghiệm ban đầu của Project Rebearth. Vui lòng liên hệ với chúng tôi nếu bạn gặp bất kỳ vấn đề nào trong quá trình chơi.",
             "demoSubtitle": "Đây là bản demo của Project Rebearth. Chỉ chế độ xây dựng thành phố sandbox được kích hoạt. Để chơi trên bản đồ đa người chơi với quản lý tài nguyên, hãy tải bản phát hành đầy đủ.",
+            "demoRestriction1": "Phía sau nút này là thế giới trực tuyến đa người chơi khổng lồ của Project Rebearth. Tuy nhiên, bạn đang ở trong phiên bản demo, chỉ có chế độ sandbox mà không có quản lý tài nguyên.",
+            "demoRestriction2": "Chế độ sandbox vẫn cho phép bạn tạo ra những bản đồ tuyệt vời, xuất chúng ở độ phân giải cao và trải nghiệm cảm giác của một thế giới game tỷ lệ 1:1.",
             "title": "Dự án Rebearth Server",
             "welcome": "Chào mừng, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Chọn ô lưu trữ.",
             "unlockHint1000": "Mở khóa khi đạt 1.000 cư dân.",
-            "unlockHint100000": "Mở khóa khi đạt 100.000 cư dân.",
+            "unlockHint10000": "Mở khóa khi đạt 10.000 cư dân.",
             "unnamedCity": "Thành phố không tên"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Cơ sở",
             "buy": "MUA",
             "buys": "Mua",
+            "bought": "đã mua",
             "for": "cho",
             "price": "Giá",
             "pricePerUnit": "Giá mỗi đơn vị",
@@ -489,6 +494,7 @@
             "resource": "Tài nguyên",
             "sell": "Xem",
             "sells": "Bán",
+            "sold": "đã bán",
             "title": "Thị trường",
             "total": "Tổng cộng",
             "totalLabel": "Tổng cộng",
@@ -641,15 +647,20 @@
             "Nhấp đúp vào trình chỉnh sửa hình dạng để đặt các nút.",
             "Sử dụng phím Shift để tiếp tục đặt các công trình.",
             "Nếu bạn gặp bất kỳ vấn đề nào, vui lòng thông báo cho chúng tôi trên Discord.",
-            "Hãy tham gia cộng đồng sôi động của chúng tôi trên Discord để chia sẻ tác phẩm của bạn và nhận lời khuyên.",
+            "Xây dựng một thị trường hoặc cảng để mở khóa giao dịch với người chơi khác.",
+            "Xây dựng tòa thị chính để mở khóa liên minh, bảng xếp hạng và các lựa chọn.",
+            "Xây dựng một trường đại học để mở khóa các cuộc thám hiểm và nghiên cứu.",
+            "Một đánh giá trên Steam giúp chúng tôi tìm kiếm người chơi mới, biến thế giới này thành một thế giới sống động.",
             "Không phải tất cả các tài nguyên đều dễ dàng có được ở mọi nơi. Đôi khi việc giao dịch sẽ rẻ hơn so với việc tự sản xuất mọi thứ.",
             "Một đánh giá trên Steam giúp chúng tôi tìm kiếm người chơi mới, biến thế giới này thành một thế giới sống động.",
-            "Một đánh giá trên Steam giúp chúng tôi tìm kiếm người chơi mới, biến thế giới này thành một thế giới sống động."
+            "Một đánh giá trên Steam giúp chúng tôi tìm kiếm người chơi mới, biến thế giới này thành một thế giới sống động.",
+            "Hãy truy cập wiki tại projectrebearth.com để tìm hiểu mọi thứ về thế giới của Project."
         ]
     },
     "tooltip": {
         "cannotChange": "Không thể thay đổi cho",
         "construction": "Xây dựng",
+        "refund": "Hoàn tiền",
         "costPerMeter": "(cho m)",
         "costPerSquareMeter": "(mỗi m²)",
         "effects": "Hiệu ứng",

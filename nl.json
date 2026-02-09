@@ -120,7 +120,8 @@
             "expedition_found": "De expeditie keert terug!",
             "animal_unlock": "Wel wel wel... wat hebben we hier?",
             "bankruptcy": "Failliet!",
-            "raid": "Je goederen zijn gestolen!"
+            "raid": "Je goederen zijn gestolen!",
+            "trade": "Afgesproken!"
         },
         "descriptions": {
             "food_shortage": "Je raakt zonder voedsel! Als mensen niet kunnen eten, zullen ze alles stelen wat ze kunnen om te overleven, of zelfs stoppen met werken.",
@@ -130,7 +131,8 @@
             "expedition_found": "Je expeditie is teruggekeerd met waardevolle grondstoffen en kennis! Dit zal de ontwikkeling en onderzoeksinspanningen van je stad ten goede komen. Hun logboek bevat echter een interessante vermelding:",
             "animal_unlock": "Wat hebben we hier gevonden? Je expeditie is teruggekeerd met een verrassend tam dier. Het lijkt liever in je stad te willen wonen dan in de wildernis. Het zou onbeleefd zijn om het nu terug te sturen, nietwaar?",
             "bankruptcy": "Je hebt gewoon geen geld! Een toren is ingestort. Torens die je hebt gebouwd, zullen verslechteren en vernietigd worden als je ze niet onderhoudt met voldoende geld.",
-            "raid": "Je had je goederen beter moeten opbergen! Ze waren gemakkelijk te stelen en een aantal onbekende dieven hebben een deel van je voorraad meegenomen."
+            "raid": "Je had je goederen beter moeten opbergen! Ze waren gemakkelijk te stelen en een aantal onbekende dieven hebben een deel van je voorraad meegenomen.",
+            "trade": "Iemand heeft (een deel van) je handelsorder uitgevoerd."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Instellingen",
             "subtitle": "Dit is een vroege versie van Project Rebearth. Neem contact met ons op als je tijdens het spelen problemen ondervindt.",
             "demoSubtitle": "Dit is de demo van Project Rebearth. Alleen de sandbox-stedenbouwgame is beschikbaar. Voor het spelen op de multiplayer-globe met resourcebeheer moet je de volledige versie aanschaffen.",
+            "demoRestriction1": "Achter deze knop gaat de enorme online multiplayerwereld van Project Rebearth schuil. Je bevindt je echter in de demo, waarin alleen de sandboxmodus zonder resourcebeheer beschikbaar is.",
+            "demoRestriction2": "In de sandbox-modus kun je nog steeds geweldige kaarten maken, deze in hoge resolutie exporteren en ervaren hoe een spelwereld op schaal 1:1 aanvoelt.",
             "title": "Project Rebearth Server",
             "welcome": "Welkom, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Selecteer een opslagplaats",
             "unlockHint1000": "Ontgrendelen bij 1000 inwoners",
-            "unlockHint100000": "Ontgrendelen bij 100.000 inwoners",
+            "unlockHint10000": "Ontgrendelen bij 10.000 inwoners",
             "unnamedCity": "Naamloze stad"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Basis",
             "buy": "KOPEN",
             "buys": "koopt",
+            "bought": "gekocht",
             "for": "voor",
             "price": "Prijs",
             "pricePerUnit": "Prijs per eenheid",
@@ -489,6 +494,7 @@
             "resource": "Bron",
             "sell": "Kijk",
             "sells": "verkoopt",
+            "sold": "verkocht",
             "title": "Markt",
             "total": "Totaal",
             "totalLabel": "Totaal",
@@ -641,15 +647,20 @@
             "Dubbelklik in de vorm-editor om knooppunten te plaatsen.",
             "Gebruik de shift-toets om gebouwen te blijven plaatsen.",
             "Als je problemen ondervindt, laat het ons dan weten op Discord.",
-            "Word lid van onze levendige community van spelers op Discord om je creaties te delen en tips te krijgen.",
+            "Bouw een markt of een haven om handel met andere spelers mogelijk te maken.",
+            "Bouw een stadhuis om allianties, ranglijsten en keuzes vrij te spelen.",
+            "Bouw een universiteit om expedities en onderzoek te ontgrendelen.",
+            "Een recensie op Steam helpt ons nieuwe spelers te vinden die deze wereld tot leven brengen.",
             "Niet alle grondstoffen zijn overal even gemakkelijk te verkrijgen. Soms is handelen goedkoper dan alles zelf produceren.",
             "Een recensie op Steam helpt ons nieuwe spelers te vinden die deze wereld tot leven brengen.",
-            "Een recensie op Steam helpt ons nieuwe spelers te vinden die deze wereld tot leven brengen."
+            "Een recensie op Steam helpt ons nieuwe spelers te vinden die deze wereld tot leven brengen.",
+            "Bezoek de wiki op projectrebearth.com voor alles over de wereld van Project."
         ]
     },
     "tooltip": {
         "cannotChange": "Kan niet worden gewijzigd voor",
         "construction": "Bouw",
+        "refund": "Terugbetaling",
         "costPerMeter": "(voor m)",
         "costPerSquareMeter": "(per m²)",
         "effects": "Effecten",

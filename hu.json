@@ -120,7 +120,8 @@
             "expedition_found": "A expedíció visszatér!",
             "animal_unlock": "Hát, hát, hát... mi van itt nekünk?",
             "bankruptcy": "Csőd!",
-            "raid": "Ellopták az áruidat!"
+            "raid": "Ellopták az áruidat!",
+            "trade": "Megegyeztünk!"
         },
         "descriptions": {
             "food_shortage": "Kezd elfogyni az élelmiszer! Ha az emberek nem tudnak enni, akkor ellopnak mindent, amit csak tudnak, hogy megéljenek, vagy akár abbahagyják a munkát.",
@@ -130,7 +131,8 @@
             "expedition_found": "A expedíció értékes erőforrásokkal és ismeretekkel tért vissza! Ez nagyban elősegíti városod fejlődését és kutatási törekvéseit. Naplójukban azonban egy érdekes bejegyzés található:",
             "animal_unlock": "Mit találtunk itt? A expedíció egy meglepően szelíd állattal tért vissza. Úgy tűnik, inkább a városban szeretne élni, mint a vadonban. Nem lenne udvariatlan, ha most visszaküldené, ugye?",
             "bankruptcy": "Egyszerűen nincs pénzed! Egy torony összeomlott. Az általad épített tornyok romlani fognak és megsemmisülnek, ha nem tartod karban őket elegendő pénzzel.",
-            "raid": "Jobban el kellett volna rejtened az áruidat! Könnyen hozzáférhetők voltak, és néhány ismeretlen tolvaj elvitte az erőforrásaid egy részét."
+            "raid": "Jobban el kellett volna rejtened az áruidat! Könnyen hozzáférhetők voltak, és néhány ismeretlen tolvaj elvitte az erőforrásaid egy részét.",
+            "trade": "Valaki teljesítette (részben) a kereskedelmi megrendelésedet."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Beállítások",
             "subtitle": "Ez a Project Rebearth korai verziója. Kérjük, vegye fel velünk a kapcsolatot, ha játék közben bármilyen problémát tapasztal.",
             "demoSubtitle": "Ez a Project Rebearth demója. Csak a sandbox városépítő funkció engedélyezett. Ha többjátékos globuson szeretnél játszani erőforrás-kezeléssel, töltsd le a teljes verziót.",
+            "demoRestriction1": "E gomb mögött rejlik a Project Rebearth hatalmas online többjátékos világa. A demóban azonban csak a sandbox mód érhető el, erőforrás-kezelés nélkül.",
+            "demoRestriction2": "A sandbox módban továbbra is fantasztikus térképeket készíthetsz, azokat nagy felbontásban exportálhatod, és megtapasztalhatod, milyen érzés egy 1:1 méretarányú játékvilág.",
             "title": "Project Rebearth szerver",
             "welcome": "Üdvözöljük, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Válasszon egy mentési helyet",
             "unlockHint1000": "1000 lakos elérése esetén feloldható",
-            "unlockHint100000": "100 000 lakos elérése esetén feloldható",
+            "unlockHint10000": "10 000 lakos elérése esetén feloldható",
             "unnamedCity": "Névtelen város"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Alap",
             "buy": "VÁSÁRLÁS",
             "buys": "vásárol",
+            "bought": "megvásárolt",
             "for": "for",
             "price": "Ár",
             "pricePerUnit": "Egységár",
@@ -489,6 +494,7 @@
             "resource": "Erőforrás",
             "sell": "Nézd meg",
             "sells": "elad",
+            "sold": "eladva",
             "title": "Piac",
             "total": "Összesen",
             "totalLabel": "Összesen",
@@ -641,15 +647,20 @@
             "Kattintson duplán a forma szerkesztőben a csomópontok elhelyezéséhez.",
             "A Shift billentyűvel folytathatod az épületek elhelyezését.",
             "Ha bármilyen problémát tapasztalsz, kérjük, jelezd nekünk a Discordon.",
-            "Csatlakozz a Discordon található élénk játékos közösségünkhöz, hogy megoszthasd alkotásaidat és tippeket kaphass.",
+            "Építs piacot vagy kikötőt, hogy más játékosokkal is kereskedhess.",
+            "Építs egy városházát, hogy feloldd a szövetségeket, ranglistákat és választási lehetőségeket.",
+            "Építs egyetemet, hogy feloldd a kutatóutakat és a kutatásokat.",
+            "A Steam-en írt vélemények segítenek nekünk új játékosokat találni, akik élettel töltik meg ezt a világot.",
             "Nem minden erőforrás könnyen beszerezhető mindenhol. Néha a kereskedelem olcsóbb, mint mindent magadnak előállítani.",
             "A Steam-en írt vélemények segítenek nekünk új játékosokat találni, akik élettel töltik meg ezt a világot.",
-            "A Steam-en írt vélemények segítenek nekünk új játékosokat találni, akik élettel töltik meg ezt a világot."
+            "A Steam-en írt vélemények segítenek nekünk új játékosokat találni, akik élettel töltik meg ezt a világot.",
+            "Látogass el a projectrebearth.com wiki oldalára, hogy mindent megtudj a Project világáról."
         ]
     },
     "tooltip": {
         "cannotChange": "Nem módosítható",
         "construction": "Építés",
+        "refund": "Visszatérítés",
         "costPerMeter": "(per m)",
         "costPerSquareMeter": "(m²-enként)",
         "effects": "Hatások",

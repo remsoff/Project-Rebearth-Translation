@@ -120,7 +120,8 @@
             "expedition_found": "Expedice se vrací!",
             "animal_unlock": "No no no... co to tu máme?",
             "bankruptcy": "Bankrot!",
-            "raid": "Vaše zboží bylo ukradeno!"
+            "raid": "Vaše zboží bylo ukradeno!",
+            "trade": "Dohodnuto!"
         },
         "descriptions": {
             "food_shortage": "Docházejí vám zásoby jídla! Pokud lidé nebudou mít co jíst, budou krást, co se dá, aby přežili, nebo dokonce přestanou pracovat.",
@@ -130,7 +131,8 @@
             "expedition_found": "Vaše expedice se vrátila s cennými surovinami a poznatky! To výrazně přispěje k rozvoji vašeho města a výzkumným aktivitám. V jejich deníku se však nachází zajímavý záznam:",
             "animal_unlock": "Co jsme zde našli? Vaše expedice se vrátila s překvapivě krotkým zvířetem. Zdá se, že chce žít spíše ve vašem městě než v divočině. Bylo by neslušné ho teď poslat zpět, že?",
             "bankruptcy": "Prostě nemáte žádné mince! Věž se zřítila. Věže, které jste postavili, se budou zhoršovat a zničí se, pokud je nebudete udržovat s dostatečným množstvím mincí.",
-            "raid": "Měli jste své zboží lépe schovat! Bylo snadno dostupné a neznámí zloději odnesli část vašich zdrojů."
+            "raid": "Měli jste své zboží lépe schovat! Bylo snadno dostupné a neznámí zloději odnesli část vašich zdrojů.",
+            "trade": "Někdo splnil (část) vaší obchodní objednávky."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Nastavení",
             "subtitle": "Toto je předběžná verze hry Project Rebearth. Pokud narazíte na nějaké problémy při hraní, kontaktujte nás.",
             "demoSubtitle": "Toto je demo hry Project Rebearth. K dispozici je pouze sandboxový editor měst. Chcete-li hrát na multiplayerovém globu s řízením zdrojů, pořiďte si plnou verzi.",
+            "demoRestriction1": "Za tímto tlačítkem se skrývá obrovský online multiplayerový svět Project Rebearth. Nacházíte se však v demoverzi, kde je k dispozici pouze režim sandbox bez správy zdrojů.",
+            "demoRestriction2": "Režim sandboxu vám stále umožňuje vytvářet úžasné mapy, exportovat je ve vysokém rozlišení a zažít, jaké to je hrát ve světě ve měřítku 1:1.",
             "title": "Projekt Rebearth Server",
             "welcome": "Vítejte, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Vyberte místo pro uložení",
             "unlockHint1000": "Odemknout při 1 000 obyvatelích",
-            "unlockHint100000": "Odemknout při 100 000 obyvatelích",
+            "unlockHint10000": "Odemknout při 10 000 obyvatelích",
             "unnamedCity": "Bezejmenné město"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Základ",
             "buy": "KOUPIT",
             "buys": "kupuje",
+            "bought": "zakoupeno",
             "for": "pro",
             "price": "Cena",
             "pricePerUnit": "Cena za jednotku",
@@ -489,6 +494,7 @@
             "resource": "Zdroje",
             "sell": "Podívejte se",
             "sells": "prodává",
+            "sold": "prodáno",
             "title": "Trh",
             "total": "Celkem",
             "totalLabel": "Celkem",
@@ -641,15 +647,20 @@
             "Dvojitým kliknutím v editoru tvarů umístíte uzly.",
             "Pomocí klávesy Shift můžete pokračovat v umisťování budov.",
             "Pokud narazíte na nějaké problémy, dejte nám prosím vědět na Discord.",
-            "Připojte se k naší živé komunitě hráčů na Discord a sdílejte své výtvory a získejte tipy.",
+            "Postavte trh nebo přístav a odemkněte obchodování s ostatními hráči.",
+            "Postavte radnici, abyste odemkli aliance, žebříčky a možnosti.",
+            "Postavte univerzitu, abyste odemkli expedice a výzkum.",
+            "Recenze na Steam nám pomáhá najít nové hráče, kteří tento svět oživují.",
             "Ne všechny suroviny lze snadno získat všude. Někdy bude obchodování levnější než vlastní výroba.",
             "Recenze na Steam nám pomáhá najít nové hráče, kteří tento svět oživují.",
-            "Recenze na Steam nám pomáhá najít nové hráče, kteří tento svět oživují."
+            "Recenze na Steam nám pomáhá najít nové hráče, kteří tento svět oživují.",
+            "Navštivte wiki na adrese projectrebearth.com a dozvíte se vše o světě Project."
         ]
     },
     "tooltip": {
         "cannotChange": "Nelze změnit pro",
         "construction": "Stavba",
+        "refund": "Vrácení peněz",
         "costPerMeter": "(pro m)",
         "costPerSquareMeter": "(na m²)",
         "effects": "Efekty",

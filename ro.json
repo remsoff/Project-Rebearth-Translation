@@ -120,7 +120,8 @@
             "expedition_found": "Expediția se întoarce!",
             "animal_unlock": "Ei bine, ei bine... ce avem noi aici?",
             "bankruptcy": "Faliment!",
-            "raid": "Bunurile tale au fost furate!"
+            "raid": "Bunurile tale au fost furate!",
+            "trade": "S-a făcut!"
         },
         "descriptions": {
             "food_shortage": "Rămâi fără provizii! Dacă oamenii nu au ce mânca, vor fura tot ce pot pentru a supraviețui sau chiar vor înceta să mai lucreze.",
@@ -130,7 +131,8 @@
             "expedition_found": "Expediția ta s-a întors cu resurse și cunoștințe valoroase! Acest lucru va contribui în mare măsură la dezvoltarea orașului tău și la eforturile de cercetare. Jurnalul lor de bord conține însă o mențiune interesantă:",
             "animal_unlock": "Ce am găsit aici? Expediția ta s-a întors cu un animal surprinzător de blând. Se pare că preferă să trăiască în orașul tău decât în sălbăticie. Ar fi nepoliticos să-l trimitem înapoi acum, nu-i așa?",
             "bankruptcy": "Pur și simplu nu ai monede! Un turn s-a prăbușit. Turnurile pe care le-ai construit se vor deteriora și vor fi distruse dacă nu le întreții cu suficiente monede.",
-            "raid": "Ar fi trebuit să-ți depozitezi mai bine bunurile! Erau la îndemâna oricui și niște hoți necunoscuți au fugit cu o parte din resursele tale."
+            "raid": "Ar fi trebuit să-ți depozitezi mai bine bunurile! Erau la îndemâna oricui și niște hoți necunoscuți au fugit cu o parte din resursele tale.",
+            "trade": "Cineva a îndeplinit (o parte din) comanda ta comercială."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Setări",
             "subtitle": "Aceasta este o versiune preliminară a Project Rebearth. Vă rugăm să ne contactați dacă întâmpinați probleme în timpul jocului.",
             "demoSubtitle": "Aceasta este versiunea demo a Project Rebearth. Este activată doar funcția de construire a orașului în modul sandbox. Pentru a juca pe globul multiplayer cu gestionarea resurselor, descărcați versiunea completă.",
+            "demoRestriction1": "În spatele acestui buton se află lumea multiplayer online masivă a Project Rebearth. Totuși, în versiunea demo este disponibil doar modul sandbox, fără gestionarea resurselor.",
+            "demoRestriction2": "Modul sandbox vă permite în continuare să creați hărți extraordinare, să le exportați la rezoluție înaltă și să experimentați cum este o lume de joc la scară 1:1.",
             "title": "Proiectul Rebearth Server",
             "welcome": "Bine ai venit, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Selectați un slot de salvare",
             "unlockHint1000": "Deblochează la 1.000 de locuitori",
-            "unlockHint100000": "Deblocați la 100.000 de locuitori",
+            "unlockHint10000": "Deblocați la 10.000 de locuitori",
             "unnamedCity": "Oraș fără nume"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Bază",
             "buy": "CUMPĂRĂ",
             "buys": "cumpără",
+            "bought": "cumpărat",
             "for": "pentru",
             "price": "Preț",
             "pricePerUnit": "Preț pe unitate",
@@ -489,6 +494,7 @@
             "resource": "Resurse",
             "sell": "Aspect",
             "sells": "vinde",
+            "sold": "vândut",
             "title": "Piață",
             "total": "Total",
             "totalLabel": "Total",
@@ -641,15 +647,20 @@
             "Faceți dublu clic în editorul de forme pentru a plasa noduri.",
             "Folosiți tasta Shift pentru a continua să plasați clădiri.",
             "Dacă întâmpinați probleme, vă rugăm să ne informați pe Discord.",
-            "Alătură-te comunității noastre dinamice de jucători pe Discord pentru a-ți împărtăși creațiile și a primi sfaturi.",
+            "Construiește o piață sau un port pentru a debloca comerțul cu alți jucători.",
+            "Construiește o primărie pentru a debloca alianțe, clasamente și opțiuni.",
+            "Construiește o universitate pentru a debloca expediții și cercetări.",
+            "O recenzie pe Steam ne ajută să găsim noi jucători care fac din acest joc o lume vie.",
             "Nu toate resursele sunt ușor de obținut peste tot. Uneori, comerțul va fi mai ieftin decât producerea tuturor resurselor pe cont propriu.",
             "O recenzie pe Steam ne ajută să găsim noi jucători care fac din acest joc o lume vie.",
-            "O recenzie pe Steam ne ajută să găsim noi jucători care fac din acest joc o lume vie."
+            "O recenzie pe Steam ne ajută să găsim noi jucători care fac din acest joc o lume vie.",
+            "Vizitați wiki-ul la projectrebearth.com pentru a afla totul despre lumea Project."
         ]
     },
     "tooltip": {
         "cannotChange": "Nu poate fi modificat pentru",
         "construction": "Construcție",
+        "refund": "Rambursare",
         "costPerMeter": "(pentru m)",
         "costPerSquareMeter": "(pe m²)",
         "effects": "Efecte",

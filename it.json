@@ -119,6 +119,7 @@
             "productivity_boom": "Andiamo!",
             "expedition_found": "La spedizione ritorna!",
             "animal_unlock": "Bene, bene, bene... cosa abbiamo qui?",
+            "trade": "Affare fatto!",
             "bankruptcy": "Bancarotta!",
             "raid": "I tuoi beni sono stati rubati!"
         },
@@ -130,7 +131,8 @@
             "expedition_found": "La tua spedizione è tornata con risorse e conoscenze preziose! Ciò gioverà notevolmente allo sviluppo della tua città e alle attività di ricerca. Il loro diario di bordo contiene però una voce interessante:",
             "animal_unlock": "Cosa abbiamo trovato qui? La tua spedizione è tornata con un animale sorprendentemente docile. Sembra preferire vivere nella tua città piuttosto che nella natura selvaggia. Sarebbe scortese rimandarlo indietro adesso, non credi?",
             "bankruptcy": "Semplicemente non hai monete! Una torre è crollata. Le torri che hai costruito si deterioreranno e verranno distrutte se non le mantieni con monete sufficienti.",
-            "raid": "Avresti dovuto riporre meglio le tue merci! Erano facilmente accessibili e alcuni ladri sconosciuti hanno rubato una parte delle tue risorse."
+            "raid": "Avresti dovuto riporre meglio le tue merci! Erano facilmente accessibili e alcuni ladri sconosciuti hanno rubato una parte delle tue risorse.",
+            "trade": "Qualcuno ha evaso (parte del) tuo ordine di scambio."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Impostazioni",
             "subtitle": "Questa è una versione preliminare di Project Rebearth. Contattaci se riscontri problemi durante il gioco.",
             "demoSubtitle": "Questa è la demo di Project Rebearth. È abilitato solo il city-builder sandbox. Per giocare sul globo multiplayer con gestione delle risorse, scarica la versione completa.",
+            "demoRestriction1": "Dietro questo pulsante si nasconde l'enorme mondo multiplayer online di Project Rebearth. Tuttavia, nella demo è disponibile solo la modalità sandbox senza gestione delle risorse.",
+            "demoRestriction2": "La modalità sandbox ti consente ancora di creare mappe fantastiche, esportarle in alta risoluzione e provare l'esperienza di un mondo di gioco in scala 1:1.",
             "title": "Progetto Rebearth Server",
             "welcome": "Benvenuto, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Seleziona uno slot di salvataggio",
             "unlockHint1000": "Sblocca a 1.000 abitanti",
-            "unlockHint100000": "Sblocca a 100.000 abitanti",
+            "unlockHint10000": "Sblocca a 10.000 abitanti",
             "unnamedCity": "Città senza nome"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Base",
             "buy": "ACQUISTA",
             "buys": "acquisti",
+            "bought": "acquistato",
             "for": "per",
             "price": "Prezzo",
             "pricePerUnit": "Prezzo unitario",
@@ -489,6 +494,7 @@
             "resource": "Risorsa",
             "sell": "Look",
             "sells": "vende",
+            "sold": "venduto",
             "title": "Mercato",
             "total": "Totale",
             "totalLabel": "Totale",
@@ -641,15 +647,20 @@
             "Fai doppio clic nell'editor delle forme per posizionare i nodi.",
             "Utilizza il tasto Maiusc per continuare a posizionare gli edifici.",
             "Se riscontri qualche problema, ti preghiamo di segnalarlo su Discord.",
-            "Unisciti alla nostra vivace community di giocatori su Discord per condividere le tue creazioni e ricevere consigli.",
+            "Costruisci un mercato o un porto per sbloccare il commercio con altri giocatori.",
+            "Costruisci un municipio per sbloccare alleanze, classifiche e scelte.",
+            "Costruisci un'università per sbloccare spedizioni e ricerche.",
+            "Una recensione su Steam ci aiuta a trovare nuovi giocatori che rendono questo mondo vivo.",
             "Non tutte le risorse sono facili da ottenere ovunque. A volte commerciare sarà più economico che produrre tutto da soli.",
             "Una recensione su Steam ci aiuta a trovare nuovi giocatori che rendono questo mondo vivo.",
-            "Una recensione su Steam ci aiuta a trovare nuovi giocatori che rendono questo mondo vivo."
+            "Una recensione su Steam ci aiuta a trovare nuovi giocatori che rendono questo mondo vivo.",
+            "Visita il wiki all'indirizzo projectrebearth.com per scoprire tutto sul mondo di Project."
         ]
     },
     "tooltip": {
         "cannotChange": "Non modificabile per",
         "construction": "Costruzione",
+        "refund": "Rimborso",
         "costPerMeter": "(per m)",
         "costPerSquareMeter": "(per m²)",
         "effects": "Effetti",

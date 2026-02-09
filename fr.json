@@ -120,7 +120,8 @@
             "expedition_found": "L'expédition est de retour !",
             "animal_unlock": "Eh bien, eh bien... qu'avons-nous là ?",
             "bankruptcy": "Faillite !",
-            "raid": "Vos biens ont été volés !"
+            "raid": "Vos biens ont été volés !",
+            "trade": "Marché conclu !"
         },
         "descriptions": {
             "food_shortage": "Vous êtes à court de nourriture ! Si les gens ne peuvent pas manger, ils voleront tout ce qu'ils peuvent pour survivre, voire cesseront de travailler.",
@@ -130,7 +131,8 @@
             "expedition_found": "Votre expédition est revenue avec des ressources et des connaissances précieuses ! Cela profitera grandement au développement et aux efforts de recherche de votre ville. Leur journal de bord contient toutefois une entrée intéressante :",
             "animal_unlock": "Qu'avons-nous trouvé ici ? Votre expédition est revenue avec un animal étonnamment docile. Il semble préférer vivre dans votre ville plutôt que dans la nature sauvage. Il serait impoli de le renvoyer maintenant, n'est-ce pas ?",
             "bankruptcy": "Vous n'avez tout simplement pas assez d'argent ! Une tour s'est effondrée. Les tours que vous avez construites se détérioreront et seront détruites si vous ne les entretenez pas avec suffisamment d'argent.",
-            "raid": "Vous auriez dû mieux ranger vos marchandises ! Elles étaient facilement accessibles et des voleurs inconnus ont dérobé une partie de vos ressources."
+            "raid": "Vous auriez dû mieux ranger vos marchandises ! Elles étaient facilement accessibles et des voleurs inconnus ont dérobé une partie de vos ressources.",
+            "trade": "Quelqu'un a exécuté (une partie de) votre ordre commercial."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Paramètres",
             "subtitle": "Il s'agit d'une version préliminaire de Project Rebearth. N'hésitez pas à nous contacter si vous rencontrez des problèmes pendant le jeu.",
             "demoSubtitle": "Ceci est la démo de Project Rebearth. Seul le mode bac à sable de construction de ville est activé. Pour jouer en mode multijoueur avec gestion des ressources, procurez-vous la version complète.",
+            "demoRestriction1": "Derrière ce bouton se cache l'immense monde multijoueur en ligne de Project Rebearth. Vous êtes dans la démo, mais seul le mode bac à sable sans gestion des ressources est disponible.",
+            "demoRestriction2": "Le mode bac à sable vous permet toujours de créer des cartes impressionnantes, de les exporter en haute résolution et de découvrir à quoi ressemble un monde de jeu à l'échelle 1:1.",
             "title": "Projet Rebearth Server",
             "welcome": "Bienvenue, {{name}} !"
         },
@@ -444,7 +448,7 @@
             "slot": "Emplacement",
             "title": "Sélectionnez un emplacement de sauvegarde.",
             "unlockHint1000": "Débloquer à 1 000 habitants",
-            "unlockHint100000": "Déblocage à 100 000 habitants",
+            "unlockHint10000": "Débloqué à 10 000 habitants",
             "unnamedCity": "Ville sans nom"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Base",
             "buy": "ACHETER",
             "buys": "achète",
+            "bought": "acheté",
             "for": "pour",
             "price": "Prix",
             "pricePerUnit": "Prix unitaire",
@@ -489,6 +494,7 @@
             "resource": "Ressource",
             "sell": "Regardez",
             "sells": "vend",
+            "sold": "vendu",
             "title": "Marché",
             "total": "Total",
             "totalLabel": "Total",
@@ -641,15 +647,20 @@
             "Double-cliquez dans l'éditeur de formes pour placer des nœuds.",
             "Utilisez la touche Maj pour continuer à placer des bâtiments.",
             "Si vous rencontrez des problèmes, veuillez nous en faire part sur Discord.",
-            "Rejoignez notre communauté animée de joueurs sur Discord pour partager vos créations et obtenir des conseils.",
+            "Construisez un marché ou un port pour débloquer le commerce avec les autres joueurs.",
+            "Construisez une mairie pour débloquer les alliances, les classements et les choix.",
+            "Construisez une université pour débloquer des expéditions et des recherches.",
+            "Les avis publiés sur Steam nous aident à trouver de nouveaux joueurs qui font de ce monde un univers vivant.",
             "Toutes les ressources ne sont pas faciles à obtenir partout. Parfois, il sera moins coûteux de faire du commerce que de tout produire soi-même.",
             "Les avis publiés sur Steam nous aident à trouver de nouveaux joueurs qui font de ce monde un univers vivant.",
-            "Les avis publiés sur Steam nous aident à trouver de nouveaux joueurs qui font de ce monde un univers vivant."
+            "Les avis publiés sur Steam nous aident à trouver de nouveaux joueurs qui font de ce monde un univers vivant.",
+            "Rendez-vous sur le wiki à l'adresse projectrebearth.com pour tout savoir sur l'univers de Project."
         ]
     },
     "tooltip": {
         "cannotChange": "Ne peut être modifié pour",
         "construction": "Construction",
+        "refund": "Remboursement",
         "costPerMeter": "(pour m)",
         "costPerSquareMeter": "(par m²)",
         "effects": "Effets",

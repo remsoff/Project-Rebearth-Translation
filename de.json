@@ -120,7 +120,8 @@
             "expedition_found": "Die Expedition kehrt zurück!",
             "animal_unlock": "Na, na, na ... was haben wir denn hier?",
             "bankruptcy": "Bankrott!",
-            "raid": "Ihre Waren wurden gestohlen!"
+            "raid": "Ihre Waren wurden gestohlen!",
+            "trade": "Abgemacht!"
         },
         "descriptions": {
             "food_shortage": "Ihnen geht das Essen aus! Wenn die Menschen nichts zu essen haben, werden sie stehlen, was sie können, um zu überleben, oder sogar aufhören zu arbeiten.",
@@ -130,7 +131,8 @@
             "expedition_found": "Ihre Expedition ist mit wertvollen Ressourcen und Erkenntnissen zurückgekehrt! Dies wird der Entwicklung und Forschung Ihrer Stadt sehr zugute kommen. Ihr Logbuch enthält jedoch einen interessanten Eintrag:",
             "animal_unlock": "Was haben wir hier gefunden? Deine Expedition ist mit einem überraschend zahmen Tier zurückgekehrt. Es scheint lieber in deiner Stadt als in der Wildnis leben zu wollen. Es wäre unhöflich, es jetzt zurückzuschicken, oder?",
             "bankruptcy": "Du hast einfach keine Münzen! Ein Turm ist eingestürzt. Die Türme, die du gebaut hast, verfallen und werden zerstört, wenn du sie nicht mit ausreichend Münzen instand hältst.",
-            "raid": "Du hättest deine Waren besser verstauen sollen! Sie waren leicht zu stehlen und unbekannte Diebe haben einen Teil deiner Ressourcen mitgenommen."
+            "raid": "Du hättest deine Waren besser verstauen sollen! Sie waren leicht zu stehlen und unbekannte Diebe haben einen Teil deiner Ressourcen mitgenommen.",
+            "trade": "Jemand hat (einen Teil) Ihrer Handelsorder ausgeführt."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Einstellungen",
             "subtitle": "Dies ist eine Vorabversion von Project Rebearth. Bitte melden Sie sich, wenn Sie beim Spielen auf Probleme stoßen.",
             "demoSubtitle": "Dies ist die Demo von Project Rebearth. Nur der Sandbox-Stadtbau-Modus ist aktiviert. Um auf dem Multiplayer-Globus mit Ressourcenmanagement zu spielen, hol dir die Vollversion.",
+            "demoRestriction1": "Hinter dieser Schaltfläche verbirgt sich die riesige Online-Multiplayer-Welt von Project Rebearth. In der Demo steht Ihnen jedoch nur der Sandbox-Modus ohne Ressourcenmanagement zur Verfügung.",
+            "demoRestriction2": "Im Sandbox-Modus kannst du weiterhin fantastische Karten erstellen, diese in hoher Auflösung exportieren und erleben, wie sich eine Spielwelt im Maßstab 1:1 anfühlt.",
             "title": "Projekt Rebearth Server",
             "welcome": "Willkommen, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Speicherplatz auswählen",
             "unlockHint1000": "Freischalten bei 1.000 Einwohnern",
-            "unlockHint100000": "Freischalten bei 100.000 Einwohnern",
+            "unlockHint10000": "Freischalten bei 10.000 Einwohnern",
             "unnamedCity": "Unbenannte Stadt"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Basis",
             "buy": "KAUFEN",
             "buys": "kauft",
+            "bought": "gekauft",
             "for": "für",
             "price": "Preis",
             "pricePerUnit": "Preis pro Einheit",
@@ -489,6 +494,7 @@
             "resource": "Ressource",
             "sell": "Aussehen",
             "sells": "verkauft",
+            "sold": "verkauft",
             "title": "Markt",
             "total": "Gesamt",
             "totalLabel": "Gesamt",
@@ -641,15 +647,20 @@
             "Doppelklicken Sie im Form-Editor, um Knoten zu platzieren.",
             "Verwenden Sie die Umschalttaste, um weiterhin Gebäude zu platzieren.",
             "Wenn Sie Probleme haben, teilen Sie uns dies bitte auf Discord mit.",
-            "Treten Sie unserer lebhaften Spielergemeinschaft auf Discord bei, um Ihre Kreationen zu teilen und Tipps zu erhalten.",
+            "Baue einen Markt oder einen Hafen, um den Handel mit anderen Spielern freizuschalten.",
+            "Baue ein Rathaus, um Allianzen, Ranglisten und Auswahlmöglichkeiten freizuschalten.",
+            "Baue eine Universität, um Expeditionen und Forschungen freizuschalten.",
+            "Eine Rezension auf Steam hilft uns dabei, neue Spieler zu finden, die diese Welt lebendig machen.",
             "Nicht alle Ressourcen sind überall leicht zu bekommen. Manchmal ist es günstiger, zu handeln, als alles selbst zu produzieren.",
             "Eine Rezension auf Steam hilft uns dabei, neue Spieler zu finden, die diese Welt lebendig machen.",
-            "Eine Rezension auf Steam hilft uns dabei, neue Spieler zu finden, die diese Welt lebendig machen."
+            "Eine Rezension auf Steam hilft uns dabei, neue Spieler zu finden, die diese Welt lebendig machen.",
+            "Besuchen Sie das Wiki unter projectrebearth.com, um alles über die Welt von Project zu erfahren."
         ]
     },
     "tooltip": {
         "cannotChange": "Kann nicht geändert werden für",
         "construction": "Bauwesen",
+        "refund": "Rückerstattung",
         "costPerMeter": "(für m)",
         "costPerSquareMeter": "(pro m²)",
         "effects": "Effekte",

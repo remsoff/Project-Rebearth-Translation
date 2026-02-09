@@ -120,7 +120,8 @@
             "expedition_found": "Wyprawa powraca!",
             "animal_unlock": "No no no... co my tu mamy?",
             "bankruptcy": "Bankructwo!",
-            "raid": "Twoje towary zostały skradzione!"
+            "raid": "Twoje towary zostały skradzione!",
+            "trade": "Umowa zawarta!"
         },
         "descriptions": {
             "food_shortage": "Kończą się zapasy żywności! Jeśli ludzie nie będą mieli co jeść, będą kraść wszystko, co tylko się da, aby przeżyć, a nawet przestaną pracować.",
@@ -130,7 +131,8 @@
             "expedition_found": "Twoja ekspedycja powróciła z cennymi zasobami i wiedzą! Przyniesie to ogromne korzyści dla rozwoju Twojego miasta i badań naukowych. W dzienniku ekspedycji znajduje się jednak interesujący wpis:",
             "animal_unlock": "Co tu znaleźliśmy? Twoja ekspedycja powróciła z zaskakująco oswojonym zwierzęciem. Wygląda na to, że woli ono mieszkać w Twoim mieście niż na pustkowiu. Byłoby niegrzeczne odsyłać je teraz z powrotem, prawda?",
             "bankruptcy": "Po prostu nie masz monet! Wieża się zawaliła. Wieże, które zbudowałeś, ulegną zniszczeniu, jeśli nie będziesz ich utrzymywać za pomocą wystarczającej ilości monet.",
-            "raid": "Powinieneś był lepiej schować swoje towary! Były łatwo dostępne i nieznani złodzieje ukradli część twoich zasobów."
+            "raid": "Powinieneś był lepiej schować swoje towary! Były łatwo dostępne i nieznani złodzieje ukradli część twoich zasobów.",
+            "trade": "Ktoś zrealizował (część) Twojego zlecenia handlowego."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Ustawienia",
             "subtitle": "Jest to wczesna wersja Project Rebearth. W razie jakichkolwiek problemów podczas gry prosimy o kontakt.",
             "demoSubtitle": "To jest wersja demonstracyjna Project Rebearth. Dostępna jest tylko funkcja budowania miasta w trybie sandbox. Aby grać w trybie wieloosobowym z zarządzaniem zasobami, pobierz pełną wersję gry.",
+            "demoRestriction1": "Za tym przyciskiem kryje się ogromny świat gry wieloosobowej online Project Rebearth. Znajdujesz się jednak w wersji demo, w której dostępny jest tylko tryb sandbox bez zarządzania zasobami.",
+            "demoRestriction2": "Tryb piaskownicy nadal pozwala tworzyć niesamowite mapy, eksportować je w wysokiej rozdzielczości i doświadczać, jak wygląda świat gry w skali 1:1.",
             "title": "Projekt Rebearth Server",
             "welcome": "Witamy, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Wybierz miejsce zapisu",
             "unlockHint1000": "Odblokuj przy 1000 mieszkańców",
-            "unlockHint100000": "Odblokuj przy 100 tys. mieszkańców",
+            "unlockHint10000": "Odblokuj przy 10 tys. mieszkańców",
             "unnamedCity": "Miasto bez nazwy"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Podstawa",
             "buy": "KUP",
             "buys": "kupuje",
+            "bought": "kupiony",
             "for": "dla",
             "price": "Cena",
             "pricePerUnit": "Cena za jednostkę",
@@ -489,6 +494,7 @@
             "resource": "Zasoby",
             "sell": "SPRZEDAJ",
             "sells": "sprzedaje",
+            "sold": "sprzedane",
             "title": "Rynek",
             "total": "Całkowita",
             "totalLabel": "Całkowita",
@@ -642,15 +648,20 @@
             "Kliknij dwukrotnie w edytorze kształtów, aby umieścić węzły.",
             "Użyj klawisza Shift, aby kontynuować umieszczanie budynków.",
             "Jeśli napotkasz jakiekolwiek problemy, poinformuj nas o tym na Discordzie.",
-            "Dołącz do naszej aktywnej społeczności graczy na Discordzie, aby dzielić się swoimi dziełami i uzyskać wskazówki.",
+            "Zbuduj targowisko lub port, aby odblokować handel z innymi graczami.",
+            "Zbuduj ratusz, aby odblokować sojusze, rankingi i opcje wyboru.",
+            "Zbuduj uniwersytet, aby odblokować wyprawy i badania.",
+            "Recenzje na Steamie pomagają nam znaleźć nowych graczy, którzy sprawiają, że ten świat jest żywy.",
             "Nie wszystkie zasoby są łatwo dostępne wszędzie. Czasami handel będzie tańszy niż samodzielna produkcja wszystkich zasobów.",
             "Recenzje na Steamie pomagają nam znaleźć nowych graczy, którzy sprawiają, że ten świat jest żywy.",
-            "Recenzje na Steamie pomagają nam znaleźć nowych graczy, którzy sprawiają, że ten świat jest żywy."
+            "Recenzje na Steamie pomagają nam znaleźć nowych graczy, którzy sprawiają, że ten świat jest żywy.",
+            "Odwiedź stronę wiki pod adresem projectrebearth.com, aby dowiedzieć się wszystkiego o świecie Project."
         ]
     },
     "tooltip": {
         "cannotChange": "Nie można zmienić dla",
         "construction": "Budowa",
+        "refund": "Zwrot kosztów",
         "costPerMeter": "(dla m)",
         "costPerSquareMeter": "(na m²)",
         "effects": "Efekty",

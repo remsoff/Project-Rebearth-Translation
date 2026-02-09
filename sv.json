@@ -120,7 +120,8 @@
             "expedition_found": "Expeditionen återvänder!",
             "animal_unlock": "Nå, nå, nå... vad har vi här?",
             "bankruptcy": "Konkurs!",
-            "raid": "Dina varor har blivit stulna!"
+            "raid": "Dina varor har blivit stulna!",
+            "trade": "Avtalat!"
         },
         "descriptions": {
             "food_shortage": "Du har snart slut på mat! Om människor inte kan äta kommer de att stjäla vad de kan för att överleva, eller till och med sluta arbeta.",
@@ -130,7 +131,8 @@
             "expedition_found": "Din expedition har återvänt med värdefulla resurser och kunskaper! Detta kommer att gynna din stads utveckling och forskningsinsatser avsevärt. Deras loggbok innehåller dock en intressant anteckning:",
             "animal_unlock": "Vad hittade vi här? Din expedition återvände med ett överraskande tamt djur. Det verkar vilja bo i din stad snarare än i vildmarken. Det vore väl oförskämt att skicka tillbaka det nu, eller hur?",
             "bankruptcy": "Du har helt enkelt inga mynt! Ett torn har rasat. Torn som du har byggt kommer att förfalla och förstöras om du inte underhåller dem med tillräckligt med mynt.",
-            "raid": "Du borde ha förvarat dina varor bättre! De var lättillgängliga och okända tjuvar kom över en del av dina resurser."
+            "raid": "Du borde ha förvarat dina varor bättre! De var lättillgängliga och okända tjuvar kom över en del av dina resurser.",
+            "trade": "Någon har genomfört (en del av) din handelsorder."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Inställningar",
             "subtitle": "Detta är en tidig version av Project Rebearth. Kontakta oss om du stöter på några problem när du spelar.",
             "demoSubtitle": "Detta är en demo av Project Rebearth. Endast sandbox-stadsbyggaren är aktiverad. För att spela på multiplayer-glob med resurshantering, skaffa den fullständiga versionen.",
+            "demoRestriction1": "Bakom denna knapp ligger den enorma online-multiplayer-världen Project Rebearth. Du befinner dig dock i demoversionen, där endast sandlådeläget utan resurshantering är tillgängligt.",
+            "demoRestriction2": "I sandlådeläget kan du fortfarande skapa fantastiska kartor, exportera dem i hög upplösning och uppleva hur det känns att spela i en spelvärld i skala 1:1.",
             "title": "Projekt Rebearth Server",
             "welcome": "Välkommen, {{name}}!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Välj en sparningsplats",
             "unlockHint1000": "Lås upp vid 1 000 invånare",
-            "unlockHint100000": "Lås upp vid 100 000 invånare",
+            "unlockHint10000": "Lås upp vid 10 000 invånare",
             "unnamedCity": "Namnlös stad"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Bas",
             "buy": "KÖP",
             "buys": "köper",
+            "bought": "köpt",
             "for": "för",
             "price": "Pris",
             "pricePerUnit": "Pris per enhet",
@@ -489,6 +494,7 @@
             "resource": "Resurs",
             "sell": "Se",
             "sells": "säljer",
+            "sold": "såld",
             "title": "Marknad",
             "total": "Totalt",
             "totalLabel": "Totalt",
@@ -641,15 +647,20 @@
             "Dubbelklicka i formredigeraren för att placera noder.",
             "Använd skift-tangenten för att fortsätta placera byggnader.",
             "Om du stöter på några problem, vänligen meddela oss på Discord.",
-            "Gå med i vår livliga spelargemenskap på Discord för att dela dina skapelser och få tips.",
+            "Bygg en marknad eller en hamn för att låsa upp handel med andra spelare.",
+            "Bygg ett rådhus för att låsa upp allianser, rankningar och valmöjligheter.",
+            "Bygg ett universitet för att låsa upp expeditioner och forskning.",
+            "En recension på Steam hjälper oss att hitta nya spelare som gör detta till en levande värld.",
             "Alla resurser är inte lika lätta att få tag på överallt. Ibland kan det vara billigare att handla än att producera allt själv.",
             "En recension på Steam hjälper oss att hitta nya spelare som gör detta till en levande värld.",
-            "En recension på Steam hjälper oss att hitta nya spelare som gör detta till en levande värld."
+            "En recension på Steam hjälper oss att hitta nya spelare som gör detta till en levande värld.",
+            "Besök wiki på projectrebearth.com för att lära dig allt om Project-världen."
         ]
     },
     "tooltip": {
         "cannotChange": "Kan inte ändras för",
         "construction": "Konstruktion",
+        "refund": "Återbetalning",
         "costPerMeter": "(för m)",
         "costPerSquareMeter": "(per m²)",
         "effects": "Effekter",
