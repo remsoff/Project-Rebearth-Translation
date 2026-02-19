@@ -11,19 +11,19 @@
     },
     "biomes": {
         "1": "Foreste tropicali e subtropicali di latifoglie",
-        "10": "Praterie montane",
-        "11": "Tundra",
-        "12": "Boschi mediterranei",
-        "13": "Deserti e macchia xerofila",
-        "14": "Mangrovie",
         "2": "Foreste tropicali e subtropicali di latifoglie",
-        "3": "Foreste tropicali e subtropicali di conifere",
+        "3": "Foreste di conifere tropicali e subtropicali",
         "4": "Foreste temperate e miste",
         "5": "Foresta temperata di conifere",
         "6": "Foreste boreali",
         "7": "Praterie tropicali e subtropicali",
         "8": "Savane temperate",
         "9": "Praterie allagate",
+        "10": "Praterie montane",
+        "11": "Tundra",
+        "12": "Boschi mediterranei",
+        "13": "Deserti e macchia xerofila",
+        "14": "Mangrovie",
         "98": "Deserto artico",
         "99": "Calotta glaciale"
     },
@@ -55,8 +55,8 @@
             "lowRations": "Razioni basse",
             "neutralFocus": "Commercio - Focus neutrale",
             "normalRations": "Razioni normali",
-            "scienceLeague": "Lega scientifica",
-            "taxation": "Tassa",
+            "scienceLeague": "Lega Scientifica",
+            "taxation": "Tassazione",
             "tradeAlliance": "Alleanza commerciale",
             "veganSociety": "Società vegana",
             "workerSafety": "Sicurezza dei lavoratori",
@@ -80,7 +80,7 @@
     },
     "controls": {
         "build": {
-            "addMorePoints": "Aggiungi più punti per iniziare ad esplorare!",
+            "addMorePoints": "Aggiungi più punti per completare la forma!",
             "areaLimitExceeded": "Limite di area superato: {{size}} {{relation}} {{limit}}",
             "costs": "Costi:",
             "invalidLocation": "Posizione non valida",
@@ -132,9 +132,9 @@
         },
         "descriptions": {
             "food_shortage": "Stai finendo le scorte di cibo! Se le persone non possono mangiare, ruberanno tutto ciò che possono per sopravvivere o smetteranno addirittura di lavorare.",
-            "strike": "La gente non è contenta! Qualunque cosa tu stia facendo, a loro non piace. Assicurati che i tuoi cittadini siano felici per evitare che gli edifici chiudano.",
-            "celebration": "La gente è felice! Qualunque cosa tu stia facendo, continua a farlo! Come piccolo regalo, tutti hanno raccolto alcuni beni per aiutarti a continuare a costruire questa fantastica città. Che carini.",
-            "productivity_boom": "La gente è entusiasta! Ti adorano e hanno lavorato volentieri oltre l'orario per te. In questo modo sono riusciti a produrre un po' di più di tutto. Vogliono solo che questa città abbia successo, lo sai.",
+            "strike": "La gente non è contenta! Qualunque cosa tu stia facendo, a loro non piace. Assicurati che la tua gente rimanga soddisfatta per evitare che gli edifici chiudano.",
+            "celebration": "La gente è felice! Qualunque cosa tu stia facendo, continua così! Come piccolo regalo, hanno raccolto alcuni beni per aiutarti a continuare a costruire questa fantastica città. Che carini!",
+            "productivity_boom": "La gente è entusiasta! Ti adorano e hanno lavorato volentieri oltre l'orario per te. In questo modo sono riusciti a produrre un po' di più di tutto. Vogliono che questa città abbia successo, lo sai!",
             "expedition_found": "La tua spedizione è tornata con risorse e conoscenze preziose! Ciò gioverà notevolmente allo sviluppo della tua città e alle attività di ricerca. Il loro diario di bordo contiene però una voce interessante:",
             "animal_unlock": "Cosa abbiamo trovato qui? La tua spedizione è tornata con un animale sorprendentemente docile. Sembra preferire vivere nella tua città piuttosto che nella natura selvaggia. Sarebbe scortese rimandarlo indietro adesso, non credi?",
             "bankruptcy": "Semplicemente non hai monete! Una torre è crollata. Le torri che hai costruito si deterioreranno e verranno distrutte se non le mantieni con monete sufficienti.",
@@ -227,14 +227,14 @@
             "categories": {
                 "decoration": "Decorazione",
                 "defense": "Difesa",
-                "food": "Cibo",
+                "food": "Cibo e Agricoltura",
                 "housing": "Abitazioni",
                 "infrastructure": "Infrastruttura",
                 "military": "Militare",
                 "production": "Produzione",
                 "research": "Ricerca",
-                "resources": "Risorse",
-                "storage": "Magazzino",
+                "resources": "Estrazione Risorse",
+                "storage": "Magazzini",
                 "town": "Città e Comunità"
             },
             "descriptions": {
@@ -248,26 +248,26 @@
                 "claypit": "Le cave di argilla sono usate per estrarre argilla dalla terra. Serve molto spazio e lavoratori. Lasciano cicatrici nel paesaggio che necessitano di molte risorse per ripararle.",
                 "creamery": "La cremeria è usata per la creazione di cibo dal latte.",
                 "dock": "Il molo espande il porto e crea spazio per strutture del porto e le navi.",
-                "fence1": "Una semplice staccionata di legno per tenere fuori le creature semplici. O dentro.",
-                "fence2": "Una recinzione intrecciata per tenere fuori le creature semplici. O dentro.",
-                "fence3": "Disegna una recinzione personalizzata per tenere fuori o dentro le creature semplici.",
+                "fence1": "Una semplice staccionata in legno per tenere fuori o dentro creature semplici.",
+                "fence2": "Una recinzione intrecciata per tenere fuori o dentro creature semplici.",
+                "fence3": "Disegna una recinzione personalizzata per tenere fuori o dentro creature semplici.",
                 "fence4": "Disegna una lunga recinzione per tenere fuori le creature semplici. O dentro.",
-                "fences": "Le recinzioni sono un ottimo modo per tenere lontani i visitatori indesiderati dalla tua città. O per tenerli dentro.",
+                "fences": "Le recinzioni sono un ottimo modo per tenere lontani i visitatori indesiderati dalla tua città o per tenerli dentro.",
                 "firepit": "Un focolare è una struttura solida che serve a riscaldarsi e cucinare il cibo. Basta ricordarsi di spegnerlo prima di andare a dormire.",
                 "fireplace": "Non c'è niente di più accogliente che cantare intorno al camino. Anche se il fumo ti arriverà sempre proprio addosso.",
                 "field": "I campi sono utilizzati per crescere il raccolto. Serve tanto spazio e lavoratori ma produce molto cibo.",
                 "fishery": "La pescheria è un edificio che produce cibo attraverso la pesca. Serve meno spazio, ma deve essere a ridosso di un grande specchio d'acqua.",
                 "foraging_hut": "La capanna del cacciatore è usata per raccogliere risorse dall'ambiente. Diventa meno efficace più sono gli edifici costruiti intorno ad essa.",
                 "fountain": "aggiungi una fontana nella tua città",
-                "house_1": "Tutti hanno bisogno di un posto dove vivere. Questa piccola casa offre ai tuoi personaggi un luogo dove mangiare e vivere.",
-                "house_2": "Tutti hanno bisogno di un posto dove vivere. Questa piccola casa offre ai tuoi personaggi un luogo dove mangiare e vivere.",
+                "house_1": "Tutti hanno bisogno di un posto dove vivere. Questa piccola casa offre ai tuoi cittadini un luogo dove mangiare e vivere.",
+                "house_2": "Tutti hanno bisogno di un posto dove vivere. Questa piccola casa offre ai tuoi cittadini un luogo dove mangiare e vivere.",
                 "house_3": "Tutti hanno bisogno di un posto dove vivere. Questa casa offre ai tuoi cittadini un luogo dove mangiare e vivere.",
                 "house_4": "Tutti hanno bisogno di un posto dove vivere. Questa casa offre ai tuoi cittadini un luogo dove mangiare e vivere.",
                 "house_5": "Tutti hanno bisogno di un posto dove vivere. Questa casa elaborata offre ai tuoi cittadini un luogo dove mangiare e vivere.",
                 "house_6": "Tutti hanno bisogno di un posto dove vivere. Questa lussuosa dimora offre ai tuoi cittadini un luogo dove mangiare e vivere.",
                 "large_ship": "Le navi grandi ti lasciano commerciare più economicamente con gli altri porti posizionati ovunque nel mondo.",
                 "large_statue": "aggiungi una statua grande nella tua città",
-                "logpile": "Il modo migliore per conservare la legna? Basta ammucchiarla in un mucchio.",
+                "logpile": "La pila di tronchi incrementa il quantitativo massimo di legname che il falegname può immagazzinare.",
                 "market": "Il mercato è utilizzato per comprare e vendere risorse. Gli edifici residenziali devono essere posizionati vicini. Genera denaro.",
                 "market_stall": "aggiungi una bancarella nella tua città",
                 "market_stall_1": "Bancarella che vende prodotti a base di carne.",
@@ -292,7 +292,7 @@
                 "small_statue": "aggiungi una statua piccola nella tua città",
                 "square": "La piazza è il centro della tua città. È l'unico edificio che puoi piazzare liberamente sulla mappa quando inizi a costruire. Può essere migliorato per incrementare varie statistiche e le capacità della tua città.",
                 "stone_crane": "La gru è usata per sollevare pesanti blocchi di pietra fuori dalla cava e incrementa la capacità della cava nella produzione di pietra.",
-                "stone_crane_upgraded": "Con questi strani materiali che abbiamo trovato, sono sicuro che potremo migliorare ulteriormente il funzionamento di questa gru!",
+                "stone_crane_upgraded": "Con questi strani materiali che abbiamo trovato, sono sicuro che potremo far funzionare questa gru ancora meglio!",
                 "table": "aggiungi un tavolo nella tua città",
                 "tailor": "La sartoria è usata per creare vestiti dalla pelle, lana e altre fibre.",
                 "tavern": "La taverna è il posto in cui i cittadini si incontrano e bevono. Consuma bevande e produce denaro.",
@@ -307,12 +307,12 @@
                 "windmill": "Il mulino a vento è usato per macinare il grano in farina che può essere usata nel forno.",
                 "windmill_upgraded": "Con questi strani materiali che abbiamo trovato, sono sicuro che potremo far funzionare questo mulino a vento ancora più velocemente. Più parti mobili ci sono, meglio è, giusto?",
                 "woodcutter": "La falegnameria produce legname quando è piazzata vicino agli alberi.",
-                "refinery": "La raffineria viene utilizzata per raffinare rocce strane in rocce lucide e malleabili.",
-                "iron_mine": "Abbiamo scavato una buca profonda perché abbiamo trovato delle rocce strane. Mandiamo lì tutta la nostra gente a prenderle. Che cosa potrà mai succedere di male?",
-                "iron_mine_upgraded": "Con questi strani materiali che abbiamo trovato, sono sicuro che riusciremo a estrarre più rapidamente altre rocce luccicanti dal terreno!",
+                "refinery": "La raffineria viene utilizzata per raffinare rocce strane trasformandole in rocce lucide e malleabili.",
+                "iron_mine": "Abbiamo scavato una buca profonda perché abbiamo trovato delle strane rocce. Mandiamo tutti i nostri uomini lì dentro a prenderle. Cosa potrà mai succedere di male?",
+                "iron_mine_upgraded": "Con questi strani materiali che abbiamo trovato, sono sicuro che potremo estrarre più rapidamente altre rocce luccicanti dal terreno!",
                 "glassworks": "Glassworks consente di produrre vetro dalla sabbia, che può essere utilizzato per varie applicazioni avanzate.",
-                "tools_workshop": "Con un'officina è possibile produrre strumenti indispensabili per il lavoro di alcune persone.",
-                "well": "Sebbene stare sotto la pioggia con la bocca aperta sia divertente, è un po' più complicato quando si ha una vasca da riempire. Un pozzo sarà più adatto alla tua città."
+                "tools_workshop": "Con un laboratorio di utensili, puoi produrre strumenti essenziali per il lavoro di alcune persone.",
+                "well": "Sebbene stare sotto la pioggia con la bocca aperta sia divertente, è un po' più complicato quando hai una vasca da riempire. Un pozzo sarà più adatto alla tua città."
             }
         },
         "crops": {
@@ -321,7 +321,7 @@
             "goat": "Capre",
             "grain": "Grano",
             "maize": "Mais",
-            "potato": "Patatosa",
+            "potato": "Patate",
             "sheep": "Pecore"
         },
         "effects": {
@@ -389,28 +389,28 @@
         "storage_overflow": "Magazzino pieno! Aumento del rischio di furto."
     },
     "intro": {
-        "message1": "Se stai leggendo questo, significa che sei il prescelto. Destinato a ripopolare la superficie. Quello che vedi davanti a te è il nostro pianeta. Il nostro mondo così come esiste oggi. Niente è più come prima. O almeno, come pensiamo che fosse prima. Nessuno se lo ricorda davvero.",
-        "message2": "Ma il tuo compito è semplice. Trova un posto e avvia un nuovo insediamento. Fai crescere il tuo insediamento e forse riuscirai a entrare in contatto con altri che hanno fatto lo stesso. E forse insieme potremo capire cosa è successo alla nostra Terra.",
+        "message1": "Se stai leggendo questo testo, significa che sei il prescelto, destinato a ripopolare la superficie. Quello che vedi davanti a te è il nostro pianeta, il nostro mondo così come è oggi. Nulla è più come prima. O almeno, come pensiamo che fosse prima. Nessuno se lo ricorda davvero.",
+        "message2": "Ma il tuo compito è semplice. Trova un posto e avvia un nuovo insediamento. Fai crescere il tuo insediamento e forse riuscirai a entrare in contatto con altri che hanno fatto lo stesso. Forse insieme potremo capire cosa è successo alla nostra Terra.",
         "good_luck": "Buona fortuna!",
         "based": {
             "w": {
-                "message1": "Ottima scelta! Ti sei stabilito in un bioma ricco di alberi rigogliosi e fauna selvatica. Trovare legna e raccogliere risorse non sarà un problema qui. Tuttavia, materiali e minerali più complessi potrebbero essere un po' più difficili da reperire. Ma credo in te e vedrai che nulla è impossibile.",
-                "message2": "Le tue capacità sono ancora limitate. Assicurati innanzitutto di ottenere un flusso costante di risorse. Quindi costruisci un mercato in modo da poter commerciare con altri insediamenti. Man mano che acquisisci una posizione solida, puoi anche avviare progetti più grandi come un porto, in modo che il commercio diventi più economico, un municipio, in modo da poter tenere traccia di tutto, o persino un'università, in modo da poter iniziare a esplorare il mondo che ci circonda.",
+                "message1": "Ottima scelta! Ti sei stabilito in un bioma ricco di alberi rigogliosi e fauna selvatica. Trovare legna e raccogliere risorse non sarà un problema qui, anche se materiali e minerali più complessi potrebbero essere un po' più difficili da reperire. Ma credo in te e vedrai che nulla è impossibile.",
+                "message2": "Le tue capacità sono ancora limitate. Assicurati innanzitutto di ottenere un flusso costante di risorse. Quindi costruisci un mercato per commerciare con altri insediamenti. Man mano che acquisisci una posizione solida, puoi anche avviare progetti più grandi come la costruzione di un porto per rendere il commercio più economico, un municipio per tenere traccia di tutto o persino un'università per iniziare a esplorare il mondo che ci circonda.",
                 "good_luck": "Ce la puoi fare!"
             },
             "s": {
-                "message1": "Ottima scelta quella di stabilirsi in questo bioma roccioso dove puoi diventare un tutt'uno con la terra. Trovare pietre e minerali non sarà un problema qui. Anche se coltivare il cibo potrebbe essere un po' più difficile. Ma sono sicuro che gli altri saranno felici di scambiare i tuoi preziosi materiali in abbondanza.",
-                "message2": "Le tue capacità sono ancora limitate. Assicurati innanzitutto di ottenere un flusso costante di risorse. Quindi costruisci un mercato in modo da poter commerciare con altri insediamenti. Man mano che acquisisci una posizione solida, puoi anche avviare progetti più grandi come un porto, in modo che il commercio diventi più economico, un municipio, in modo da poter tenere traccia di tutto, o persino un'università, in modo da poter iniziare a esplorare il mondo che ci circonda.",
+                "message1": "Ottima scelta quella di stabilirsi in questo bioma roccioso dove potrai diventare un tutt'uno con la terra. Trovare pietre e minerali non sarà un problema qui, anche se coltivare cibo potrebbe essere un po' più difficile. Ma sono sicuro che gli altri saranno felici di scambiare i tuoi preziosi materiali in abbondanza!",
+                "message2": "Le tue capacità sono ancora limitate. Assicurati innanzitutto di ottenere un flusso costante di risorse. Quindi costruisci un mercato per commerciare con altri insediamenti. Man mano che acquisisci una posizione solida, puoi anche avviare progetti più grandi come la costruzione di un porto per rendere il commercio più economico, un municipio per tenere traccia di tutto o persino un'università per iniziare a esplorare il mondo che ci circonda.",
                 "good_luck": "Costruisci forte!"
             },
             "e": {
                 "message1": "L'aria è secca e il sole è cocente. Non è il bioma più facile, ma puoi costruire il tuo insediamento letteralmente dalla terra stessa. Trovare legno utilizzabile potrebbe essere un po' più difficile qui, ma il terreno sembra adatto alla maggior parte delle colture. Sono sicuro che con la tua ingegnosità riuscirai a far funzionare tutto.",
-                "message2": "Le tue capacità sono ancora limitate. Assicurati innanzitutto di ottenere un flusso costante di risorse. Quindi costruisci un mercato in modo da poter commerciare con altri insediamenti. Man mano che acquisisci una posizione solida, puoi anche avviare progetti più grandi come un porto, in modo che il commercio diventi più economico, un municipio, in modo da poter tenere traccia di tutto, o persino un'università, in modo da poter iniziare a esplorare il mondo che ci circonda.",
+                "message2": "Le tue capacità sono ancora limitate. Assicurati innanzitutto di ottenere un flusso costante di risorse. Quindi costruisci un mercato per commerciare con altri insediamenti. Man mano che acquisisci una posizione solida, puoi anche avviare progetti più grandi come la costruzione di un porto per rendere il commercio più economico, un municipio per tenere traccia di tutto o persino un'università per iniziare a esplorare il mondo che ci circonda.",
                 "good_luck": "Buona costruzione!"
             },
             "a": {
-                "message1": "Beh, questa sì che è una scelta interessante. Perché mai dovresti stabilirti in questa landa desolata artica? Non vedo né alberi né rocce qui intorno. Ma immagino che potrai sempre commerciare con gli altri. Assicurati solo di tenere la tua gente al caldo e ben nutrita.",
-                "message2": "Le tue capacità sono molto limitate. Dai priorità alla creazione di un mercato in modo da poter commerciare con altri insediamenti. Spero che tu abbia buoni contatti perché sarà dura. Se ci riesci, potrai anche avviare progetti più grandi come un porto, in modo da rendere il commercio più economico, un municipio, in modo da poter tenere traccia di tutto, o persino un'università, in modo da poter iniziare a esplorare il mondo che ci circonda.",
+                "message1": "Beh, questa sì che è una scelta interessante. Perché mai ti sei stabilito in questa landa desolata artica? Non vedo né alberi né rocce qui intorno, ma immagino che potrai sempre commerciare con gli altri. Assicurati solo di tenere la tua gente al caldo e ben nutrita.",
+                "message2": "Le tue capacità sono molto limitate. Dai priorità alla creazione di un mercato in modo da poter commerciare con altri insediamenti. Spero che tu abbia buoni contatti perché sarà dura. Se ci riesci, però, potrai anche avviare progetti più grandi come la costruzione di un porto per rendere il commercio più economico, un municipio per tenere traccia di tutto o persino un'università per iniziare a esplorare il mondo che ci circonda.",
                 "good_luck": "Buona fortuna."
             }
         }
@@ -425,7 +425,7 @@
             "deleteEverything": "Cancella tutto",
             "menu": "Menu",
             "quicksettings": "Opzioni",
-            "saveBuild": "Salva Sandbox",
+            "saveBuild": "Salva Build",
             "saveSandbox": "Salva Sandbox"
         },
         "main": {
@@ -438,7 +438,7 @@
             "settings": "Opzioni",
             "subtitle": "Questa è la demo di Project Rebearth! Al momento solo la modalità Sandbox è disponibile per il pubblico. Per favore contattaci se incontri qualsiasi problema mentre giochi.",
             "demoSubtitle": "Questa è la demo di Project Rebearth. È abilitato solo il city-builder sandbox. Per giocare sul globo multiplayer con gestione delle risorse, scarica la versione completa.",
-            "demoRestriction1": "Dietro questo pulsante si nasconde l'enorme mondo multiplayer online di Project Rebearth. Tuttavia, nella demo è disponibile solo la modalità sandbox senza gestione delle risorse.",
+            "demoRestriction1": "Dietro questo pulsante si nasconde l'enorme mondo multiplayer online di Project Rebearth. Tuttavia, ti trovi nella demo e è disponibile solo la modalità sandbox senza gestione delle risorse.",
             "demoRestriction2": "La modalità sandbox ti consente ancora di creare mappe fantastiche, esportarle in alta risoluzione e provare l'esperienza di un mondo di gioco in scala 1:1.",
             "title": "Project Rebearth Server",
             "welcome": "Benvenuto, {{name}}!"
@@ -456,6 +456,16 @@
             "cooldownTimer": "Disponibile in {{time}}",
             "deleteConfirm": "Sei sicuro di voler eliminare questo salvataggio? Questa azione non può essere annullata.",
             "empty": "Slot vuoto",
+            "guidelinesLink": "Linee guida per l'utente",
+            "guidelinesNotice1": "Partecipando al multiplayer online, l'utente accetta e si impegna a rispettare le ",
+            "guidelinesNotice2": ".",
+            "guidelinesTitle": "Linee guida per l'utente",
+            "guidelinesIntro": "A quanto pare, non tutti gli utenti di Internet hanno la stessa concezione di buon senso. Per questo motivo, ecco una serie di regole che dovete accettare quando entrate nel mondo multiplayer di Project Rebearth. Questo garantisce che il mondo sia uno spazio divertente e aperto in cui tutti possano esistere.",
+            "guidelinesRule1": "Sii rispettoso nei confronti degli altri giocatori e delle loro creazioni. Tratta gli altri come vorresti essere trattato tu.",
+            "guidelinesRule2": "Nessun linguaggio o simbolo inappropriato. I nomi generati casualmente possono essere divertenti, ma gli input inviati dagli utenti non devono essere inappropriati.",
+            "guidelinesRule3": "Non utilizzare bot, exploit o strumenti di automazione. Questo gioco è stato creato da esseri umani per essere goduto da esseri umani. I bot non hanno posto qui.",
+            "guidelinesRule4": "È vietato minacciare altri utenti.",
+            "guidelinesOutro": "Se hai dei dubbi sulla liceità di qualcosa, probabilmente non lo è. Il mancato rispetto di queste linee guida può comportare la cancellazione di edifici, la rimozione di città o la sospensione (temporanea) del tuo account a discrezione dei moderatori.",
             "locked": "Bloccato",
             "lockedText": "Bloccato",
             "newGame": "Nuova partita",
@@ -490,7 +500,7 @@
             "title": "Conferma cancellazione"
         },
         "diplomacy": {
-            "alliances": "Alleanza",
+            "alliances": "Alleanze",
             "enemy": "Nemico",
             "neutral": "Neutrale",
             "title": "Diplomazia",
@@ -580,7 +590,7 @@
             "globalRank": "Rank globale",
             "greatFederation": "Gran Federazione",
             "kick": "Kick",
-            "marketSize": "Grandezza del mercato",
+            "marketSize": "Grandezza mercato",
             "members": "Membri",
             "name": "Nome",
             "owner": "Proprietario",
@@ -588,7 +598,7 @@
             "reject": "Rifiuta",
             "scienceLeague": "Lega scientifica",
             "tradeAlliance": "Alleanza commerciale",
-            "value": "valore"
+            "value": "Valore"
         },
         "createAlliance": "crea alleanza",
         "days": "giorni",
@@ -669,19 +679,9 @@
     },
     "tips": {
         "loading": [
-            "Un giorno nel gioco corrisponde a un giorno nella vita reale. Prenditi il tempo necessario e fai crescere la tua città secondo i tuoi ritmi.",
-            "È possibile ruotare gli edifici prima di posizionarli utilizzando i tasti Q ed E.",
-            "Fai doppio clic nell'editor delle forme per posizionare i nodi.",
-            "Utilizza il tasto Maiusc per continuare a posizionare gli edifici.",
-            "Se riscontri qualche problema, ti preghiamo di segnalarlo su Discord.",
-            "Costruisci un mercato o un porto per sbloccare il commercio con altri giocatori.",
-            "Costruisci un municipio per sbloccare alleanze, classifiche e scelte.",
-            "Costruisci un'università per sbloccare spedizioni e ricerche.",
-            "Unisciti alla nostra vivace community di giocatori su Discord per condividere le tue creazioni e ricevere consigli.",
-            "Alcuni edifici possono essere posizionati solo vicino all'edificio principale. Come la sega e il taglialegna.",
-            "Non tutte le risorse sono facili da ottenere ovunque. A volte commerciare sarà più economico che produrre tutto da soli.",
-            "Una recensione su Steam ci aiuta a trovare nuovi giocatori che rendono questo mondo vivo.",
-            "Visita il wiki all'indirizzo projectrebearth.com per scoprire tutto sul mondo di Project Rebearth."
+            "Puoi ruotare le costruzioni prima di piazzarle con i tasti Q ed E",
+            "Doppio click nell'editor delle forme per piazzare i nodi.",
+            "Usa il tasto SHIFT per continuare a piazzare le costruzioni."
         ]
     },
     "help": {

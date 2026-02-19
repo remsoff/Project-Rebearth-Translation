@@ -4,26 +4,26 @@
         "applyForAlliance": "Aplikuj do sojuszu",
         "cancelApplication": "Anuluj aplikację",
         "greatFederationDesc": "Utworzenie Wielkiej Federacji zapewnia lepszą ochronę przed najazdami i zwiększa produkcję surowców, ale obniża efektywność podatkową.",
-        "leaveAlliance": "opuść sojuszu",
+        "leaveAlliance": "Opuść sojusz",
         "marketSizeLabel": "Wielkość rynku:",
         "scienceLeagueDesc": "Dołączenie do Ligi Naukowej przyspiesza badania i obniża koszty ekspedycji, zwiększa bazowe szczęście, ale podnosi koszty budowy i nieco zmniejsza wydajność produkcji.",
         "tradeAllianceDesc": "Sojusz handlowy obniża koszty handlu i zwiększa efektywność podatkową, ale jednocześnie zwiększa ryzyko najazdów."
     },
     "biomes": {
         "1": "Lasy tropikalne i subtropikalne liściaste",
-        "10": "Górskie łąki",
-        "11": "Tundra",
-        "12": "Las śródziemnomorski",
-        "13": "Pustynie i suche zarośla",
-        "14": "Lasy namorzynowe",
         "2": "Lasy tropikalne i subtropikalne liściaste",
-        "3": "Tropikalne i subtropikalne lasy iglaste",
+        "3": "Lasy iglaste tropikalne i subtropikalne",
         "4": "Lasy umiarkowane i mieszane",
         "5": "Las iglasty strefy umiarkowanej",
         "6": "Lasy borealne",
         "7": "Tropikalne i subtropikalne łąki",
         "8": "Sawanny umiarkowane",
         "9": "Zalane łąki",
+        "10": "Górskie łąki",
+        "11": "Tundra",
+        "12": "Las śródziemnomorski",
+        "13": "Pustynie i suche zarośla",
+        "14": "Lasy namorzynowe",
         "98": "Arktyczna pustynia",
         "99": "Lodowa pokrywa"
     },
@@ -80,7 +80,7 @@
     },
     "controls": {
         "build": {
-            "addMorePoints": "Dodaj więcej punktów, aby rozpocząć eksplorację!",
+            "addMorePoints": "Dodaj więcej punktów, aby ukończyć kształt!",
             "areaLimitExceeded": "Przekroczono limit obszaru: {{size}} {{relation}} {{limit}}",
             "costs": "Koszty:",
             "invalidLocation": "Nieprawidłowa lokalizacja",
@@ -124,7 +124,7 @@
             "celebration": "Prezent dla Ciebie",
             "productivity_boom": "Do dzieła!",
             "expedition_found": "Wyprawa powraca!",
-            "animal_unlock": "No no no... co my tu mamy?",
+            "animal_unlock": "No proszę, proszę... co my tu mamy?",
             "bankruptcy": "Bankructwo!",
             "raid": "Twoje towary zostały skradzione!",
             "trade": "Umowa zawarta!",
@@ -132,12 +132,12 @@
         },
         "descriptions": {
             "food_shortage": "Kończą się zapasy żywności! Jeśli ludzie nie będą mieli co jeść, będą kraść wszystko, co tylko się da, aby przeżyć, a nawet przestaną pracować.",
-            "strike": "Ludzie nie są zadowoleni! Cokolwiek robisz, im się to nie podoba. Dbaj o zadowolenie swoich pracowników, aby uniknąć zamknięcia budynków.",
-            "celebration": "Ludzie są zadowoleni! Cokolwiek robisz, rób to dalej! Jako mały prezent wszyscy zebrali dla Ciebie trochę towarów, abyś mógł dalej budować to niesamowite miasto. Jakie to urocze.",
-            "productivity_boom": "Ludzie są zachwyceni! Kochają cię nad życie i chętnie pracują dla ciebie w nadgodzinach. Dzięki temu udało im się wyprodukować nieco więcej wszystkiego. Po prostu chcą, żeby to miasto odniosło sukces, wiesz.",
+            "strike": "Ludzie nie są zadowoleni! Cokolwiek robisz, im się to nie podoba. Dbaj o zadowolenie swoich ludzi, aby uniknąć zamknięcia budynków.",
+            "celebration": "Ludzie są zadowoleni! Cokolwiek robisz, rób to dalej! Jako mały prezent, wszyscy zebrali dla Ciebie trochę towarów, abyś mógł dalej budować to niesamowite miasto. Jakie to urocze!",
+            "productivity_boom": "Ludzie są zachwyceni! Kochają cię nad życie i chętnie pracują dla ciebie w nadgodzinach. Dzięki temu udało im się wyprodukować nieco więcej wszystkiego. Chcą, żeby to miasto odniosło sukces, wiesz!",
             "expedition_found": "Twoja ekspedycja powróciła z cennymi zasobami i wiedzą! Przyniesie to ogromne korzyści dla rozwoju Twojego miasta i badań naukowych. W dzienniku ekspedycji znajduje się jednak interesujący wpis:",
-            "animal_unlock": "Co tu znaleźliśmy? Twoja ekspedycja powróciła z zaskakująco oswojonym zwierzęciem. Wygląda na to, że woli ono mieszkać w Twoim mieście niż na pustkowiu. Byłoby niegrzeczne odsyłać je teraz z powrotem, prawda?",
-            "bankruptcy": "Po prostu nie masz monet! Wieża się zawaliła. Wieże, które zbudowałeś, ulegną zniszczeniu, jeśli nie będziesz ich utrzymywać za pomocą wystarczającej ilości monet.",
+            "animal_unlock": "Co tu znaleźliśmy? Twoja ekspedycja powróciła z zaskakująco oswojonym zwierzęciem. Wydaje się, że woli ono mieszkać w Twoim mieście niż na pustkowiu. Byłoby niegrzeczne odsyłać je teraz z powrotem, prawda?",
+            "bankruptcy": "Po prostu nie masz monet! Wieża się zawaliła. Wieże, które zbudowałeś, będą niszczeć i ulegać zniszczeniu, jeśli nie będziesz ich utrzymywać za pomocą wystarczającej ilości monet.",
             "raid": "Powinieneś był lepiej schować swoje towary! Były łatwo dostępne i nieznani złodzieje ukradli część twoich zasobów.",
             "trade": "Ktoś zrealizował (część) Twojego zlecenia handlowego.",
             "player_message": "Przybył posłaniec z innego miasta z wiadomością dla ciebie."
@@ -227,14 +227,14 @@
             "categories": {
                 "decoration": "Dekoracje",
                 "defense": "Obrona",
-                "food": "Jedzenie",
+                "food": "Jedzenie i rolnictwo",
                 "housing": "Mieszkalne",
                 "infrastructure": "Infrastruktura",
                 "military": "Militarne",
-                "production": "Produkcja",
+                "production": "Produkcyjne",
                 "research": "Badania",
-                "resources": "Surowce",
-                "storage": "Magazyn",
+                "resources": "Wydobycie surowców",
+                "storage": "Magazynowanie",
                 "town": "Miasto i społeczność"
             },
             "descriptions": {
@@ -249,7 +249,7 @@
                 "creamery": "Mleczarnia służy do produkcji produktów spożywczych z mleka.",
                 "dock": "Dok rozszerza port i zwiększa miejsce dla budynków portowych i statków.",
                 "fence1": "Proste drewniane ogrodzenie, które ma za zadanie powstrzymywać proste stworzenia przed wejściem lub wyjściem.",
-                "fence2": "Splecione ogrodzenie, które ma powstrzymywać proste stworzenia przed wejściem lub wyjściem.",
+                "fence2": "Splecione ogrodzenie, które ma za zadanie powstrzymywać proste stworzenia przed wejściem lub wyjściem.",
                 "fence3": "Narysuj własne ogrodzenie, aby powstrzymać proste stworzenia przed wejściem lub wyjściem.",
                 "fence4": "Narysuj długie ogrodzenie, aby powstrzymać proste stworzenia przed wejściem lub wyjściem.",
                 "fences": "Ogrodzenia to świetny sposób, aby powstrzymać niepożądanych gości przed wejściem do miasta lub zatrzymać ich w nim.",
@@ -264,10 +264,10 @@
                 "house_3": "Każdy potrzebuje miejsca do życia. Ten dom zapewnia Twoim ludziom miejsce do jedzenia i życia.",
                 "house_4": "Każdy potrzebuje miejsca do życia. Ten dom zapewnia Twoim ludziom miejsce do jedzenia i życia.",
                 "house_5": "Każdy potrzebuje miejsca do życia. Ten rozbudowany dom zapewnia Twoim ludziom miejsce do jedzenia i życia.",
-                "house_6": "Każdy potrzebuje miejsca do życia. Ten luksusowy dom zapewni Twoim ludziom miejsce do jedzenia i mieszkania.",
+                "house_6": "Każdy potrzebuje miejsca do życia. Ten luksusowy dom zapewnia Twoim ludziom miejsce do jedzenia i życia.",
                 "large_ship": "Duży statek umożliwia tańszy handel z portami na całym świecie.",
                 "large_statue": "Dodaje duży pomnik do Twojego miasta.",
-                "logpile": "Najlepszy sposób na przechowywanie drewna? Po prostu ułóż je w stos.",
+                "logpile": "Stos drewna zwiększa maksymalną ilość drewna, jaką chata drwala może przechowywać.",
                 "market": "Rynek używany jest do kupowania i sprzedawania surowców. Budynki mieszkalne potrzebują mieć go w pobliżu. Generuje również monety.",
                 "market_stall": "Dodaje stragan do Twojego miasta.",
                 "market_stall_1": "Stoisko sprzedające produkty mięsne.",
@@ -301,7 +301,7 @@
                 "town_hall": "Ratusz jest centrum Twojego miasta. Umożliwia interakcję z sojuszami, podgląd rankingów i wprowadzanie nowych praw.",
                 "tree": "Dodaje drzewo do Twojego miasta.",
                 "university": "Uniwersytet służy do generowania punktów wiedzy i odkrywania nowych technologii.",
-                "museum": "Niech wszyscy zobaczą, jakie fajne rzeczy znaleźliśmy! Umieśćmy je w najwspanialszym budynku, jaki potrafimy zbudować.",
+                "museum": "Niech wszyscy zobaczą, jakie fajne rzeczy znaleźliśmy! Umieśćmy je w najwspanialszym budynku, jaki możemy zbudować.",
                 "warehouse": "Magazyn służy do przechowywania surowców. Zwiększa pojemność miasta.",
                 "water_tower": "Wieża ciśnień zwiększa zasięg terytorium i dostarcza wodę, ale jest kosztowna w utrzymaniu.",
                 "windmill": "Wiatrak służy do mielenia zboża na mąkę, która może być użyta w piekarni.",
@@ -309,10 +309,10 @@
                 "woodcutter": "Chata drwala produkuje drewno, gdy znajduje się w pobliżu drzew.",
                 "refinery": "Rafineria służy do przetwarzania dziwnych skał w błyszczące, plastyczne skały.",
                 "iron_mine": "Wykopaliśmy głęboki dół, ponieważ znaleźliśmy dziwne skały. Wyślijmy tam wszystkich naszych ludzi, aby je wydobyli. Co złego może się stać?",
-                "iron_mine_upgraded": "Dzięki tym dziwnym materiałom, które znaleźliśmy, na pewno uda nam się szybciej wydobywać więcej błyszczących kamieni z ziemi!",
+                "iron_mine_upgraded": "Dzięki tym dziwnym materiałom, które znaleźliśmy, na pewno uda nam się szybciej wydobyć więcej błyszczących kamieni z ziemi!",
                 "glassworks": "Glassworks pozwala produkować szkło z piasku, które może być wykorzystywane do różnych zaawansowanych zastosowań.",
                 "tools_workshop": "Dzięki warsztatowi narzędziowemu możesz produkować narzędzia niezbędne w pracy niektórych osób.",
-                "well": "Chociaż stanie w deszczu z otwartymi ustami jest fajne, to jednak jest to nieco trudniejsze, gdy trzeba napełnić wannę. Studnia będzie lepszym rozwiązaniem dla Twojego miasta."
+                "well": "Chociaż stanie w deszczu z otwartymi ustami jest fajne, to jednak jest to nieco trudniejsze, gdy trzeba napełnić wannę. Studnia będzie bardziej pasować do Twojego miasta."
             }
         },
         "crops": {
@@ -321,7 +321,7 @@
             "goat": "Kozy",
             "grain": "Zboże",
             "maize": "Kukurydza",
-            "potato": "Ziemniak",
+            "potato": "Ziemniaki",
             "sheep": "Owce"
         },
         "effects": {
@@ -389,28 +389,28 @@
         "storage_overflow": "Pamięć pełna! Zwiększone ryzyko kradzieży."
     },
     "intro": {
-        "message1": "Jeśli to czytasz, oznacza to, że jesteś wybrańcem. Twoim przeznaczeniem jest ponowne zasiedlenie powierzchni. To, co widzisz przed sobą, to nasza planeta. Nasz świat w obecnym kształcie. Nic nie jest takie, jak kiedyś. A przynajmniej takie, jak nam się wydaje, że było kiedyś. Nikt tego naprawdę nie pamięta.",
-        "message2": "Twoje zadanie jest jednak proste. Znajdź miejsce i załóż nową osadę. Rozwijaj swoją osadę, a być może uda Ci się nawiązać kontakt z innymi, którzy zrobili to samo. Być może razem uda nam się dowiedzieć, co stało się z naszą Ziemią.",
+        "message1": "Jeśli to czytasz, oznacza to, że jesteś wybrańcem, którego przeznaczeniem jest ponowne zasiedlenie powierzchni. To, co widzisz przed sobą, to nasza planeta, nasz świat w obecnym stanie. Nic nie jest takie, jak kiedyś. A przynajmniej takie, jak nam się wydaje, że było kiedyś. Nikt tego naprawdę nie pamięta.",
+        "message2": "Twoje zadanie jest jednak proste. Znajdź miejsce i załóż nową osadę. Rozbudowuj ją, a być może uda Ci się nawiązać kontakt z innymi, którzy zrobili to samo. Być może razem uda nam się dowiedzieć, co stało się z naszą Ziemią.",
         "good_luck": "Powodzenia!",
         "based": {
             "w": {
-                "message1": "Dobry wybór! Osiedliłeś się w biomie pełnym bujnych drzew i dzikiej przyrody. Znalezienie drewna i zebranie zasobów nie będzie tutaj żadnym problemem. Chociaż bardziej złożone materiały i rudy mogą być nieco trudniejsze do zdobycia. Ale wierzę w Ciebie i przekonasz się, że nie ma rzeczy niemożliwych.",
-                "message2": "Twoje możliwości są nadal ograniczone. Najpierw zadbaj o stały dopływ zasobów. Następnie zbuduj targowisko, aby móc handlować z innymi osadami. Gdy już zdobędziesz przyczółek, możesz nawet rozpocząć większe projekty, takie jak port, dzięki czemu handel stanie się tańszy, ratusz, dzięki czemu będziemy mogli wszystko kontrolować, a nawet uniwersytet, dzięki czemu będziesz mógł zacząć odkrywać otaczający nas świat.",
+                "message1": "Dobry wybór! Osiedliłeś się w biomie pełnym bujnych drzew i dzikiej przyrody. Znalezienie drewna i zebranie zasobów nie będzie tutaj żadnym problemem, chociaż bardziej złożone materiały i rudy mogą być nieco trudniejsze do zdobycia. Ale wierzę w Ciebie i przekonasz się, że nie ma rzeczy niemożliwych.",
+                "message2": "Twoje możliwości są nadal ograniczone. Najpierw zadbaj o stały dopływ zasobów. Następnie zbuduj targowisko, aby handlować z innymi osadami. Gdy już zdobędziesz przyczółek, możesz nawet rozpocząć większe projekty, takie jak budowa portu, aby handel stał się tańszy, ratusza, abyśmy mogli wszystko kontrolować, a nawet uniwersytetu, abyś mógł zacząć odkrywać otaczający nas świat.",
                 "good_luck": "Dasz radę!"
             },
             "s": {
-                "message1": "To doskonały wybór, aby osiedlić się w tym skalistym biomie, gdzie możesz stać się jednym z ziemią. Znalezienie kamienia i rudy nie będzie tu żadnym problemem. Chociaż uprawa żywności może być nieco trudniejsza. Ale jestem pewien, że inni chętnie będą handlować twoimi bogatymi zasobami cennych materiałów.",
-                "message2": "Twoje możliwości są nadal ograniczone. Najpierw zadbaj o stały dopływ zasobów. Następnie zbuduj targowisko, aby móc handlować z innymi osadami. Gdy już zdobędziesz przyczółek, możesz nawet rozpocząć większe projekty, takie jak port, dzięki czemu handel stanie się tańszy, ratusz, dzięki czemu będziemy mogli wszystko kontrolować, a nawet uniwersytet, dzięki czemu będziesz mógł zacząć odkrywać otaczający nas świat.",
+                "message1": "To świetny wybór, aby osiedlić się w tym skalistym biomie, gdzie możesz stać się jednym z ziemią. Znalezienie kamienia i rudy nie będzie tutaj żadnym problemem, chociaż uprawa żywności może być nieco trudniejsza. Ale jestem pewien, że inni chętnie będą handlować twoimi bogatymi zasobami cennych materiałów!",
+                "message2": "Twoje możliwości są nadal ograniczone. Najpierw zadbaj o stały dopływ zasobów. Następnie zbuduj targowisko, aby handlować z innymi osadami. Gdy zdobędziesz już przyczółek, możesz nawet rozpocząć większe projekty, takie jak budowa portu, aby handel stał się tańszy, ratusza, abyśmy mogli wszystko kontrolować, a nawet uniwersytetu, abyś mógł zacząć odkrywać otaczający nas świat.",
                 "good_luck": "Buduj mocno!"
             },
             "e": {
                 "message1": "Powietrze jest suche, a słońce palące. Nie jest to najłatwiejszy biom, ale możesz zbudować swoją osadę dosłownie z samej ziemi. Znalezienie nadającego się do użytku drewna może być tutaj nieco trudniejsze, ale gleba wydaje się odpowiednia dla większości upraw. Jestem pewien, że dzięki swojej pomysłowości dasz sobie radę.",
-                "message2": "Twoje możliwości są nadal ograniczone. Najpierw zadbaj o stały dopływ zasobów. Następnie zbuduj targowisko, aby móc handlować z innymi osadami. Gdy już zdobędziesz przyczółek, możesz nawet rozpocząć większe projekty, takie jak port, dzięki czemu handel stanie się tańszy, ratusz, dzięki czemu będziemy mogli wszystko kontrolować, a nawet uniwersytet, dzięki czemu będziesz mógł zacząć odkrywać otaczający nas świat.",
+                "message2": "Twoje możliwości są nadal ograniczone. Najpierw zadbaj o stały dopływ zasobów. Następnie zbuduj targowisko, aby handlować z innymi osadami. Gdy już zdobędziesz przyczółek, możesz nawet rozpocząć większe projekty, takie jak budowa portu, aby handel stał się tańszy, ratusza, abyśmy mogli wszystko kontrolować, a nawet uniwersytetu, abyś mógł zacząć odkrywać otaczający nas świat.",
                 "good_luck": "Miłego budowania!"
             },
             "a": {
-                "message1": "To ciekawy wybór. Dlaczego zdecydowałeś się osiedlić na tej arktycznej pustyni? Nie widzę tu żadnych drzew ani skał. Ale zawsze możesz handlować z innymi. Tylko zadbaj o to, aby Twoi ludzie byli dobrze odziani i nakarmieni.",
-                "message2": "Twoje możliwości są bardzo ograniczone. Najpierw skup się na stworzeniu rynku, żebyś mógł handlować z innymi osadami. Mam nadzieję, że masz dobre kontakty, bo będzie ciężko. Jeśli jednak ci się uda, możesz nawet zacząć większe projekty, jak port, żeby handel był tańszy, ratusz, żebyśmy mogli wszystko kontrolować, a nawet uniwersytet, żebyś mógł zacząć odkrywać świat wokół nas.",
+                "message1": "To ciekawy wybór. Dlaczego zdecydowałeś się osiedlić na tej arktycznej pustyni? Nie widzę tu żadnych drzew ani skał, ale zawsze możesz handlować z innymi. Tylko zadbaj o to, aby Twoi ludzie byli dobrze ogrzani i nakarmieni.",
+                "message2": "Twoje możliwości są bardzo ograniczone. Najpierw skup się na stworzeniu rynku, żebyś mógł handlować z innymi osadami. Mam nadzieję, że masz dobre kontakty, bo będzie ciężko. Jeśli jednak ci się uda, możesz nawet zacząć większe projekty, jak budowa portu, żeby handel był tańszy, ratusza, żebyśmy mogli wszystko kontrolować, a nawet uniwersytetu, żebyś mógł zacząć odkrywać świat wokół nas.",
                 "good_luck": "Powodzenia."
             }
         }
@@ -425,20 +425,20 @@
             "deleteEverything": "Usuń wszystko",
             "menu": "Menu",
             "quicksettings": "Ustawienia",
-            "saveBuild": "Zapisz piaskownicę",
+            "saveBuild": "Zapisz projekt",
             "saveSandbox": "Zapisz piaskownicę"
         },
         "main": {
             "credits": "Twórcy",
             "enterMultiplayer": "Dołącz do Świata",
-            "loadSandbox": "Załaduj piaskownicę",
+            "loadSandbox": "Wczytaj piaskownicę",
             "newSandbox": "Nowa piaskownica",
             "returnToDesktop": "Wyjście do pulpitu",
             "serverOffline": "Nie można połączyć się z serwerem. Serwer może być przeciążony lub tymczasowo niedostępny z powodu konserwacji. Sprawdź najnowszy status na Discordzie.",
             "settings": "Ustawienia",
             "subtitle": "To jest demo gry Project Rebearth! Tylko tryb piaskownicy jest dostępny publicznie. Zgłoś proszę, jeśli napotkasz problemy w trakcie gry.",
             "demoSubtitle": "To jest wersja demonstracyjna Project Rebearth. Dostępna jest tylko funkcja budowania miasta w trybie sandbox. Aby grać w trybie wieloosobowym z zarządzaniem zasobami, pobierz pełną wersję gry.",
-            "demoRestriction1": "Za tym przyciskiem kryje się ogromny świat gry wieloosobowej online Project Rebearth. Znajdujesz się jednak w wersji demo, w której dostępny jest tylko tryb sandbox bez zarządzania zasobami.",
+            "demoRestriction1": "Za tym przyciskiem kryje się ogromny świat gry wieloosobowej online Project Rebearth. Jednakże znajdujesz się w wersji demo i dostępny jest tylko tryb sandbox bez zarządzania zasobami.",
             "demoRestriction2": "Tryb piaskownicy nadal pozwala tworzyć niesamowite mapy, eksportować je w wysokiej rozdzielczości i doświadczać, jak wygląda świat gry w skali 1:1.",
             "title": "Serwer Project Rebearth",
             "welcome": "Witamy, {{name}}!"
@@ -456,6 +456,16 @@
             "cooldownTimer": "Dostępny w języku{{time}}",
             "deleteConfirm": "Czy na pewno chcesz usunąć ten zapis? Tego działania nie można cofnąć.",
             "empty": "Puste miejsce",
+            "guidelinesLink": "Wskazówki dla użytkowników",
+            "guidelinesNotice1": "Dołączając do trybu wieloosobowego online, potwierdzasz i akceptujesz ",
+            "guidelinesNotice2": ".",
+            "guidelinesTitle": "Wytyczne dla użytkowników",
+            "guidelinesIntro": "Najwyraźniej nie wszyscy internauci mają takie samo rozumienie zdrowego rozsądku. Z tego powodu poniżej przedstawiamy zestaw zasad, z którymi należy się zgodzić, dołączając do wieloosobowego świata Project Rebearth. Dzięki temu świat ten będzie przyjemną i otwartą przestrzenią dla wszystkich.",
+            "guidelinesRule1": "Okaż szacunek innym graczom i ich dziełom. Traktuj innych tak, jak sam chcesz być traktowany.",
+            "guidelinesRule2": "Nie wolno używać nieodpowiedniego języka ani symboli. Losowo generowane nazwy mogą być zabawne, ale dane wprowadzane przez użytkowników nie mogą być nieodpowiednie.",
+            "guidelinesRule3": "Nie używaj botów, exploitów ani narzędzi automatyzujących. Ta gra została stworzona przez ludzi, aby ludzie mogli się nią cieszyć. Boty nie mają tu miejsca.",
+            "guidelinesRule4": "Groźby wobec innych użytkowników są zabronione.",
+            "guidelinesOutro": "Jeśli masz wątpliwości, czy coś jest dozwolone, prawdopodobnie nie jest. Nieprzestrzeganie tych wytycznych może skutkować usunięciem budynków, miast lub (tymczasowym) zawieszeniem konta według uznania moderatorów.",
             "locked": "Zablokowany",
             "lockedText": "Zablokowany",
             "newGame": "Nowa gra",
@@ -509,7 +519,7 @@
         },
         "market": {
             "amount": "Ilość",
-            "back": "Powrót",
+            "back": "Wróć",
             "base": "Cena bazowa",
             "buy": "KUP",
             "buys": "kupuje",
@@ -669,19 +679,9 @@
     },
     "tips": {
         "loading": [
-            "Jeden dzień w grze trwa tyle samo, co jeden dzień w prawdziwym życiu. Nie spiesz się i rozwijaj swoje miasto we własnym tempie.",
-            "Przed umieszczeniem budynków można je obracać za pomocą klawiszy Q i E.",
+            "Przed postawieniem budynku możesz go obracać przy użyciu klawiszy Q i E.",
             "Kliknij dwukrotnie w edytorze kształtów, aby umieścić węzły.",
-            "Użyj klawisza Shift, aby kontynuować umieszczanie budynków.",
-            "Jeśli napotkasz jakiekolwiek problemy, poinformuj nas o tym na Discordzie.",
-            "Zbuduj targowisko lub port, aby odblokować handel z innymi graczami.",
-            "Zbuduj ratusz, aby odblokować sojusze, rankingi i opcje wyboru.",
-            "Zbuduj uniwersytet, aby odblokować wyprawy i badania.",
-            "Dołącz do naszej aktywnej społeczności graczy na Discordzie, aby dzielić się swoimi dziełami i uzyskać wskazówki.",
-            "Niektóre budynki można umieścić tylko w pobliżu budynku nadrzędnego. Na przykład piła i drwal.",
-            "Nie wszystkie zasoby są łatwo dostępne wszędzie. Czasami handel będzie tańszy niż samodzielna produkcja wszystkich zasobów.",
-            "Recenzje na Steamie pomagają nam znaleźć nowych graczy, którzy sprawiają, że ten świat jest żywy.",
-            "Odwiedź stronę wiki pod adresem projectrebearth.com, aby dowiedzieć się wszystkiego o świecie Project Rebearth."
+            "Użyj klawisza Shift, aby kontynuować stawianie budynków."
         ]
     },
     "help": {
